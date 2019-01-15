@@ -77,6 +77,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -115,6 +118,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="124나라의숫자.cpp" />
+    <ClCompile Include="H-Index.cpp" />
+    <ClCompile Include="K번째수.cpp" />
+    <ClCompile Include="기능개발.cpp" />
+    <ClCompile Include="다리를지나는트럭.cpp" />
+    <ClCompile Include="더맵게.cpp" />
+    <ClCompile Include="라면공장.cpp" />
+    <ClCompile Include="모의고사.cpp" />
+    <ClCompile Include="소수의합.cpp" />
+    <ClCompile Include="소수찾기.cpp" />
+    <ClCompile Include="쇠막대기.cpp" />
+    <ClCompile Include="숫자야구.cpp" />
+    <ClCompile Include="완주하지못한선수.cpp" />
+    <ClCompile Include="위장.cpp" />
+    <ClCompile Include="전화번호목록.cpp" />
+    <ClCompile Include="조이스틱.cpp" />
+    <ClCompile Include="주식가격.cpp" />
+    <ClCompile Include="체육복.cpp" />
+    <ClCompile Include="카펫.cpp" />
+    <ClCompile Include="큰수만들기.cpp" />
+    <ClCompile Include="탑.cpp" />
+    <ClCompile Include="프린터.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
