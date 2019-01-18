@@ -122,6 +122,7 @@
     <ClCompile Include="2016년.cpp" />
     <ClCompile Include="H-Index.cpp" />
     <ClCompile Include="K번째수.cpp" />
+    <ClCompile Include="Lv1_예산.cpp" />
     <ClCompile Include="N으로표현.cpp" />
     <ClCompile Include="가운데글자가져오기.cpp" />
     <ClCompile Include="가장큰수.cpp" />
