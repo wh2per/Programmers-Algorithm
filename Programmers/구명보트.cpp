@@ -11,7 +11,6 @@ int solution1(vector<int> people, int limit) {
 
 	while (people.size()-index !=0) {
 		int end = people.size() - 1;
-
 		if (end == index) {		//한 명 남았을 때
 			answer++;
 			break;
@@ -34,9 +33,7 @@ int solution1(vector<int> people, int limit) {
 				people.pop_back();
 			index++;
 		}
-		
 	}
-
 	return answer;
 }
 

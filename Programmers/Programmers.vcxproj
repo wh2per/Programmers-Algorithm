@@ -121,6 +121,7 @@
     <ClCompile Include="124나라의숫자.cpp" />
     <ClCompile Include="H-Index.cpp" />
     <ClCompile Include="K번째수.cpp" />
+    <ClCompile Include="N으로표현.cpp" />
     <ClCompile Include="가장큰수.cpp" />
     <ClCompile Include="구명보트.cpp" />
     <ClCompile Include="기능개발.cpp" />
