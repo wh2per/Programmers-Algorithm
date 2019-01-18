@@ -140,6 +140,7 @@
     <ClCompile Include="전화번호목록.cpp" />
     <ClCompile Include="조이스틱.cpp" />
     <ClCompile Include="주식가격.cpp" />
+    <ClCompile Include="직사각형별찍기.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="큰수만들기.cpp" />
