@@ -141,6 +141,7 @@
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="큰수만들기.cpp" />
+    <ClCompile Include="타켓넘버.cpp" />
     <ClCompile Include="탑.cpp" />
     <ClCompile Include="프린터.cpp" />
   </ItemGroup>
