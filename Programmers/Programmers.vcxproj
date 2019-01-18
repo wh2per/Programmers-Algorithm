@@ -18,6 +18,39 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lv1_2016년.cpp" />
+    <ClCompile Include="Lv1_K번째수.cpp" />
+    <ClCompile Include="Lv1_N으로표현.cpp" />
+    <ClCompile Include="Lv1_x만큼간격이있는n개의숫자.cpp" />
+    <ClCompile Include="Lv1_가운데글자가져오기.cpp" />
+    <ClCompile Include="Lv1_모의고사.cpp" />
+    <ClCompile Include="Lv1_소수의합.cpp" />
+    <ClCompile Include="Lv1_예산.cpp" />
+    <ClCompile Include="Lv1_완주하지못한선수.cpp" />
+    <ClCompile Include="Lv1_직사각형별찍기.cpp" />
+    <ClCompile Include="Lv1_체육복.cpp" />
+    <ClCompile Include="Lv2_124나라의숫자.cpp" />
+    <ClCompile Include="Lv2_H-Index.cpp" />
+    <ClCompile Include="Lv2_가장큰수.cpp" />
+    <ClCompile Include="Lv2_구명보트.cpp" />
+    <ClCompile Include="Lv2_기능개발.cpp" />
+    <ClCompile Include="Lv2_다리를지나는트럭.cpp" />
+    <ClCompile Include="Lv2_더맵게.cpp" />
+    <ClCompile Include="Lv2_라면공장.cpp" />
+    <ClCompile Include="Lv2_소수찾기.cpp" />
+    <ClCompile Include="Lv2_쇠막대기.cpp" />
+    <ClCompile Include="Lv2_숫자야구.cpp" />
+    <ClCompile Include="Lv2_위장.cpp" />
+    <ClCompile Include="Lv2_전화번호목록.cpp" />
+    <ClCompile Include="Lv2_조이스틱.cpp" />
+    <ClCompile Include="Lv2_주식가격.cpp" />
+    <ClCompile Include="Lv2_카펫.cpp" />
+    <ClCompile Include="Lv2_큰수만들기.cpp" />
+    <ClCompile Include="Lv2_타켓넘버.cpp" />
+    <ClCompile Include="Lv2_탑.cpp" />
+    <ClCompile Include="Lv2_프린터.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{8AD8F2CB-4DFD-4C56-A53F-558099E76E3C}</ProjectGuid>
@@ -117,38 +150,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="124나라의숫자.cpp" />
-    <ClCompile Include="2016년.cpp" />
-    <ClCompile Include="H-Index.cpp" />
-    <ClCompile Include="K번째수.cpp" />
-    <ClCompile Include="Lv1_예산.cpp" />
-    <ClCompile Include="N으로표현.cpp" />
-    <ClCompile Include="가운데글자가져오기.cpp" />
-    <ClCompile Include="가장큰수.cpp" />
-    <ClCompile Include="구명보트.cpp" />
-    <ClCompile Include="기능개발.cpp" />
-    <ClCompile Include="다리를지나는트럭.cpp" />
-    <ClCompile Include="더맵게.cpp" />
-    <ClCompile Include="라면공장.cpp" />
-    <ClCompile Include="모의고사.cpp" />
-    <ClCompile Include="소수의합.cpp" />
-    <ClCompile Include="소수찾기.cpp" />
-    <ClCompile Include="쇠막대기.cpp" />
-    <ClCompile Include="숫자야구.cpp" />
-    <ClCompile Include="완주하지못한선수.cpp" />
-    <ClCompile Include="위장.cpp" />
-    <ClCompile Include="전화번호목록.cpp" />
-    <ClCompile Include="조이스틱.cpp" />
-    <ClCompile Include="주식가격.cpp" />
-    <ClCompile Include="직사각형별찍기.cpp" />
-    <ClCompile Include="체육복.cpp" />
-    <ClCompile Include="카펫.cpp" />
-    <ClCompile Include="큰수만들기.cpp" />
-    <ClCompile Include="타켓넘버.cpp" />
-    <ClCompile Include="탑.cpp" />
-    <ClCompile Include="프린터.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
