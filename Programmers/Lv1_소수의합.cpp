@@ -1,12 +1,11 @@
 #include <vector>
-
 using namespace std;
-const long long MAX = 10000000;
-bool check[MAX + 1];
+
 
 long long solution8(int N) {
 	long long answer = 0;
-
+	const long long MAX = 10000000;
+	bool check[MAX + 1];
 	check[0] = check[1] = true;
 
 	for (int i = 2; i*i <= N; i++) {
