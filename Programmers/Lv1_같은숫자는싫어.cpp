@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<int> solution4(vector<int> arr)
+vector<int> solution5(vector<int> arr)
 {
 	vector<int> answer;
 	int prev = arr[0];

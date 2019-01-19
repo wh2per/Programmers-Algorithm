@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-vector<int> solution(int brown, int red) {
+vector<int> solution28(int brown, int red) {
 	vector<int> answer;
 	for (int i = red; i >0; i--) {
 		if (red%i == 0) {

@@ -3,7 +3,7 @@
 #include <set>
 using namespace std;
 
-string solution(vector<string> participant, vector<string> completion) {
+string solution10(vector<string> participant, vector<string> completion) {
 	string answer = "";
 	multiset<string> s;
 

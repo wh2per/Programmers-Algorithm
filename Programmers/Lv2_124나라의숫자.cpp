@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-string solution(int n) {
+string solution13(int n) {
 	string answer = "";
 	int arr[3] = { 1,2,4 };
 	int r = -1;

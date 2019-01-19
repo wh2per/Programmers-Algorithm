@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int solution(string name) {
+int solution26(string name) {
 	int answer = 0;
 	int answer1 = 0;
 	int c1 = 0;

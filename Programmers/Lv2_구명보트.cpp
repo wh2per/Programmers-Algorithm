@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution1(vector<int> people, int limit) {
+int solution16(vector<int> people, int limit) {
 	int answer = 0;
 	int index = 0;
 	sort(people.begin(), people.end());

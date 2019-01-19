@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void solution(void) {
+void solution11(void) {
 	int a;
 	int b;
 	cin >> a >> b;

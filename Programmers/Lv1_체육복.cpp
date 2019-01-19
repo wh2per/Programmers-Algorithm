@@ -3,7 +3,7 @@
 #include <list>
 using namespace std;
 
-int solution(int n, vector<int> lost, vector<int> reserve) {
+int solution12(int n, vector<int> lost, vector<int> reserve) {
 	int answer = n - lost.size();
 	list<int> l(begin(reserve), end(reserve));
 

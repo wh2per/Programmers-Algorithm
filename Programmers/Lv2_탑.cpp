@@ -3,7 +3,7 @@
 #include <stack>
 using namespace std;
 
-vector<int> solution(vector<int> heights) {
+vector<int> solution31(vector<int> heights) {
 	vector<int> answer;
 	stack<int> s;
 	int size = heights.size();

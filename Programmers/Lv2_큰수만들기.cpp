@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-string solution(string number, int k) {
+string solution29(string number, int k) {
 	string answer = "";
 	int size = number.length() - k;
 	int size2 = size;

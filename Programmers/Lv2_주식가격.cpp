@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<int> solution2(vector<int> prices) {
+vector<int> solution27(vector<int> prices) {
 	vector<int> answer;
 	int count;
 

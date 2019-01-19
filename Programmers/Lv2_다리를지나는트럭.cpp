@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 
-int solution(int bridge_length, int weight, vector<int> truck_weights) {
+int solution18(int bridge_length, int weight, vector<int> truck_weights) {
 	int answer = 0;
 	int cweight = 0;
 	int ctime = 0;

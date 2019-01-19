@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution5(vector<vector<int>> baseball) {
+int solution23(vector<vector<int>> baseball) {
 	int answer = 0;
 	vector<int> v = { 0,0,0,0,0,0,1,1,1 };
 	do {										// 숫자 3개 고르기

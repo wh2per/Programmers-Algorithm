@@ -16,7 +16,7 @@ bool Comp(const string& a, const string& b)
 }
 
 
-string solution(vector<int> numbers) {
+string solution15(vector<int> numbers) {
 	string answer = "";
 	int zero = 0;
 	vector<string> temp;
