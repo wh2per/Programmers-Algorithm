@@ -108,5 +108,8 @@
     <ClCompile Include="Lv1_x만큼간격이있는n개의숫자.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv1_같은숫자는싫어.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

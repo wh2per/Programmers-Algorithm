@@ -24,6 +24,7 @@
     <ClCompile Include="Lv1_N으로표현.cpp" />
     <ClCompile Include="Lv1_x만큼간격이있는n개의숫자.cpp" />
     <ClCompile Include="Lv1_가운데글자가져오기.cpp" />
+    <ClCompile Include="Lv1_같은숫자는싫어.cpp" />
     <ClCompile Include="Lv1_모의고사.cpp" />
     <ClCompile Include="Lv1_소수의합.cpp" />
     <ClCompile Include="Lv1_예산.cpp" />
