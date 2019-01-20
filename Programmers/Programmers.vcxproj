@@ -26,15 +26,40 @@
     <ClCompile Include="Lv1_가운데글자가져오기.cpp" />
     <ClCompile Include="Lv1_같은숫자는싫어.cpp" />
     <ClCompile Include="Lv1_나누어떨어지는숫자배열.cpp" />
+    <ClCompile Include="Lv1_두정수사이의합.cpp" />
     <ClCompile Include="Lv1_모의고사.cpp" />
+    <ClCompile Include="Lv1_문자열내p와y의개수.cpp" />
+    <ClCompile Include="Lv1_문자열내림차순으로배치하기.cpp" />
+    <ClCompile Include="Lv1_문자열내마음대로정렬하기.cpp" />
+    <ClCompile Include="Lv1_문자열다루기기본.cpp" />
+    <ClCompile Include="Lv1_문자열을정수로바꾸기.cpp" />
+    <ClCompile Include="Lv1_서울에서김서방찾기.cpp" />
     <ClCompile Include="Lv1_소수의합.cpp" />
+    <ClCompile Include="Lv1_소수찾기.cpp" />
+    <ClCompile Include="Lv1_수박수박수박수박수박수.cpp" />
+    <ClCompile Include="Lv1_시저암호.cpp" />
+    <ClCompile Include="Lv1_약수의합.cpp" />
     <ClCompile Include="Lv1_예산.cpp" />
     <ClCompile Include="Lv1_완주하지못한선수.cpp" />
+    <ClCompile Include="Lv1_이상한문자만들기.cpp" />
+    <ClCompile Include="Lv1_자릿수더하기.cpp" />
+    <ClCompile Include="Lv1_자연수뒤집어배열로만들기.cpp" />
+    <ClCompile Include="Lv1_정수내림차순으로배치하기.cpp" />
+    <ClCompile Include="Lv1_정수제곱근판별.cpp" />
+    <ClCompile Include="Lv1_제일작은수제거하기.cpp" />
     <ClCompile Include="Lv1_직사각형별찍기.cpp" />
+    <ClCompile Include="Lv1_짝수와홀수.cpp" />
     <ClCompile Include="Lv1_체육복.cpp" />
+    <ClCompile Include="Lv1_최대공약수와최소공배수.cpp" />
+    <ClCompile Include="Lv1_콜라츠추측.cpp" />
+    <ClCompile Include="Lv1_평균구하기.cpp" />
+    <ClCompile Include="Lv1_하샤드수.cpp" />
+    <ClCompile Include="Lv1_핸드폰번호가리기.cpp" />
+    <ClCompile Include="Lv1_행렬의덧셈.cpp" />
     <ClCompile Include="Lv2_124나라의숫자.cpp" />
     <ClCompile Include="Lv2_H-Index.cpp" />
     <ClCompile Include="Lv2_가장큰수.cpp" />
+    <ClCompile Include="Lv2_가장큰정사각형찾기.cpp" />
     <ClCompile Include="Lv2_구명보트.cpp" />
     <ClCompile Include="Lv2_기능개발.cpp" />
     <ClCompile Include="Lv2_다리를지나는트럭.cpp" />
@@ -43,6 +68,7 @@
     <ClCompile Include="Lv2_소수찾기.cpp" />
     <ClCompile Include="Lv2_쇠막대기.cpp" />
     <ClCompile Include="Lv2_숫자야구.cpp" />
+    <ClCompile Include="Lv2_스킬트리.cpp" />
     <ClCompile Include="Lv2_위장.cpp" />
     <ClCompile Include="Lv2_전화번호목록.cpp" />
     <ClCompile Include="Lv2_조이스틱.cpp" />
@@ -123,6 +149,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

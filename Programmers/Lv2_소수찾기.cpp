@@ -18,7 +18,7 @@ int solution21(string numbers) {
 	int answer = 0;
 	int size = numbers.length();
 	vector<int> v;
-	bool c[1000000] = { false, };
+	vector<bool> c(1000000);
 
 	for (int i = 0; i < size; i++)
 		v.push_back(numbers[i] - '0');
