@@ -75,9 +75,12 @@
     <ClCompile Include="Lv2_숫자야구.cpp" />
     <ClCompile Include="Lv2_숫자의표현.cpp" />
     <ClCompile Include="Lv2_스킬트리.cpp" />
+    <ClCompile Include="Lv2_영어끝말잇기.cpp" />
+    <ClCompile Include="Lv2_예상대진표.cpp" />
     <ClCompile Include="Lv2_올바른괄호.cpp" />
     <ClCompile Include="Lv2_위장.cpp" />
     <ClCompile Include="Lv2_전화번호목록.cpp" />
+    <ClCompile Include="Lv2_점프와순간이동.cpp" />
     <ClCompile Include="Lv2_조이스틱.cpp" />
     <ClCompile Include="Lv2_주식가격.cpp" />
     <ClCompile Include="Lv2_최댓값과최솟값.cpp" />

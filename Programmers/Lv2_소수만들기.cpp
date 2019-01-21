@@ -30,9 +30,3 @@ int solution71(vector<int> nums) {
 	
 	return answer;
 }
-
-int main() {
-	vector<int> nums = { 1, 2, 7, 6, 4 };
-	solution71(nums);
-	return 0;
-}
