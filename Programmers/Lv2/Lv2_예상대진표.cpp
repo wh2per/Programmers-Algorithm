@@ -11,7 +11,7 @@ int solution74(int n, int a, int b)
 		if (a/2 != b/2 && abs(a - b) == 1)
 			break;
 		if (a % 2 == 1)
-			a++;
+			a++; 
 		if (b % 2 == 1)
 			b++;
 		a /= 2;
