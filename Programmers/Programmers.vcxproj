@@ -95,6 +95,7 @@
     <ClCompile Include="Lv2\Lv2_행렬의곱셈.cpp" />
     <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp" />
     <ClCompile Include="Lv3\Lv3_베스트앨범.cpp" />
+    <ClCompile Include="Lv3\Lv3_이중우선순위큐.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

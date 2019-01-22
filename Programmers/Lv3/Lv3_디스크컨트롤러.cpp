@@ -38,16 +38,12 @@ int solution76(vector<vector<int>> jobs) {
 			int len = pq_len.top()[1];
 			answer += len;						// 실행시간
 			if (time < arrive)
-				time = arrive;
-			answer += time - arrive;			// 대기시간
-			time = time + len;
 			pq_len.pop();
 		}
 		else {
 			time = pq_arrive.top()[0];
 		}
 	}
-	
 	return answer/jobs.size();
 }
 
