@@ -1,7 +1,7 @@
-	#include <string>
-	#include <vector>
-	#include <list>
-	#include <sstream>
+#include <string>
+#include <vector>
+#include <list>
+#include <sstream>
 using namespace std;
 
 vector<int> solution77(vector<string> operations) {
