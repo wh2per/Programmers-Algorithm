@@ -28,8 +28,3 @@ int solution83(vector<vector<int>> triangle) {
 	return answer;
 } 
 
-int main() {
-	vector<vector<int>> triangle = { {7},{3,8},{8, 1, 0},{2, 7, 4, 4},{4, 5, 2, 6, 5} };
-	cout << solution83(triangle);
-	return 0;
-}
