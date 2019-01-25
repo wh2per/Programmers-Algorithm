@@ -96,6 +96,7 @@
     <ClCompile Include="Lv3\Lv3_2xn타일링.cpp" />
     <ClCompile Include="Lv3\Lv3_네트워크.cpp" />
     <ClCompile Include="Lv3\Lv3_단속카메라.cpp" />
+    <ClCompile Include="Lv3\Lv3_단어변환.cpp" />
     <ClCompile Include="Lv3\Lv3_등굣길.cpp" />
     <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp" />
     <ClCompile Include="Lv3\Lv3_베스트앨범.cpp" />

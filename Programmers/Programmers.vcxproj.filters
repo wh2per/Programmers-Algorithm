@@ -273,5 +273,8 @@
     <ClCompile Include="Lv3\Lv3_네트워크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_단어변환.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
