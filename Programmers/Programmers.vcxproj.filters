@@ -270,5 +270,8 @@
     <ClCompile Include="Lv4\Lv4_카드게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_네트워크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
