@@ -294,5 +294,8 @@
     <ClCompile Include="실전모의고사2회\Q3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_가장먼노드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
