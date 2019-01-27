@@ -107,7 +107,7 @@
 | [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | [cpp](Programmers/Lv3/Lv3_순위.cpp)
 | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [cpp](Programmers/Lv3/Lv3_베스트앨범.cpp)
 | [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/Lv3/Lv3_등굣길.cpp)
-
+| [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [cpp](Programmers/Lv3/Lv3_카카오프렌즈컬러링북.cpp)
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
