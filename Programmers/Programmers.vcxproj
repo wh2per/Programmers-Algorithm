@@ -109,6 +109,7 @@
     <ClCompile Include="Lv3\Lv3_입국심사.cpp" />
     <ClCompile Include="Lv3\Lv3_저울.cpp" />
     <ClCompile Include="Lv3\Lv3_정수삼각형.cpp" />
+    <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp" />
     <ClCompile Include="Lv3\Lv3_타일장식물.cpp" />
     <ClCompile Include="Lv4\Lv4_카드게임.cpp" />
     <ClCompile Include="실전모의고사2회\배열회전.cpp" />
