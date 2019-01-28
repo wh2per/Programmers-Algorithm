@@ -15,7 +15,7 @@ struct cmp2 {				// top에 가장 작은 수가 가도록 내림차순 정렬
 	}
 };
 
-// SRF 스케줄링을 구현
+// SJF 스케줄링을 구현
 int solution76(vector<vector<int>> jobs) {
 	int answer = 0;
 	priority_queue <vector<int>, vector<vector<int>>, cmp1 > pq_len;

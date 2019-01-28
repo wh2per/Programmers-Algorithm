@@ -24,11 +24,11 @@ vector<int> solution77(vector<string> operations) {
 			l.sort();
 		}
 		else {
-			if (num == "1") {			// ÃÖ´ñ°ª »èÁ¦
+			if (num == "1") {			// ÃÖ´ñ°ª »èÁ¦ 
 				if(l.size()>0)
 					l.pop_back();
 			}
-			else {						// ÃÖ¼Ú°ª »èÁ¦
+			else {						// ÃÖ¼Ú°ª »èÁ¦ 
 				if (l.size() > 0)
 					l.pop_front();
 			}

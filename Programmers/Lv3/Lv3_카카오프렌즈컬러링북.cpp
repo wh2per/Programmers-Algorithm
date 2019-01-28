@@ -42,9 +42,3 @@ vector<int> solution93(int m, int n, vector<vector<int>> picture) {
 	answer[1] = max_size_of_one_area;
 	return answer;
 }
-
-int main() {
-	vector<vector<int>> picture = {{1, 1, 1, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {0, 0, 0, 3}};
-	solution93(6,4,picture);
-	return 0;
-}

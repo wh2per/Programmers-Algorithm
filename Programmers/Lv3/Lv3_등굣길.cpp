@@ -7,7 +7,7 @@ int solution84(int m, int n, vector<vector<int>> puddles) {
 	int road[101][101] = { 0, };
 	int check[101][101] = { 0, };
 
-	for (int i = 0; i < puddles.size(); i++)			// 물은 0
+	for (int i = 0; i < puddles.size(); i++)			// 물은 0 
 		check[puddles[i][1]][puddles[i][0]] = -1;
 
 	road[1][0] = 1;
