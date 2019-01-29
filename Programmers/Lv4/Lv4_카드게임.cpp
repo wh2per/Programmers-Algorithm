@@ -6,7 +6,7 @@ using namespace std;
 int solution85(vector<int> left, vector<int> right) {
 	int answer = 0;
 	int size = left.size();
-	vector<vector<int>> d(size + 1, vector<int>(size + 1, 0));		// 0으로 초기화
+	vector<vector<int>> d(size + 1, vector<int>(size + 1, 0));		// 0으로 초기화 
 
 	for (int i = 0; i <= size; i++) 
 		d[0][i] = -1;
