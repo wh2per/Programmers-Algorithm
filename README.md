@@ -1,7 +1,7 @@
 # Programmers
-* 순위 10 
-* 획득점수 1449 
-* 해결한 문제 수 93   
+* 순위 7 
+* 획득점수 1462 
+* 해결한 문제 수 94   
 
 ## Lv1
 | 문제 | 코드 |
@@ -104,14 +104,15 @@
 | [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [cpp](Programmers/Lv3/Lv3_입국심사.cpp)|
 | [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | [cpp](Programmers/Lv3/Lv3_이중우선순위큐.cpp)|
 | [저울](https://programmers.co.kr/learn/courses/30/lessons/42886) | [cpp](Programmers/Lv3/Lv3_저울.cpp)|
-| [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | [cpp](Programmers/Lv3/Lv3_순위.cpp)
-| [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [cpp](Programmers/Lv3/Lv3_베스트앨범.cpp)
-| [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/Lv3/Lv3_등굣길.cpp)
-| [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [cpp](Programmers/Lv3/Lv3_카카오프렌즈컬러링북.cpp)
+| [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | [cpp](Programmers/Lv3/Lv3_순위.cpp)|
+| [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [cpp](Programmers/Lv3/Lv3_베스트앨범.cpp)|
+| [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/Lv3/Lv3_등굣길.cpp)|
+| [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [cpp](Programmers/Lv3/Lv3_카카오프렌즈컬러링북.cpp)|
+| [브라이언의 고민](https://programmers.co.kr/learn/courses/30/lessons/1830) | [cpp](Programmers/Lv3/Lv3_브라이언의고민.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
 | ------------- |:-------------:|
 | [배열회전](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/배열회전.cpp)
 | [가로등](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/가로등.cpp)
-| [빙고](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/Q3.cpp)
+| [빙고](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/빙고.cpp)
