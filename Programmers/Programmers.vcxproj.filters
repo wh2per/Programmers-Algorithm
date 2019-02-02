@@ -303,5 +303,11 @@
     <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_4단고음.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
