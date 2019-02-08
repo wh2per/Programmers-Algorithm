@@ -1,7 +1,7 @@
 # Programmers
-* 순위 7 
-* 획득점수 1462 
-* 해결한 문제 수 94   
+* 순위 6 
+* 획득점수 1467 
+* 해결한 문제 수 95   
 
 ## Lv1
 | 문제 | 코드 |
@@ -109,6 +109,7 @@
 | [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/Lv3/Lv3_등굣길.cpp)|
 | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [cpp](Programmers/Lv3/Lv3_카카오프렌즈컬러링북.cpp)|
 | [브라이언의 고민](https://programmers.co.kr/learn/courses/30/lessons/1830) | [cpp](Programmers/Lv3/Lv3_브라이언의고민.cpp)|
+| [4단 고음](https://programmers.co.kr/learn/courses/30/lessons/1831) | [cpp](Programmers/Lv3/Lv3_4.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
