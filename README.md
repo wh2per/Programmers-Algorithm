@@ -94,8 +94,8 @@
 | [타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) | [cpp](Programmers/Lv3/Lv3_타일장식물.cpp)|
 | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [cpp](Programmers/Lv3/Lv3_네트워크.cpp)|
 | [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884) | [cpp](Programmers/Lv3/Lv3_단속카메라.cpp)|
-| [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/42588) | [cpp](Programmers/Lv3/Lv3_가장먼노드.cpp)|
-| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/49189) | [cpp](Programmers/Lv3/Lv3_단어변환.cpp)|
+| [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [cpp](Programmers/Lv3/Lv3_가장먼노드.cpp)|
+| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [cpp](Programmers/Lv3/Lv3_단어변환.cpp)|
 | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [cpp](Programmers/Lv3/Lv3_예산.cpp)|
 | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [cpp](Programmers/Lv3/Lv3_정수삼각형.cpp)|
 | [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | [cpp](Programmers/Lv3/Lv3_섬연결하기.cpp)|
