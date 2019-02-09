@@ -102,6 +102,7 @@
     <ClCompile Include="Lv3\Lv3_등굣길.cpp" />
     <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp" />
     <ClCompile Include="Lv3\Lv3_베스트앨범.cpp" />
+    <ClCompile Include="Lv3\Lv3_보행자천국.cpp" />
     <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp" />
     <ClCompile Include="Lv3\Lv3_섬연결하기.cpp" />
     <ClCompile Include="Lv3\Lv3_순위.cpp" />

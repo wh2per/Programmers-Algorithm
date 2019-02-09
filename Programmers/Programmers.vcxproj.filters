@@ -312,5 +312,8 @@
     <ClCompile Include="Lv3\Lv3_짝지어제거하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_보행자천국.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
