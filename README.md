@@ -112,7 +112,7 @@
 | [4단 고음](https://programmers.co.kr/learn/courses/30/lessons/1831) | [cpp](Programmers/Lv3/Lv3_4단고음.cpp)|
 | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [cpp](Programmers/Lv3/Lv3_짝지어제거하기.cpp)|
 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832) | [cpp](Programmers/Lv3/Lv3_보행자천국.cpp)|
-| [가장 긴 펠린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [cpp](Programmers/Lv3/Lv3_보행자천국.cpp)|
+| [가장 긴 펠린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [cpp](Programmers/Lv3/Lv3_가장긴펠린드롬.cpp)|
 ### 실전모의고사 2회
 | 문제 | 코드 |
 | ------------- |:-------------:|
