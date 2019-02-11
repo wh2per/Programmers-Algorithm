@@ -1,7 +1,7 @@
 # Programmers
 * 순위 6 
-* 획득점수 1480 
-* 해결한 문제 수 99   
+* 획득점수 1482 
+* 해결한 문제 수 100   
 
 ## Lv1
 | 문제 | 코드 |
@@ -94,8 +94,8 @@
 | [타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) | [cpp](Programmers/Lv3/Lv3_타일장식물.cpp)|
 | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [cpp](Programmers/Lv3/Lv3_네트워크.cpp)|
 | [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884) | [cpp](Programmers/Lv3/Lv3_단속카메라.cpp)|
-| [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/42588) | [cpp](Programmers/Lv3/Lv3_가장먼노드.cpp)|
-| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/49189) | [cpp](Programmers/Lv3/Lv3_단어변환.cpp)|
+| [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [cpp](Programmers/Lv3/Lv3_가장먼노드.cpp)|
+| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [cpp](Programmers/Lv3/Lv3_단어변환.cpp)|
 | [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [cpp](Programmers/Lv3/Lv3_예산.cpp)|
 | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [cpp](Programmers/Lv3/Lv3_정수삼각형.cpp)|
 | [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | [cpp](Programmers/Lv3/Lv3_섬연결하기.cpp)|
@@ -114,6 +114,7 @@
 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832) | [cpp](Programmers/Lv3/Lv3_보행자천국.cpp)|
 | [가장 긴 펠린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [cpp](Programmers/Lv3/Lv3_가장긴펠린드롬.cpp)|
 | [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907) | [cpp](Programmers/Lv3/Lv3_거스름돈.cpp)|
+| [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [cpp](Programmers/Lv3/Lv3_방문길이.cpp)|
 
 
 ### 실전모의고사 2회
