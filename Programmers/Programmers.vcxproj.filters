@@ -324,5 +324,14 @@
     <ClCompile Include="Lv3\Lv3_방문길이.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_줄서는방법.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_하노이의탑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_배달.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
