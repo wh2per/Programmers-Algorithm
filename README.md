@@ -1,7 +1,7 @@
 # Programmers
 * 순위 5 
-* 획득점수 1491 
-* 해결한 문제 수 102   
+* 획득점수 1494 
+* 해결한 문제 수 103   
 
 ## Lv1
 | 문제 | 코드 |
@@ -116,7 +116,8 @@
 | [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907) | [cpp](Programmers/Lv3/Lv3_거스름돈.cpp)|
 | [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [cpp](Programmers/Lv3/Lv3_방문길이.cpp)|
 | [줄 서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | [cpp](Programmers/Lv3/Lv3_줄서는방법.cpp)|
-| [하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946) | [cpp](Programmers/Lv3/Lv3_방문길이.cpp)|
+| [하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946) | [cpp](Programmers/Lv3/Lv3_하노이의탑.cpp)|
+| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [cpp](Programmers/Lv3/Lv3_배달.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
