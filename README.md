@@ -1,7 +1,7 @@
 # Programmers
 * 순위 4 
-* 획득점수 1499 
-* 해결한 문제 수 104   
+* 획득점수 1501
+* 해결한 문제 수 105   
 
 ## Lv1
 | 문제 | 코드 |
@@ -119,6 +119,7 @@
 | [하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946) | [cpp](Programmers/Lv3/Lv3_하노이의탑.cpp)|
 | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [cpp](Programmers/Lv3/Lv3_배달.cpp)|
 | [캠핑](https://programmers.co.kr/learn/courses/30/lessons/1833) | [cpp](Programmers/Lv3/Lv3_캠핑.cpp)|
+| [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [cpp](Programmers/Lv3/Lv3_숫자게임.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
