@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -121,6 +121,7 @@
     <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp" />
     <ClCompile Include="Lv3\Lv3_타일장식물.cpp" />
     <ClCompile Include="Lv3\Lv3_하노이의탑.cpp" />
+    <ClCompile Include="Lv3_캠핑.cpp" />
     <ClCompile Include="Lv4\Lv4_카드게임.cpp" />
     <ClCompile Include="실전모의고사2회\배열회전.cpp" />
     <ClCompile Include="실전모의고사2회\가로등.cpp" />
