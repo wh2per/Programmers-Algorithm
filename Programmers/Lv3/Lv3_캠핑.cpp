@@ -27,28 +27,22 @@ int solution104(int n, vector<vector<int>> data) {
 		int end_up = start_y;
 		int end_up_x = start_x;
 		int end_down = start_y;
-		int uc = 0;
-		int dc = 0;
-		set<pair<int, int>>::iterator temp1;
-		for (temp1 = iter; temp1 != s.end(); temp1++) {		// 위쪽 한계선 설정
-			if (temp1->first != start_x && end_up < temp1->second) {
-				end_up = temp1->second;
-				end_up_x = temp1->first;
-				break;
+		set<pair<int, int>>::iterator temp;
+		for (temp = iter; temp != s.end(); temp++) {		// 한계선 설정
+			if (end_up == start_y && temp->first != start_x && end_up < temp->second) {
+				end_up = temp->second;
+				end_up_x = temp->first;
 			}
+
+			if (end_down == start_y && temp->first != start_x && end_down > temp->second) {
+				end_down = temp->second;
+			}
+
+			if (end_up != start_y && end_down != start_y)
+				break;
 		}
 
-		set<pair<int, int>>::iterator temp2;
-		for (temp2 = iter; temp2 != s.end(); temp2++) {		// 아래쪽 한계선 설정
-			if (temp2->first != start_x && end_down > temp2->second) {
-				end_down = temp2->second;
-				break;
-			}
-		}
-	
-
-		int prev_end_up = end_up;
-		int temp_x = end_up_x;
+		int prev_end_up = INT_MAX;
 		set<pair<int, int>>::iterator iter2;
 		for (iter2 = iter; iter2 != s.end(); iter2++) {
 			int end_x = iter2->first;
@@ -59,15 +53,15 @@ int solution104(int n, vector<vector<int>> data) {
 
 			if (end_y > start_y) {
 				if (end_up >= end_y) {
-					prev_end_up = end_up;
+					if (end_up != end_y) {
+						prev_end_up = end_up;
+						end_up_x = end_x;
+					}
 					end_up = end_y;		// 새로운 위쪽 한계선 갱신
-					temp_x = end_x;
 					answer++;
 				}
 				else {
-					if (end_x == end_up_x)
-						answer++;
-					else if (end_x == temp_x && end_y <= prev_end_up)
+					if (end_x == end_up_x && end_y <= prev_end_up)
 						answer++;
 				}
 			}

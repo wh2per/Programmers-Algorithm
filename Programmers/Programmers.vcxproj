@@ -110,6 +110,7 @@
     <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp" />
     <ClCompile Include="Lv3\Lv3_섬연결하기.cpp" />
     <ClCompile Include="Lv3\Lv3_순위.cpp" />
+    <ClCompile Include="Lv3\Lv3_숫자게임.cpp" />
     <ClCompile Include="Lv3\Lv3_여행경로.cpp" />
     <ClCompile Include="Lv3\Lv3_예산.cpp" />
     <ClCompile Include="Lv3\Lv3_이중우선순위큐.cpp" />
@@ -119,9 +120,9 @@
     <ClCompile Include="Lv3\Lv3_줄서는방법.cpp" />
     <ClCompile Include="Lv3\Lv3_짝지어제거하기.cpp" />
     <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp" />
+    <ClCompile Include="Lv3\Lv3_캠핑.cpp" />
     <ClCompile Include="Lv3\Lv3_타일장식물.cpp" />
     <ClCompile Include="Lv3\Lv3_하노이의탑.cpp" />
-    <ClCompile Include="Lv3_캠핑.cpp" />
     <ClCompile Include="Lv4\Lv4_카드게임.cpp" />
     <ClCompile Include="실전모의고사2회\배열회전.cpp" />
     <ClCompile Include="실전모의고사2회\가로등.cpp" />

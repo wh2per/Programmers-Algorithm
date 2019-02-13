@@ -333,7 +333,10 @@
     <ClCompile Include="Lv3\Lv3_배달.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Lv3_캠핑.cpp">
+    <ClCompile Include="Lv3\Lv3_숫자게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_캠핑.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
