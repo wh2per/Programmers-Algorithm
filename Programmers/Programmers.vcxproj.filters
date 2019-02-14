@@ -342,5 +342,11 @@
     <ClCompile Include="Lv3\Lv3_멀리뛰기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv3\Lv3_야근지수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_최고의집합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
