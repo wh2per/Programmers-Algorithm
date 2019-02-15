@@ -98,6 +98,7 @@
     <ClCompile Include="Lv3\Lv3_가장긴펠린드롬.cpp" />
     <ClCompile Include="Lv3\Lv3_가장먼노드.cpp" />
     <ClCompile Include="Lv3\Lv3_거스름돈.cpp" />
+    <ClCompile Include="Lv3\Lv3_기지국설치.cpp" />
     <ClCompile Include="Lv3\Lv3_네트워크.cpp" />
     <ClCompile Include="Lv3\Lv3_단속카메라.cpp" />
     <ClCompile Include="Lv3\Lv3_단어변환.cpp" />
