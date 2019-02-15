@@ -127,6 +127,7 @@
     <ClCompile Include="Lv3\Lv3_캠핑.cpp" />
     <ClCompile Include="Lv3\Lv3_타일장식물.cpp" />
     <ClCompile Include="Lv3\Lv3_하노이의탑.cpp" />
+    <ClCompile Include="Lv4\Lv4_3xn타일링.cpp" />
     <ClCompile Include="Lv4\Lv4_카드게임.cpp" />
     <ClCompile Include="실전모의고사2회\배열회전.cpp" />
     <ClCompile Include="실전모의고사2회\가로등.cpp" />
