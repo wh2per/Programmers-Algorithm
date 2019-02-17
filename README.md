@@ -1,7 +1,7 @@
 # Programmers
 * 순위 3 
-* 획득점수 1518
-* 해결한 문제 수 110   
+* 획득점수 1519
+* 해결한 문제 수 111   
 
 ## Lv1
 | 문제 | 코드 |
@@ -130,6 +130,7 @@
 | ------------- |:-------------:|
 | [카드게임](https://programmers.co.kr/learn/courses/30/lessons/42896) | [cpp](Programmers/Lv4/Lv4_카드게임.cpp)|
 | [3xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | [cpp](Programmers/Lv4/Lv4_3xn타일링.cpp)|
+| [N-Qeen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [cpp](Programmers/Lv4/Lv4_N-Qeen.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
