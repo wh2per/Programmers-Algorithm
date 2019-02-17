@@ -1,7 +1,7 @@
 # Programmers
 * 순위 3 
-* 획득점수 1514
-* 해결한 문제 수 109   
+* 획득점수 1518
+* 해결한 문제 수 110   
 
 ## Lv1
 | 문제 | 코드 |
@@ -124,6 +124,12 @@
 | [야근 지수](https://programmers.co.kr/learn/courses/30/lessons/12927) | [cpp](Programmers/Lv3/Lv3_야근지수.cpp)|
 | [최고의 집합](https://programmers.co.kr/learn/courses/30/lessons/12938) | [cpp](Programmers/Lv3/Lv3_최고의집합.cpp)|
 | [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979) | [cpp](Programmers/Lv3/Lv3_기지국설치.cpp)|
+
+## Lv4
+| 문제 | 코드 |
+| ------------- |:-------------:|
+| [카드게임](https://programmers.co.kr/learn/courses/30/lessons/42896) | [cpp](Programmers/Lv4/Lv4_카드게임.cpp)|
+| [3xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | [cpp](Programmers/Lv4/Lv4_3xn타일링.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
