@@ -354,5 +354,8 @@
     <ClCompile Include="Lv4\Lv4_3xn타일링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv4\Lv4_N-Qeen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
