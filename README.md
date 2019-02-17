@@ -130,7 +130,7 @@
 | ------------- |:-------------:|
 | [카드게임](https://programmers.co.kr/learn/courses/30/lessons/42896) | [cpp](Programmers/Lv4/Lv4_카드게임.cpp)|
 | [3xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | [cpp](Programmers/Lv4/Lv4_3xn타일링.cpp)|
-| [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [cpp](Programmers/Lv4/Lv4_N-N-Queen.cpp)|
+| [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [cpp](Programmers/Lv4/Lv4_N-Queen.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
