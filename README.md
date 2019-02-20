@@ -133,7 +133,7 @@
 | [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [cpp](Programmers/Lv4/Lv4_N-Queen.cpp)|
 | [최적의 행렬 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12942) | [cpp](Programmers/Lv4/Lv4_최적의행렬곱셈.cpp)|
 | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | [cpp](Programmers/Lv4/Lv4_스티커모으기(2).cpp)|
-| [단어 퍼즐)](https://programmers.co.kr/learn/courses/30/lessons/12983) | [cpp](Programmers/Lv4/Lv4_단어퍼즐.cpp)|
+| [단어 퍼즐](https://programmers.co.kr/learn/courses/30/lessons/12983) | [cpp](Programmers/Lv4/Lv4_단어퍼즐.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
