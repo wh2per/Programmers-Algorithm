@@ -131,6 +131,7 @@
     <ClCompile Include="Lv4\Lv4_N-Queen.cpp" />
     <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp" />
     <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp" />
+    <ClCompile Include="Lv4\Lv4_지형편집.cpp" />
     <ClCompile Include="Lv4\Lv4_최적의행렬곱셈.cpp" />
     <ClCompile Include="Lv4\Lv4_카드게임.cpp" />
     <ClCompile Include="실전모의고사2회\배열회전.cpp" />
