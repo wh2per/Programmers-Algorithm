@@ -92,21 +92,21 @@ long long solution(vector<vector<int> > land, int P, int Q)
 	for (int i = 0; i < N; i++)
 		for (int j = 0; j < N; j++)
 			v.push_back(land[i][j]);
-	sort(v.begin(), v.end());
+	sort(v.begin(), v.end());				// 높이 순으로 정렬
 
 	long long temp = 0;
 	for (int i = 0; i < v.size(); i++)
-		temp += (v[i]-v[0]) * Q;
+		temp += (v[i]-v[0]) * Q;			// 가장 낮은 높이 기준으로 맞출 때 금액 계산
 
-	answer = temp;
+	answer = temp;							
 
-	for (int i = 1; i < v.size();i++) {
+	for (int i = 1; i < v.size();i++) {		// 제일 낮은 높이 기준으로 블럭을 모두 제거했을 때를 처음으로 지정
 
-		int down = i;
-		int up = v.size() - i;
+		int down = i;						// i번째 블럭
+		int up = v.size() - i;				// i번째 블럭 이후로 남은 블럭 갯수
 
-		temp += down * (v[i] - v[i - 1])*P;
-		temp -= up * (v[i] - v[i - 1])*Q;
+		temp += down * (v[i] - v[i - 1])*P;	// v[i]로 만들기 위한 블럭 추가 비용
+		temp -= up * (v[i] - v[i - 1])*Q;	// v[i]로 만들기 위한 블럭 제거 비용 반환
 		if (answer > temp)
 			answer = temp;
 	}
