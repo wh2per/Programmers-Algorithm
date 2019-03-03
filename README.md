@@ -1,7 +1,7 @@
 # Programmers
 * 순위 1 
-* 획득점수 1541
-* 해결한 문제 수 116   
+* 획득점수 1542
+* 해결한 문제 수 117   
 
 ## Lv1
 | 문제 | 코드 |
@@ -136,6 +136,7 @@
 | [단어 퍼즐](https://programmers.co.kr/learn/courses/30/lessons/12983) | [cpp](Programmers/Lv4/Lv4_단어퍼즐.cpp)|
 | [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [cpp](Programmers/Lv4/Lv4_지형편집.cpp)|
 | [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | [cpp](Programmers/Lv4/Lv4_징검다리.cpp)|
+| [올바른 괄호의 갯수](https://programmers.co.kr/learn/courses/30/lessons/12929) | [cpp](Programmers/Lv4/Lv4_올바른괄호의갯수.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
