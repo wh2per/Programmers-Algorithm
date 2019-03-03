@@ -1,8 +1,8 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 using namespace std;
 
-// Ä«Å»¶õ ¼ö -> Cn = C0*Cn-1 + C1*Cn-2 + C2*Cn-3 + ... + Cn-1C0
+// ì¹´íƒˆëž€ ìˆ˜ -> Cn = C0*Cn-1 + C1*Cn-2 + C2*Cn-3 + ... + Cn-1C0
 int solution117(int n) {
 	int answer = 0;
 	vector<int> d;
