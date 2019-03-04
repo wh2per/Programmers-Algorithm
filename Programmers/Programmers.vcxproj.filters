@@ -378,5 +378,8 @@
     <ClCompile Include="Lv4\Lv4_쿠키구입.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

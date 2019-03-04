@@ -130,6 +130,7 @@
     <ClCompile Include="Lv4\Lv4_3xn타일링.cpp" />
     <ClCompile Include="Lv4\Lv4_N-Queen.cpp" />
     <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp" />
+    <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp" />
     <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp" />
     <ClCompile Include="Lv4\Lv4_올바른괄호의갯수.cpp" />
     <ClCompile Include="Lv4\Lv4_지형편집.cpp" />
