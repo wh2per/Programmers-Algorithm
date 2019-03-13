@@ -129,6 +129,7 @@
     <ClCompile Include="Lv3\Lv3_하노이의탑.cpp" />
     <ClCompile Include="Lv4\Lv4_3xn타일링.cpp" />
     <ClCompile Include="Lv4\Lv4_N-Queen.cpp" />
+    <ClCompile Include="Lv4\Lv4_게임맵최단거리.cpp" />
     <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp" />
     <ClCompile Include="Lv4\Lv4_사칙연산.cpp" />
     <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp" />
