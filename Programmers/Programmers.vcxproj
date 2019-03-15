@@ -133,6 +133,7 @@
     <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp" />
     <ClCompile Include="Lv4\Lv4_도둑질.cpp" />
     <ClCompile Include="Lv4\Lv4_사칙연산.cpp" />
+    <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp" />
     <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp" />
     <ClCompile Include="Lv4\Lv4_숫자블록.cpp" />
     <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp" />

@@ -393,5 +393,8 @@
     <ClCompile Include="Lv4\Lv4_도둑질.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
