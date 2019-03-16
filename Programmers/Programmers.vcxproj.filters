@@ -396,5 +396,8 @@
     <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="라인코딩테스트\LineTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
