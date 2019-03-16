@@ -148,6 +148,16 @@
 ### 실전모의고사 2회
 | 문제 | 코드 |
 | ------------- |:-------------:|
-| [배열회전](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/배열회전.cpp)
-| [가로등](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/가로등.cpp)
-| [빙고](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/실전모의고사2회/빙고.cpp)
+| 배열회전 | [cpp](Programmers/실전모의고사2회/배열회전.cpp)
+| 가로등 | [cpp](Programmers/실전모의고사2회/가로등.cpp)
+| 빙고 | [cpp](Programmers/실전모의고사2회/빙고.cpp)
+
+### 라인 코딩 테스트
+| 문제 | 코드 |
+| ------------- |:-------------:|
+| 라인코딩테스트 1번| [cpp](Programmers/라인코딩테스트/Line_1번.cpp)
+| 라인코딩테스트 2번| [cpp](Programmers/라인코딩테스트/Line_2번.cpp)
+| 라인코딩테스트 3번| [cpp](Programmers/라인코딩테스트/Line_3번.cpp)
+| 라인코딩테스트 4번| [cpp](Programmers/라인코딩테스트/Line_4번.cpp)
+| 라인코딩테스트 5번| [cpp](Programmers/라인코딩테스트/Line_5번.cpp)
+
