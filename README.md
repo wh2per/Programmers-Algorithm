@@ -1,7 +1,7 @@
 # Programmers
 * 순위 1 
-* 획득점수 1568
-* 해결한 문제 수 123
+* 획득점수 1572
+* 해결한 문제 수 124
 
 ## Lv1
 | 문제 | 코드 |
@@ -143,6 +143,7 @@
 | [사칙연산](https://programmers.co.kr/learn/courses/30/lessons/1843) | [cpp](Programmers/Lv4/Lv4_사칙연산.cpp)|
 | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [cpp](Programmers/Lv4/Lv4_게임맵최단거리.cpp)|
 | [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897) | [cpp](Programmers/Lv4/Lv4_도둑질.cpp)|
+| [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899) | [cpp](Programmers/Lv4/Lv4_서울에서경산까지.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
