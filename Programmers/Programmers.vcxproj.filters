@@ -459,5 +459,8 @@
     <ClCompile Include="Lv4\Lv4_리틀프렌즈사천성.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv4\Lv4_GPS.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
