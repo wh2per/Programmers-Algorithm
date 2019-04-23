@@ -144,8 +144,8 @@
 | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [cpp](Programmers/Lv4/Lv4_게임맵최단거리.cpp)|
 | [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897) | [cpp](Programmers/Lv4/Lv4_도둑질.cpp)|
 | [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899) | [cpp](Programmers/Lv4/Lv4_서울에서경산까지.cpp)|
-| [단체사진찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [cpp](Programmers/Lv4/Lv4_단체사진찍기.cpp)|
-| [튜브의소개팅](https://programmers.co.kr/learn/courses/30/lessons/1839) | [cpp](Programmers/Lv4/Lv4_튜브의소개팅.cpp)|
+| [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [cpp](Programmers/Lv4/Lv4_단체사진찍기.cpp)|
+| [튜브의 소개팅](https://programmers.co.kr/learn/courses/30/lessons/1839) | [cpp](Programmers/Lv4/Lv4_튜브의소개팅.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
