@@ -149,6 +149,11 @@
 | [GPS](https://programmers.co.kr/learn/courses/30/lessons/1837) | [cpp](Programmers/Lv4/Lv4_GPS.cpp)|
 | [리틀 프렌즈 사천성](https://programmers.co.kr/learn/courses/30/lessons/1836) | [cpp](Programmers/Lv4/Lv4_GPS.cpp)|
 
+## Lv5
+| 문제 | 코드 |
+| ------------- |:-------------:|
+| [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [cpp](Programmers/Lv5/Lv5_오픈채팅방.cpp)|
+
 ### 실전모의고사 2회
 | 문제 | 코드 |
 | ------------- |:-------------:|
