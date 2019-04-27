@@ -153,6 +153,7 @@
 | 문제 | 코드 |
 | ------------- |:-------------:|
 | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [cpp](Programmers/Lv5/Lv5_오픈채팅방.cpp)|
+| [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | [cpp](Programmers/Lv5/Lv5_비밀지도.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
