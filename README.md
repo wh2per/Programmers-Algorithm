@@ -156,6 +156,7 @@
 | [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | [cpp](Programmers/Lv5/Lv5_비밀지도.cpp)|
 | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [cpp](Programmers/Lv5/Lv5_캐시.cpp)|
 | [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | [cpp](Programmers/Lv5/Lv5_다트게임.cpp)|
+| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [cpp](Programmers/Lv5/Lv5_N진수게임.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
