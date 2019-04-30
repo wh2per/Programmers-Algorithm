@@ -158,6 +158,7 @@
 | [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | [cpp](Programmers/Lv5/Lv5_다트게임.cpp)|
 | [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [cpp](Programmers/Lv5/Lv5_N진수게임.cpp)|
 | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [cpp](Programmers/Lv5/Lv5_방금그곡.cpp)|
+| [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | [cpp](Programmers/Lv5/Lv5_파일명정렬.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
