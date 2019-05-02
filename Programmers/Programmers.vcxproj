@@ -149,6 +149,7 @@
     <ClCompile Include="Lv4\Lv4_튜브의소개팅.cpp" />
     <ClCompile Include="Lv5\Lv5_N진수게임.cpp" />
     <ClCompile Include="Lv5\Lv5_다트게임.cpp" />
+    <ClCompile Include="Lv5\Lv5_무지의먹방라이브.cpp" />
     <ClCompile Include="Lv5\Lv5_방금그곡.cpp" />
     <ClCompile Include="Lv5\Lv5_비밀지도.cpp" />
     <ClCompile Include="Lv5\Lv5_셔틀버스.cpp" />
