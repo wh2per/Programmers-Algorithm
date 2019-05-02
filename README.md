@@ -161,6 +161,7 @@
 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | [cpp](Programmers/Lv5/Lv5_파일명정렬.cpp)|
 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [cpp](Programmers/Lv5/Lv5_프렌즈4블록.cpp)|
 | [자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685) | [cpp](Programmers/Lv5/Lv5_자동완성.cpp)|
+| [압축](https://programmers.co.kr/learn/courses/30/lessons/17684) | [cpp](Programmers/Lv5/Lv5_압축.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
