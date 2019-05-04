@@ -100,8 +100,3 @@ string solution140(int m, int n, vector<string> board) {
 
 	return answer;
 }
-
-int main() {
-	cout << solution141(4, 5, { "ZZC..", "BBEA.", ".DEAD","..C.." });
-	return 0;
-}
