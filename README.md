@@ -147,7 +147,7 @@
 | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [cpp](Programmers/Lv4/Lv4_단체사진찍기.cpp)|
 | [튜브의 소개팅](https://programmers.co.kr/learn/courses/30/lessons/1839) | [cpp](Programmers/Lv4/Lv4_튜브의소개팅.cpp)|
 | [GPS](https://programmers.co.kr/learn/courses/30/lessons/1837) | [cpp](Programmers/Lv4/Lv4_GPS.cpp)|
-| [리틀 프렌즈 사천성](https://programmers.co.kr/learn/courses/30/lessons/1836) | [cpp](Programmers/Lv4/Lv4_GPS.cpp)|
+| [리틀 프렌즈 사천성](https://programmers.co.kr/learn/courses/30/lessons/1836) | [cpp](Programmers/Lv4/Lv4_리틀프렌즈사천성.cpp)|
 
 ## Lv5
 | 문제 | 코드 |
