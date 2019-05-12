@@ -163,6 +163,7 @@
 | [자동완성](https://programmers.co.kr/learn/courses/30/lessons/17685) | [cpp](Programmers/Lv5/Lv5_자동완성.cpp)|
 | [압축](https://programmers.co.kr/learn/courses/30/lessons/17684) | [cpp](Programmers/Lv5/Lv5_압축.cpp)|
 | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | [cpp](Programmers/Lv5/Lv5_실패율.cpp)|
+| [셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678) | [cpp](Programmers/Lv5/Lv5_셔틀버스.cpp)|
 
 ### 실전모의고사 2회
 | 문제 | 코드 |
