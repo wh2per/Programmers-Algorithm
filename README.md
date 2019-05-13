@@ -6,8 +6,8 @@
 ## Lv1
 | 문제 | 코드 |
 | ------------- |:-------------:|
-| [소수의 합](https://programmers.co.kr/learn/courses/30/lessons/14406) | [cpp](Programmers/Lv1/Lv1_소수의합.cpp), [py](Programmers/Lv1/Lv1_소수의합.py)| 
-| [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [cpp](Programmers/Lv1/Lv1_N으로표현.cpp), [py](Programmers/Lv1/Lv1_N으로표현.py)| 
+| [소수의 합](https://programmers.co.kr/learn/courses/30/lessons/14406) | [cpp](Programmers/Lv1/Lv1_소수의합.cpp)| 
+| [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [cpp](Programmers/Lv1/Lv1_N으로표현.cpp)| 
 | [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | [cpp](Programmers/Lv1/Lv1_완주하지못한선수.cpp), [py](Programmers/Lv1/Lv1_완주하지못한선수.py)| 
 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | [cpp](Programmers/Lv1/Lv1_모의고사.cpp), [py](Programmers/Lv1/Lv1_모의고사.py)| 
 | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [cpp](Programmers/Lv1/Lv1_체육복.cpp), [py](Programmers/Lv1/Lv1_체육복.py)| 
