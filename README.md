@@ -69,7 +69,7 @@
 | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [cpp](Programmers/Lv2/Lv2_카펫.cpp), [py](Programmers/Lv2/Lv2_카펫.py)|
 | [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629) | [cpp](Programmers/Lv2/Lv2_라면공장.cpp), [py](Programmers/Lv2/Lv2_라면공장.py)|
 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [cpp](Programmers/Lv2/Lv2_타겟넘버.cpp), [py](Programmers/Lv2/Lv2_타겟넘버.py)|
-| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [cpp](Programmers/Lv2/Lv2_가장큰정사각형찾기.cpp), |[py](Programmers/Lv2/Lv2_가장큰정사각형찾기.py)|
+| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [cpp](Programmers/Lv2/Lv2_가장큰정사각형찾기.cpp), [py](Programmers/Lv2/Lv2_가장큰정사각형찾기.py)|
 | [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [cpp](Programmers/Lv2/Lv2_올바른괄호.cpp), [py](Programmers/Lv2/Lv2_올바른괄호.py)|
 | [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [cpp](Programmers/Lv2/Lv2_다음큰숫자.cpp), [py](Programmers/Lv2/Lv2_다음큰숫자.py)|
 | [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | [cpp](Programmers/Lv2/Lv2_땅따먹기.cpp), [py](Programmers/Lv2/Lv2_땅따먹기.py)|
