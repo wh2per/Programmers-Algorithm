@@ -48,43 +48,43 @@
 ## Lv2
 | 문제 | 코드 |
 | ------------- |:-------------:|
-| [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) | [cpp](Programmers/Lv2/Lv2_탑.cpp)|
-| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [cpp](Programmers/Lv2/Lv2_스킬트리.cpp)|
-| [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) | [cpp](Programmers/Lv2/Lv2_124나라의숫자.cpp)|
-| [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [cpp](Programmers/Lv2/Lv2_기능개발.cpp)|
-| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [cpp](Programmers/Lv2/Lv2_다리를지나는트럭.cpp)|
-| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [cpp](Programmers/Lv2/Lv2_프린터.cpp)|
-| [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585) | [cpp](Programmers/Lv2/Lv2_쇠막대기.cpp)|
-| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [cpp](Programmers/Lv2/Lv2_주식가격.cpp)|
-| [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [cpp](Programmers/Lv2/Lv2_조이스틱.cpp)|
-| [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [cpp](Programmers/Lv2/Lv2_더맵게.cpp)|
-| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [cpp](Programmers/Lv2/Lv2_가장큰수.cpp)|
-| [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [cpp](Programmers/Lv2/Lv2_큰수만들기.cpp)|
-| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [cpp](Programmers/Lv2/Lv2_소수찾기.cpp)|
-| [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [cpp](Programmers/Lv2/Lv2_전화번호목록.cpp)|
-| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [cpp](Programmers/Lv2/Lv2_H-Index.cpp)|
-| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [cpp](Programmers/Lv2/Lv2_위장.cpp)|
-| [숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841) | [cpp](Programmers/Lv2/Lv2_숫자야구.cpp)|
-| [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [cpp](Programmers/Lv2/Lv2_구명보트.cpp)|
-| [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [cpp](Programmers/Lv2/Lv2_카펫.cpp)|
-| [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629) | [cpp](Programmers/Lv2/Lv2_라면공장.cpp)|
-| [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [cpp](Programmers/Lv2/Lv2_타겟넘버.cpp)|
-| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [cpp](Programmers/Lv2/Lv2_가장큰정사각형찾기.cpp)|
-| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [cpp](Programmers/Lv2/Lv2_올바른괄호.cpp)|
-| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [cpp](Programmers/Lv2/Lv2_다음큰숫자.cpp)|
-| [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | [cpp](Programmers/Lv2/Lv2_땅따먹기.cpp)|
-| [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | [cpp](Programmers/Lv2/Lv2_폰켓몬.cpp)|
-| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | [cpp](Programmers/Lv2/Lv2_숫자의표현.cpp)|
-| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | [cpp](Programmers/Lv2/Lv2_최댓값과최솟값.cpp)|
-| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | [cpp](Programmers/Lv2/Lv2_최솟값만들기.cpp)|
-| [피보나치수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [cpp](Programmers/Lv2/Lv2_피보나치수.cpp)|
-| [행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949) | [cpp](Programmers/Lv2/Lv2_행렬의곱셈.cpp)|
-| [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [cpp](Programmers/Lv2/Lv2_JadenCase문자열만들기.cpp)|
-| [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | [cpp](Programmers/Lv2/Lv2_N개의최소공배수.cpp)|
-| [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | [cpp](Programmers/Lv2/Lv2_소수만들기.cpp)|
-| [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [cpp](Programmers/Lv2/Lv2_점프와순간이동.cpp)|
-| [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [cpp](Programmers/Lv2/Lv2_영어끝말잇기.cpp)|
-| [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [cpp](Programmers/Lv2/Lv2_예상대진표.cpp)|
+| [탑](https://programmers.co.kr/learn/courses/30/lessons/42588) | [cpp](Programmers/Lv2/Lv2_탑.cpp), [py](Programmers/Lv2/Lv2_탑.py)|
+| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [cpp](Programmers/Lv2/Lv2_스킬트리.cpp), [py](Programmers/Lv2/Lv2_스킬트리.py)|
+| [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) | [cpp](Programmers/Lv2/Lv2_124나라의숫자.cpp), [py](Programmers/Lv2/Lv2_124나라의숫자.py)|
+| [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [cpp](Programmers/Lv2/Lv2_기능개발.cpp), [py](Programmers/Lv2/Lv2_기능개발.py)|
+| [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [cpp](Programmers/Lv2/Lv2_다리를지나는트럭.cpp), [py](Programmers/Lv2/Lv2_다리를지나는트럭.py)|
+| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [cpp](Programmers/Lv2/Lv2_프린터.cpp), [py](Programmers/Lv2/Lv2_프린터.py)|
+| [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585) | [cpp](Programmers/Lv2/Lv2_쇠막대기.cpp), [py](Programmers/Lv2/Lv2_쇠막대기.py)|
+| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [cpp](Programmers/Lv2/Lv2_주식가격.cpp), [py](Programmers/Lv2/Lv2_주식가격.py)|
+| [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [cpp](Programmers/Lv2/Lv2_조이스틱.cpp), [py](Programmers/Lv2/Lv2_조이스틱.py)|
+| [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [cpp](Programmers/Lv2/Lv2_더맵게.cpp), [py](Programmers/Lv2/Lv2_더맵게.py)|
+| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [cpp](Programmers/Lv2/Lv2_가장큰수.cpp), [py](Programmers/Lv2/Lv2_가장큰수.py)|
+| [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [cpp](Programmers/Lv2/Lv2_큰수만들기.cpp), [py](Programmers/Lv2/Lv2_큰수만들기.py)|
+| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [cpp](Programmers/Lv2/Lv2_소수찾기.cpp), [py](Programmers/Lv2/Lv2_소수찾기.py)|
+| [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [cpp](Programmers/Lv2/Lv2_전화번호목록.cpp), [py](Programmers/Lv2/Lv2_전화번호목록.py)|
+| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [cpp](Programmers/Lv2/Lv2_H-Index.cpp), [py](Programmers/Lv2/Lv2_H-Index.py)|
+| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [cpp](Programmers/Lv2/Lv2_위장.cpp), [py](Programmers/Lv2/Lv2_위장.py)|
+| [숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841) | [cpp](Programmers/Lv2/Lv2_숫자야구.cpp), [py](Programmers/Lv2/Lv2_숫자야구.py)|
+| [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [cpp](Programmers/Lv2/Lv2_구명보트.cpp), [py](Programmers/Lv2/Lv2_구명보트.py)|
+| [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [cpp](Programmers/Lv2/Lv2_카펫.cpp), [py](Programmers/Lv2/Lv2_카펫.py)|
+| [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629) | [cpp](Programmers/Lv2/Lv2_라면공장.cpp), [py](Programmers/Lv2/Lv2_라면공장.py)|
+| [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [cpp](Programmers/Lv2/Lv2_타겟넘버.cpp), [py](Programmers/Lv2/Lv2_타겟넘버.py)|
+| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [cpp](Programmers/Lv2/Lv2_가장큰정사각형찾기.cpp), |[py](Programmers/Lv2/Lv2_가장큰정사각형찾기.py)|
+| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [cpp](Programmers/Lv2/Lv2_올바른괄호.cpp), [py](Programmers/Lv2/Lv2_올바른괄호.py)|
+| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [cpp](Programmers/Lv2/Lv2_다음큰숫자.cpp), [py](Programmers/Lv2/Lv2_다음큰숫자.py)|
+| [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | [cpp](Programmers/Lv2/Lv2_땅따먹기.cpp), [py](Programmers/Lv2/Lv2_땅따먹기.py)|
+| [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | [cpp](Programmers/Lv2/Lv2_폰켓몬.cpp), [py](Programmers/Lv2/Lv2_폰켓몬.py)|
+| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | [cpp](Programmers/Lv2/Lv2_숫자의표현.cpp), [py](Programmers/Lv2/Lv2_숫자의표현.py)|
+| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | [cpp](Programmers/Lv2/Lv2_최댓값과최솟값.cpp), [py](Programmers/Lv2/Lv2_최댓값과최솟값.py)|
+| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | [cpp](Programmers/Lv2/Lv2_최솟값만들기.cpp), [py](Programmers/Lv2/Lv2_최솟값만들기.py)|
+| [피보나치수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [cpp](Programmers/Lv2/Lv2_피보나치수.cpp), [py](Programmers/Lv2/Lv2_피보나치수.py)|
+| [행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949) | [cpp](Programmers/Lv2/Lv2_행렬의곱셈.cpp), [py](Programmers/Lv2/Lv2_행렬의곱셈.py)|
+| [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [cpp](Programmers/Lv2/Lv2_JadenCase문자열만들기.cpp), [py](Programmers/Lv2/Lv2_JadenCase문자열만들기.py)|
+| [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | [cpp](Programmers/Lv2/Lv2_N개의최소공배수.cpp), [py](Programmers/Lv2/Lv2_N개의최소공배수.py)|
+| [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | [cpp](Programmers/Lv2/Lv2_소수만들기.cpp), [py](Programmers/Lv2/Lv2_소수만들기.py)|
+| [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [cpp](Programmers/Lv2/Lv2_점프와순간이동.cpp), [py](Programmers/Lv2/Lv2_점프와순간이동.py)|
+| [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [cpp](Programmers/Lv2/Lv2_영어끝말잇기.cpp), [py](Programmers/Lv2/Lv2_영어끝말잇기.py)|
+| [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [cpp](Programmers/Lv2/Lv2_예상대진표.cpp), [py](Programmers/Lv2/Lv2_예상대진표.py)|
 
 
 ## Lv3
@@ -110,7 +110,7 @@
 | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [cpp](Programmers/Lv3/Lv3_카카오프렌즈컬러링북.cpp)|
 | [브라이언의 고민](https://programmers.co.kr/learn/courses/30/lessons/1830) | [cpp](Programmers/Lv3/Lv3_브라이언의고민.cpp)|
 | [4단 고음](https://programmers.co.kr/learn/courses/30/lessons/1831) | [cpp](Programmers/Lv3/Lv3_4단고음.cpp)|
-| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [cpp](Programmers/Lv3/Lv3_짝지어제거하기.cpp)|
+| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [cpp](Programmers/Lv3/Lv3_짝지어제거하기.cpp), [py](Programmers/Lv2/Lv2_짝지어제거하기.py)|
 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832) | [cpp](Programmers/Lv3/Lv3_보행자천국.cpp)|
 | [가장 긴 펠린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [cpp](Programmers/Lv3/Lv3_가장긴펠린드롬.cpp)|
 | [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907) | [cpp](Programmers/Lv3/Lv3_거스름돈.cpp)|
