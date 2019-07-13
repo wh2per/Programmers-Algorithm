@@ -1,6 +1,6 @@
 # Programmers
 * 순위 2 
-* 획득점수 1595
+* 획득점수 1602
 * 해결한 문제 수 140
 
 ## Lv1
@@ -90,60 +90,60 @@
 ## Lv3
 | 문제 | 코드 |
 | ------------- |:-------------:|
-| [2xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | [cpp](Programmers/Lv3/Lv3_2xn타일링.cpp)|
-| [타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) | [cpp](Programmers/Lv3/Lv3_타일장식물.cpp)|
-| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [cpp](Programmers/Lv3/Lv3_네트워크.cpp)|
-| [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884) | [cpp](Programmers/Lv3/Lv3_단속카메라.cpp)|
-| [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [cpp](Programmers/Lv3/Lv3_가장먼노드.cpp)|
-| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [cpp](Programmers/Lv3/Lv3_단어변환.cpp)|
-| [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [cpp](Programmers/Lv3/Lv3_예산.cpp)|
-| [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [cpp](Programmers/Lv3/Lv3_정수삼각형.cpp)|
-| [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | [cpp](Programmers/Lv3/Lv3_섬연결하기.cpp)|
-| [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [cpp](Programmers/Lv3/Lv3_디스크컨트롤러.cpp)|
-| [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [cpp](Programmers/Lv3/Lv3_여행경로.cpp)|
-| [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [cpp](Programmers/Lv3/Lv3_입국심사.cpp)|
-| [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | [cpp](Programmers/Lv3/Lv3_이중우선순위큐.cpp)|
-| [저울](https://programmers.co.kr/learn/courses/30/lessons/42886) | [cpp](Programmers/Lv3/Lv3_저울.cpp)|
-| [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | [cpp](Programmers/Lv3/Lv3_순위.cpp)|
-| [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [cpp](Programmers/Lv3/Lv3_베스트앨범.cpp)|
-| [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/Lv3/Lv3_등굣길.cpp)|
+| [2xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | [cpp](Programmers/Lv3/Lv3_2xn타일링.cpp), [py](Programmers/Lv3/Lv3_2xn타일링.py)|
+| [타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104) | [cpp](Programmers/Lv3/Lv3_타일장식물.cpp), [py](Programmers/Lv3/Lv3_타일장식물.py)|
+| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [cpp](Programmers/Lv3/Lv3_네트워크.cpp), [py](Programmers/Lv3/Lv3_네트워크.py)|
+| [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884) | [cpp](Programmers/Lv3/Lv3_단속카메라.cpp), [py](Programmers/Lv3/Lv3_단속카메라.py)|
+| [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [cpp](Programmers/Lv3/Lv3_가장먼노드.cpp), [py](Programmers/Lv3/Lv3_가장먼노드.py)|
+| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [cpp](Programmers/Lv3/Lv3_단어변환.cpp), [py](Programmers/Lv3/Lv3_단어변환.py)|
+| [예산](https://programmers.co.kr/learn/courses/30/lessons/43237) | [cpp](Programmers/Lv3/Lv3_예산.cpp), [py](Programmers/Lv3/Lv3_예산.py)|
+| [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) | [cpp](Programmers/Lv3/Lv3_정수삼각형.cpp), [py](Programmers/Lv3/Lv3_정수삼각형.py)|
+| [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861) | [cpp](Programmers/Lv3/Lv3_섬연결하기.cpp), [py](Programmers/Lv3/Lv3_섬연결하기.py)|
+| [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | [cpp](Programmers/Lv3/Lv3_디스크컨트롤러.cpp), [py](Programmers/Lv3/Lv3_디스크컨트롤러.py)|
+| [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [cpp](Programmers/Lv3/Lv3_여행경로.cpp), [py](Programmers/Lv3/Lv3_여행경로.py)|
+| [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [cpp](Programmers/Lv3/Lv3_입국심사.cpp), [py](Programmers/Lv3/Lv3_입국심사.py)|
+| [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628) | [cpp](Programmers/Lv3/Lv3_이중우선순위큐.cpp), [py](Programmers/Lv3/Lv3_이중우선순위큐.py)|
+| [저울](https://programmers.co.kr/learn/courses/30/lessons/42886) | [cpp](Programmers/Lv3/Lv3_저울.cpp), [py](Programmers/Lv3/Lv3_저울.py)|
+| [순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | [cpp](Programmers/Lv3/Lv3_순위.cpp), [py](Programmers/Lv3/Lv3_순위.py)|
+| [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [cpp](Programmers/Lv3/Lv3_베스트앨범.cpp), [py](Programmers/Lv3/Lv3_베스트앨범.py)|
+| [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898) | [cpp](Programmers/Lv3/Lv3_등굣길.cpp), [py](Programmers/Lv3/Lv3_등굣길.py)|
 | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [cpp](Programmers/Lv3/Lv3_카카오프렌즈컬러링북.cpp)|
 | [브라이언의 고민](https://programmers.co.kr/learn/courses/30/lessons/1830) | [cpp](Programmers/Lv3/Lv3_브라이언의고민.cpp)|
 | [4단 고음](https://programmers.co.kr/learn/courses/30/lessons/1831) | [cpp](Programmers/Lv3/Lv3_4단고음.cpp)|
 | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [cpp](Programmers/Lv3/Lv3_짝지어제거하기.cpp), [py](Programmers/Lv2/Lv2_짝지어제거하기.py)|
 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832) | [cpp](Programmers/Lv3/Lv3_보행자천국.cpp)|
-| [가장 긴 펠린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [cpp](Programmers/Lv3/Lv3_가장긴펠린드롬.cpp)|
-| [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907) | [cpp](Programmers/Lv3/Lv3_거스름돈.cpp)|
-| [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [cpp](Programmers/Lv3/Lv3_방문길이.cpp)|
-| [줄 서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | [cpp](Programmers/Lv3/Lv3_줄서는방법.cpp)|
-| [하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946) | [cpp](Programmers/Lv3/Lv3_하노이의탑.cpp)|
-| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [cpp](Programmers/Lv3/Lv3_배달.cpp)|
+| [가장 긴 펠린드롬](https://programmers.co.kr/learn/courses/30/lessons/12904) | [cpp](Programmers/Lv3/Lv3_가장긴펠린드롬.cpp), [py](Programmers/Lv3/Lv3_가장긴펠린드롬.py)|
+| [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907) | [cpp](Programmers/Lv3/Lv3_거스름돈.cpp), [py](Programmers/Lv3/Lv3_거스름돈.py)|
+| [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [cpp](Programmers/Lv3/Lv3_방문길이.cpp), [py](Programmers/Lv3/Lv3_방문길이.py)|
+| [줄 서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | [cpp](Programmers/Lv3/Lv3_줄서는방법.cpp), [py](Programmers/Lv3/Lv3_줄서는방법.py)|
+| [하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946) | [cpp](Programmers/Lv3/Lv3_하노이의탑.cpp), [py](Programmers/Lv3/Lv3_하노이의탑.py)|
+| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [cpp](Programmers/Lv3/Lv3_배달.cpp), [py](Programmers/Lv3/Lv3_배달.py)|
 | [캠핑](https://programmers.co.kr/learn/courses/30/lessons/1833) | [cpp](Programmers/Lv3/Lv3_캠핑.cpp)|
-| [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [cpp](Programmers/Lv3/Lv3_숫자게임.cpp)|
-| [멀리 뛰기](https://programmers.co.kr/learn/courses/30/lessons/12914) | [cpp](Programmers/Lv3/Lv3_멀리뛰기.cpp)|
-| [야근 지수](https://programmers.co.kr/learn/courses/30/lessons/12927) | [cpp](Programmers/Lv3/Lv3_야근지수.cpp)|
-| [최고의 집합](https://programmers.co.kr/learn/courses/30/lessons/12938) | [cpp](Programmers/Lv3/Lv3_최고의집합.cpp)|
-| [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979) | [cpp](Programmers/Lv3/Lv3_기지국설치.cpp)|
+| [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [cpp](Programmers/Lv3/Lv3_숫자게임.cpp), [py](Programmers/Lv3/Lv3_숫자게임.py)|
+| [멀리 뛰기](https://programmers.co.kr/learn/courses/30/lessons/12914) | [cpp](Programmers/Lv3/Lv3_멀리뛰기.cpp), [py](Programmers/Lv3/Lv3_멀리뛰기.py)|
+| [야근 지수](https://programmers.co.kr/learn/courses/30/lessons/12927) | [cpp](Programmers/Lv3/Lv3_야근지수.cpp), [py](Programmers/Lv3/Lv3_야근지수.py)|
+| [최고의 집합](https://programmers.co.kr/learn/courses/30/lessons/12938) | [cpp](Programmers/Lv3/Lv3_최고의집합.cpp), [py](Programmers/Lv3/Lv3_최고의집합.py)|
+| [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979) | [cpp](Programmers/Lv3/Lv3_기지국설치.cpp), [py](Programmers/Lv3/Lv3_기지국설치.py)|
 
 ## Lv4
 | 문제 | 코드 |
 | ------------- |:-------------:|
-| [카드게임](https://programmers.co.kr/learn/courses/30/lessons/42896) | [cpp](Programmers/Lv4/Lv4_카드게임.cpp)|
-| [3xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | [cpp](Programmers/Lv4/Lv4_3xn타일링.cpp)|
-| [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [cpp](Programmers/Lv4/Lv4_N-Queen.cpp)|
-| [최적의 행렬 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12942) | [cpp](Programmers/Lv4/Lv4_최적의행렬곱셈.cpp)|
-| [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | [cpp](Programmers/Lv4/Lv4_스티커모으기(2).cpp)|
-| [단어 퍼즐](https://programmers.co.kr/learn/courses/30/lessons/12983) | [cpp](Programmers/Lv4/Lv4_단어퍼즐.cpp)|
-| [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [cpp](Programmers/Lv4/Lv4_지형편집.cpp)|
-| [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | [cpp](Programmers/Lv4/Lv4_징검다리.cpp)|
-| [올바른 괄호의 갯수](https://programmers.co.kr/learn/courses/30/lessons/12929) | [cpp](Programmers/Lv4/Lv4_올바른괄호의갯수.cpp)|
-| [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [cpp](Programmers/Lv4/Lv4_쿠키구입.cpp)|
-| [선입 선출 스케줄링](https://programmers.co.kr/learn/courses/30/lessons/12920) | [cpp](Programmers/Lv4/Lv4_선입선출스케줄링.cpp)|
-| [숫자 블록](https://programmers.co.kr/learn/courses/30/lessons/12923) | [cpp](Programmers/Lv4/Lv4_숫자블록.cpp)|
-| [사칙연산](https://programmers.co.kr/learn/courses/30/lessons/1843) | [cpp](Programmers/Lv4/Lv4_사칙연산.cpp)|
-| [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [cpp](Programmers/Lv4/Lv4_게임맵최단거리.cpp)|
-| [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897) | [cpp](Programmers/Lv4/Lv4_도둑질.cpp)|
-| [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899) | [cpp](Programmers/Lv4/Lv4_서울에서경산까지.cpp)|
+| [카드게임](https://programmers.co.kr/learn/courses/30/lessons/42896) | [cpp](Programmers/Lv4/Lv4_카드게임.cpp), [py](Programmers/Lv4/Lv4_카드게임.py)|
+| [3xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | [cpp](Programmers/Lv4/Lv4_3xn타일링.cpp), [py](Programmers/Lv4/Lv4_3xn타일링.py)|
+| [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [cpp](Programmers/Lv4/Lv4_N-Queen.cpp), [py](Programmers/Lv4/Lv4_N-Queen.py)|
+| [최적의 행렬 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12942) | [cpp](Programmers/Lv4/Lv4_최적의행렬곱셈.cpp), [py](Programmers/Lv4/Lv4_최적의행렬곱셈.py)|
+| [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | [cpp](Programmers/Lv4/Lv4_스티커모으기(2).cpp), [py](Programmers/Lv4/Lv4_스티커모으기(2).py)|
+| [단어 퍼즐](https://programmers.co.kr/learn/courses/30/lessons/12983) | [cpp](Programmers/Lv4/Lv4_단어퍼즐.cpp), [py](Programmers/Lv4/Lv4_단어퍼즐.py)|
+| [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [cpp](Programmers/Lv4/Lv4_지형편집.cpp), [py](Programmers/Lv4/Lv4_지형편집.py)|
+| [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) | [cpp](Programmers/Lv4/Lv4_징검다리.cpp), [py](Programmers/Lv4/Lv4_징검다리.py)|
+| [올바른 괄호의 갯수](https://programmers.co.kr/learn/courses/30/lessons/12929) | [cpp](Programmers/Lv4/Lv4_올바른괄호의갯수.cpp), [py](Programmers/Lv4/Lv4_올바른괄호의갯수.py)|
+| [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [cpp](Programmers/Lv4/Lv4_쿠키구입.cpp), [py](Programmers/Lv4/Lv4_쿠키구입.py)|
+| [선입 선출 스케줄링](https://programmers.co.kr/learn/courses/30/lessons/12920) | [cpp](Programmers/Lv4/Lv4_선입선출스케줄링.cpp), [py](Programmers/Lv4/Lv4_선입선출스케줄링.py)|
+| [숫자 블록](https://programmers.co.kr/learn/courses/30/lessons/12923) | [cpp](Programmers/Lv4/Lv4_숫자블록.cpp), [py](Programmers/Lv4/Lv4_숫자블록.py)|
+| [사칙연산](https://programmers.co.kr/learn/courses/30/lessons/1843) | [cpp](Programmers/Lv4/Lv4_사칙연산.cpp), [py](Programmers/Lv4/Lv4_사칙연산.py)|
+| [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [cpp](Programmers/Lv4/Lv4_게임맵최단거리.cpp), [py](Programmers/Lv4/Lv4_게임맵최단거리.py)|
+| [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897) | [cpp](Programmers/Lv4/Lv4_도둑질.cpp), [py](Programmers/Lv4/Lv4_도둑질.py)|
+| [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899) | [cpp](Programmers/Lv4/Lv4_서울에서경산까지.cpp), [py](Programmers/Lv4/Lv4_서울에서경산까지.py)|
 | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [cpp](Programmers/Lv4/Lv4_단체사진찍기.cpp)|
 | [튜브의 소개팅](https://programmers.co.kr/learn/courses/30/lessons/1839) | [cpp](Programmers/Lv4/Lv4_튜브의소개팅.cpp)|
 | [GPS](https://programmers.co.kr/learn/courses/30/lessons/1837) | [cpp](Programmers/Lv4/Lv4_GPS.cpp)|
