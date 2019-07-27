@@ -47,7 +47,3 @@ int solution141(vector<int> food_times, long long k) {
 	}
 }
 
-int main() {
-	cout << solution141({ 1,1,2 }, 7);
-	return 0;
-}
