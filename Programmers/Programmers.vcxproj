@@ -161,6 +161,7 @@
     <ClCompile Include="Lv5\Lv5_캐시.cpp" />
     <ClCompile Include="Lv5\Lv5_파일명정렬.cpp" />
     <ClCompile Include="Lv5\Lv5_프렌즈4블록.cpp" />
+    <ClCompile Include="Lv5\Lv5_후보키.cpp" />
     <ClCompile Include="라인코딩테스트\Line_1번.cpp" />
     <ClCompile Include="라인코딩테스트\Line_2번.cpp" />
     <ClCompile Include="라인코딩테스트\Line_3번.cpp" />
