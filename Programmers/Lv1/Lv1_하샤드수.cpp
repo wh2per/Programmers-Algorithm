@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool solution55(int x) {
+bool solution(int x) {
 	bool answer = true;
 	int num = x;
 	int sum = 0;

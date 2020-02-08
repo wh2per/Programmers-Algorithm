@@ -19,7 +19,7 @@ bool remove_rock(vector<int> &rocks, int min, int n) {
 }
 
 // 파라메트릭 서치 이용!
-int solution116(int distance, vector<int> rocks, int n) {
+int solution(int distance, vector<int> rocks, int n) {
 	sort(rocks.begin(), rocks.end());
 	int low = 0;
 	int mid = 0;

@@ -17,7 +17,7 @@ bool cmp_fail(pair<double, int> p1, pair<double, int> p2){
 		return false;
 }
 
-vector<int> solution136(int N, vector<int> stages) {
+vector<int> solution(int N, vector<int> stages) {
 	vector<int> answer;
 	vector<int> success(N);
 	vector<int> fail(N);

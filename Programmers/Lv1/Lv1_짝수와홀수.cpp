@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string solution51(int num) {
+string solution(int num) {
 	string answer = "";
 	if (num % 2 == 0)
 		answer = "Even";

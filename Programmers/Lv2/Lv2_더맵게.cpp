@@ -5,7 +5,7 @@
 #include <queue>
 using namespace std;
 
-int solution19(vector<int> scoville, int K) {
+int solution(vector<int> scoville, int K) {
 	int answer = 0;
 	int end = scoville.size();
 	priority_queue <int, vector<int>, greater<int> > pq;

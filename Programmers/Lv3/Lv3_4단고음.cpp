@@ -3,7 +3,7 @@ using namespace std;
 
 map<pair<int, int>, int> dm;
 
-int dfs95(int plusCount, int n) {
+int dfs(int plusCount, int n) {
 	if (plusCount > 38)		// *은 19개가 최대! 따라서 +는 38개가 최대
 		return 0;
 
@@ -25,7 +25,7 @@ int dfs95(int plusCount, int n) {
 	return dm[{ plusCount, n }];
 }
 
-int solution95(int n) {
+int solution(int n) {
 	int answer = dfs95(0, n);
 	return answer;
 }

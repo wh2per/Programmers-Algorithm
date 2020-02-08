@@ -15,7 +15,7 @@ long long get_num(long long target) {		// 자신을 제외한 최대 약수를 �
 }
 
 // 각 자리는 최대 약수가 들어감
-vector<int> solution120(long long begin, long long end) {
+vector<int> solution(long long begin, long long end) {
 	vector<int> answer;
 	long long start_block = 1;
 	long long end_block = end >> 1;

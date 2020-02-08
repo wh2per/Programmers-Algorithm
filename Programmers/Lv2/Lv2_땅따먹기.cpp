@@ -5,7 +5,7 @@ using namespace std;
 //DP
 int d[100001][4];
 
-int solution62(vector<vector<int> > land)
+int solution(vector<vector<int> > land)
 {
 	int answer = 0;
 

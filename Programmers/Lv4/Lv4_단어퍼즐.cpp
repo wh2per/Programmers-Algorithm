@@ -8,7 +8,7 @@ using namespace std;
 
 // DP 이용
 // 맨 뒷자리부터 한글자씩 늘려가며 확인
-int solution114(vector<string> strs, string t)
+int solution(vector<string> strs, string t)
 {
 	int answer = 0;
 	int size = t.length();

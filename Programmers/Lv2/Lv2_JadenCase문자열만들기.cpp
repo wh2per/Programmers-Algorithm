@@ -4,7 +4,7 @@
 #include <sstream>
 using namespace std;
 
-string solution69(string s) {
+string solution(string s) {
 	bool check = true;
 	for (int i = 0; i < s.length(); i++) {
 		if (s[i] != ' ') {

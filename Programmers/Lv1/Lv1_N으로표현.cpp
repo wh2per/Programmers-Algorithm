@@ -25,7 +25,7 @@ void go(int N, int number, int result, int count) {
 
 	}
 }
-int solution3(int N, int number) {
+int solution(int N, int number) {
 	go(N, number, 0, 0);
 	return mincount;
 }

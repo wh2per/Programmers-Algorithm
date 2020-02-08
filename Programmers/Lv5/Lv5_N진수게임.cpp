@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-string solution130(int n, int t, int m, int p) {
+string solution(int n, int t, int m, int p) {
 	vector<string> left = { "0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F" };
 	string answer;
 	int count = 0, turn = 2, num = 1;

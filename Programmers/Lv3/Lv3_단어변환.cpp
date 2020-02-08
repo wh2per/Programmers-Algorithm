@@ -6,7 +6,7 @@
 using namespace std;
 
 // BFS 이용
-int solution87(string begin, string target, vector<string> words) {
+int solution(string begin, string target, vector<string> words) {
 	int answer = 51;
 	int i;
 	vector<vector<int>> check(words.size() + 1, vector<int>(words.size() + 1, 0));		// 0으로 초기화

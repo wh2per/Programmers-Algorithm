@@ -4,7 +4,7 @@
 #include <queue>
 using namespace std;
 
-string solution133(int n, int t, int m, vector<string> timetable) {
+string solution(int n, int t, int m, vector<string> timetable) {
 	string answer = "";
 	int currtime = 0;
 	int currbus = 1;

@@ -2,9 +2,8 @@
 #include <queue>
 using namespace std;
 
-
 // BFS
-int solution122(vector<vector<int> > maps)
+int solution(vector<vector<int> > maps)
 {
 	int answer = 0;
 	int ey = maps.size();

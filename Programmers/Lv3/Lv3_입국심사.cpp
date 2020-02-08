@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution90(int n, vector<int> times) {
+int solution(int n, vector<int> times) {
 	sort(times.begin(), times.end());
 	unsigned long long mid = 0;
 	unsigned long long high = n * times[times.size() - 1];

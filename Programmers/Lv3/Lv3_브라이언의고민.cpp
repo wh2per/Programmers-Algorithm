@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 
-string solution94(string sentence) {
+string solution(string sentence) {
 	string answer = "";
 	list<char> ans;
 	int two = 0;

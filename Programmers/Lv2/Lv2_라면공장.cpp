@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 
-int solution20(int stock, vector<int> dates, vector<int> supplies, int k) {
+int solution(int stock, vector<int> dates, vector<int> supplies, int k) {
 	int answer = 0;
 	priority_queue<int> pq;
 

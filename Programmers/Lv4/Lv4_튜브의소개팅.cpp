@@ -14,7 +14,7 @@ struct info_tube {
 };
 long long d_tube[2501][51][51];
 
-vector<int> solution138(int m, int n, int s, vector<vector<int>> time_map) {
+vector<int> solution(int m, int n, int s, vector<vector<int>> time_map) {
 	vector<int> answer;
 	for (int i = 0; i < 2501; i++) {
 		for (int j = 0; j < 50; j++) {

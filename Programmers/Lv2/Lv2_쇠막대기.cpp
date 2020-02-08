@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int solution22(string arrangement) {
+int solution(string arrangement) {
 	int answer = 0;
 	queue<int> q;
 

@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int solution89(vector<int> budgets, int M) {
+int solution(vector<int> budgets, int M) {
 	int answer = -1;
 	int sum = 0;
 	int temp = 0;

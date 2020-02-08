@@ -3,7 +3,7 @@
 using namespace std;
 
 // 파라메트릭 서치
-int solution119(int n, vector<int> cores) {
+int solution(int n, vector<int> cores) {
 	int low = 0;
 	int high = 100000000;
 	int mid = (low + high) / 2;

@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int solution86(int n, vector<vector<int>> computers) {
+int solution(int n, vector<vector<int>> computers) {
 	int net = 0;
 	int check[201] = {0,};
 

@@ -16,7 +16,7 @@ int selectNext(vector<int> cost, vector<bool> check) {
 }
 
 // 다익스트라 알고리즘 
-int solution103(int N, vector<vector<int> > road, int K) {
+int solution(int N, vector<vector<int> > road, int K) {
 	int answer = 0;
 	vector<map<int, int>> graph(N + 1);	// 비용 정보
 	vector<int> cost(N + 1, 500001);		// 비용을 최대치로 초기화

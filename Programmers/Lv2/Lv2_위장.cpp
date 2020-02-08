@@ -6,7 +6,7 @@
 
 using namespace std;
 
-int solution24(vector<vector<string>> clothes) {
+int solution(vector<vector<string>> clothes) {
 	int answer = 0;
 	map<string, int> m;
 

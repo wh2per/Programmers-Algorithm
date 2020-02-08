@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-int solutionQ2(int l, vector<int> v) {
+int solution(int l, vector<int> v) {
 	int answer;
 	sort(v.begin(), v.end());
 	answer = v[0] - 0;

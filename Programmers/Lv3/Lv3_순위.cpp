@@ -4,7 +4,7 @@
 #include <set>
 using namespace std;
 
-int solution92(int n, vector<vector<int>> results) {
+int solution(int n, vector<vector<int>> results) {
 	int answer = 0;
 	map<int, set<int>> down;
 	map<int, set<int>> up;

@@ -9,7 +9,7 @@ using namespace std;
 // m[i][j] = min(m[i][k] + m[k+1][j] + d[i-1]*d[k]*d[j])  (i<=k<j)
 // m[i][j] = 0 (i==j)
 
-int solution112(vector<vector<int>> matrix_sizes) {
+int solution(vector<vector<int>> matrix_sizes) {
 	vector<vector<int>> m(matrix_sizes.size()+1,vector<int>(matrix_sizes.size()+1,0));
 	vector<int> d;
 

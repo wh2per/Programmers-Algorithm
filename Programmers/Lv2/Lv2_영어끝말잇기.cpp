@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-vector<int> solution73(int n, vector<string> words) {
+vector<int> solution(int n, vector<string> words) {
 	vector<int> answer;
 	char prev = words[0][words[0].length() - 1];
 	vector<string>::iterator iter;

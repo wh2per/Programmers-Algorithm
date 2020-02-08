@@ -3,7 +3,7 @@
 
 using namespace std;
 
-bool solution60(string s)
+bool solution(string s)
 {
 	int l = 0;
 	int r = 0;

@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution63(vector<int> nums)
+int solution(vector<int> nums)
 {
 	int answer = 0;
 	int get = nums.size() / 2;

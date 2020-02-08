@@ -5,12 +5,7 @@
 #include <algorithm>
 using namespace std;
 
-#include <string>
-#include <vector>
-#include <algorithm>
-using namespace std;
-
-int solution32(vector<int> priorities, int location) {
+int solution(vector<int> priorities, int location) {
 	int answer = 0;
 	bool check[100] = { false, };         // 검사한 작업인지 체크
 	vector<int> temp = priorities;      // 우선순위 순으로 정렬

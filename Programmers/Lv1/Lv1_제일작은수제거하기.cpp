@@ -3,7 +3,7 @@
 #include <list>
 using namespace std;
 
-vector<int> solution50(vector<int> arr) {
+vector<int> solution(vector<int> arr) {
 	vector<int> answer;
 	list<int> l(arr.begin(), arr.end());
 	int min = 99999999;

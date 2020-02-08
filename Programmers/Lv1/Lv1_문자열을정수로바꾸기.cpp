@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution41(string s) {
+int solution(string s) {
 	int answer = 0;
 	char temp;
 	if (s[0] == '-') {

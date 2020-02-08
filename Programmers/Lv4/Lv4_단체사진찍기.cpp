@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution137(int n, vector<string> data) {
+int solution(int n, vector<string> data) {
 	int answer = 0;
 	string friends = "ACFJMNRT";
 	string arr;

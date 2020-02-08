@@ -12,7 +12,7 @@ bool isprime(int n) {
 	return true;		//¼Ò¼ö
 }
 
-int solution71(vector<int> nums) {
+int solution(vector<int> nums) {
 	int answer = 0;
 	vector<int> v(nums.size());
 	v[0] = 1; v[1] = 1; v[2] = 1;

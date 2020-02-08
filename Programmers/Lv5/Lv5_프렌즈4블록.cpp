@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int solution132(int m, int n, vector<string> board) {
+int solution(int m, int n, vector<string> board) {
 	int answer = 0;
 	bool flag = false;
 	while (1) {

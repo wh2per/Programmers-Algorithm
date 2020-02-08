@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string solution39(vector<string> seoul) {
+string solution(vector<string> seoul) {
 	string answer = "±Ëº≠πÊ¿∫ ";
 	for (int i = 0; i < seoul.size(); i++) {
 		if (seoul[i] == "Kim")

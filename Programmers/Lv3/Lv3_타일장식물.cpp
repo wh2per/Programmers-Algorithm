@@ -3,7 +3,7 @@
 
 using namespace std;
 
-long long solution82(int N) {
+long long solution(int N) {
 	long long d[81];
 	long long s[81];
 	d[0] = 0;

@@ -2,7 +2,7 @@
 #include <stack>
 using namespace std;
 
-int solution96(string s)
+int solution(string s)
 {
 	int answer = 1;
 	stack<char> st;

@@ -5,7 +5,7 @@
 #include <map>
 using namespace std;
 
-vector<string> solution125(vector<string> record) {
+vector<string> solution(vector<string> record) {
 	vector<string> answer;
 	map<string, string> info;
 	for (int i = 0; i < record.size(); ++i) {

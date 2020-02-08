@@ -10,7 +10,7 @@ struct cmp {				// top에 가장 작은 수가 가도록 내림차순 정렬
 	}
 };
 
-int solution79(vector<vector<int>> routes) {
+int solution(vector<vector<int>> routes) {
 	int answer = 1;
 	vector<vector<int>> camera;
 	priority_queue <vector<int>, vector<vector<int>>, cmp> pq;

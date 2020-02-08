@@ -3,7 +3,7 @@
 
 using namespace std;
 
-long long solution106(int n) {
+long long solution(int n) {
 	long long answer = 0;
 	vector<long long> d(n+1,0);
 	d[0] = 1;

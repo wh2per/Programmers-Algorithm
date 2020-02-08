@@ -5,7 +5,7 @@ using namespace std;
 
 // 그냥 BFS는 시간초과
 // DP를 사용하자!
-int solution99(int n, vector<int> money) {
+int solution(int n, vector<int> money) {
 	int MOD = 1000000007;
 	int answer = 0;
 	vector<int> d(n + 1, 0);

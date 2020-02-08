@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution53(int num) {
+int solution(int num) {
 	int answer = 0;
 	long n = num;
 	while (n != 1) {

@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int solution100(string dirs)
+int solution(string dirs)
 {
 	int answer = 0;
 	pair<int, int> start = make_pair(0, 0);

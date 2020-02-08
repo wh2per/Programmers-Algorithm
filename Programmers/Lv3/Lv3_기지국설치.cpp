@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int solution109(int n, vector<int> stations, int w)
+int solution(int n, vector<int> stations, int w)
 {
 	int answer = 0;
 	int index = 0;

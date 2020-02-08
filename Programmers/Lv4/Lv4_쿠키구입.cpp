@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int solution118(vector<int> cookie) {
+int solution(vector<int> cookie) {
 	int answer = 0;
 	int size = cookie.size();
 	vector<int> sum;		// 1 2 4 7 

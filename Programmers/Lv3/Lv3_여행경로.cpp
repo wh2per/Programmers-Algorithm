@@ -23,7 +23,7 @@ void DFS(vector<vector<string>> &tickets, string end, int count, string path) {	
 	}
 }
 
-vector<string> solution88(vector<vector<string>> tickets) {
+vector<string> solution(vector<vector<string>> tickets) {
 	vector<string> answer;
 	check.resize(tickets.size());
 	DFS(tickets, "ICN", 0, "ICN");

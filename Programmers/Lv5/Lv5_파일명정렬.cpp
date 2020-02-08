@@ -30,7 +30,7 @@ bool cmp_file(info_file a, info_file b) {
 }
 
 
-vector<string> solution135(vector<string> files) {
+vector<string> solution(vector<string> files) {
 	vector<string> answer;
 	vector<info_file> order;
 

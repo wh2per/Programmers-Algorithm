@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-string solution37(string s) {
+string solution(string s) {
 	string answer = "";
 	vector<char> v;
 	for (int i = 0; i < s.length(); i++)

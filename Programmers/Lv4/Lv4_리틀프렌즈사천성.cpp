@@ -60,7 +60,7 @@ bool block_remove(char dest, int m, int n) {
 	return false;
 }
 
-string solution140(int m, int n, vector<string> board) {
+string solution(int m, int n, vector<string> board) {
 	string answer = "";
 	for (int i = 0; i < 'Z'; i++) 
 		pos[i].clear();

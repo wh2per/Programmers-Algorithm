@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int solution84(int m, int n, vector<vector<int>> puddles) {
+int solution(int m, int n, vector<vector<int>> puddles) {
 	int road[101][101] = { 0, };
 	int check[101][101] = { 0, };
 

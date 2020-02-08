@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int solution74(int n, int a, int b)
+int solution(int n, int a, int b)
 {
 	int answer = 0;
 	while (n != 0){

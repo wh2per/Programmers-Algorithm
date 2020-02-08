@@ -4,7 +4,7 @@
 #include <map>
 using namespace std;
 
-vector<int> solution134(string msg) {
+vector<int> solution(string msg) {
 	vector<int> answer;
 	map<string, int> dic;
 	int num;

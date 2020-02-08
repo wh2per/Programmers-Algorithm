@@ -61,7 +61,7 @@ string change_music(string music) {
 	return temp;
 }
 
-string solution129(string m, vector<string> musicinfos) {
+string solution(string m, vector<string> musicinfos) {
 	vector<info_music> v;
 	int num = 0;
 	for (int i = 0; i < musicinfos.size(); ++i) {

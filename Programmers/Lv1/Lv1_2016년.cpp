@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-string solution1(int a, int b) {
+string solution(int a, int b) {
 	vector<string> v = { "SUN","MON","TUE","WED","THU","FRI","SAT" };
 	int index = 0;
 	if (a == 1 || a==4 || a==7) index = 5;

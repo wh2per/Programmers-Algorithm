@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 
-int solutionQ3(vector<vector<int>> board, vector<int> nums) {
+int solution(vector<vector<int>> board, vector<int> nums) {
 	int answer = 0;
 	vector<int> check1(board.size(), 0);
 	vector<int> check2(board.size(), 0);

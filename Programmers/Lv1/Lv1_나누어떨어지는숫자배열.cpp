@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-vector<int> solution6(vector<int> arr, int divisor) {
+vector<int> solution(vector<int> arr, int divisor) {
 	vector<int> answer;
 
 	if (divisor == 1) {

@@ -14,7 +14,7 @@ bool is_prime(int n) {
 	return true;		//¼Ò¼ö
 }
 
-int solution21(string numbers) {
+int solution(string numbers) {
 	int answer = 0;
 	int size = numbers.length();
 	vector<int> v;

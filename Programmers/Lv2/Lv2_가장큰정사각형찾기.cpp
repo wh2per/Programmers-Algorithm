@@ -4,7 +4,7 @@
 using namespace std;
 
 // DP »ç¿ë
-int solution59(vector<vector<int>> board)
+int solution(vector<vector<int>> board)
 {
 	int xlen = board[0].size();
 	int ylen = board.size();

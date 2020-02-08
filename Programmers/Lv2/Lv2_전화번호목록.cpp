@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool solution25(vector<string> phone_book) {
+bool solution(vector<string> phone_book) {
 	bool answer = true;
 	bool out = false;
 

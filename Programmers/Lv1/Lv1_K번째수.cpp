@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-vector<int> solution2(vector<int> array, vector<vector<int>> commands) {
+vector<int> solution(vector<int> array, vector<vector<int>> commands) {
 	vector<int> answer;
 	for (int i = 0; i < commands.size(); i++) {
 		int begin = commands[i][0];

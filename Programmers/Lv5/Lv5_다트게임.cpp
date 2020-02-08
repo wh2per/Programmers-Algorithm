@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-int solution128(string dartResult) {
+int solution(string dartResult) {
 	int answer = 0;
 
 	int prev = 0;

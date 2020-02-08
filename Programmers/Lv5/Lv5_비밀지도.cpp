@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-vector<string> solution126(int n, vector<int> arr1, vector<int> arr2) {
+vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
 	vector<string> answer(n);
 	for (int i = 0; i < n; i++) {
 		int value = arr1[i] | arr2[i];

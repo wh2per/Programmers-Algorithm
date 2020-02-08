@@ -26,7 +26,7 @@ bool cmp_hkey(pair<int, int> &p1, pair<int, int> &p2) {
 		return false;
 }
 
-int solution142(vector<vector<string>> relation) {
+int solution(vector<vector<string>> relation) {
 	vector<int> answer;
 	int asize = relation.front().size();		// 속성의 갯수
 	int rsize = relation.size();				// row 갯수

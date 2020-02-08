@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution78(int n) {
+int solution(int n) {
 	int d[60001];
 	d[1] = 1;
 	d[2] = 2;

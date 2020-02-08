@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-vector<int> solution101(int n, long long k) {
+vector<int> solution(int n, long long k) {
 	vector<int> answer;
 	list<int> l;
 	vector<long long> factorial;

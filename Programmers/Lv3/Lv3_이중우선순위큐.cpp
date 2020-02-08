@@ -4,7 +4,7 @@
 #include <sstream>
 using namespace std;
 
-vector<int> solution77(vector<string> operations) {
+vector<int> solution(vector<string> operations) {
 	vector<int> answer;
 	list<int> l;
 	

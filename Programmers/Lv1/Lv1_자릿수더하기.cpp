@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int solution46(int n)
+int solution(int n)
 {
 	int answer = 0;
 	string s = to_string(n);

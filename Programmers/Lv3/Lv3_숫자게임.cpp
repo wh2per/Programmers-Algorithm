@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int solution105(vector<int> A, vector<int> B) {
+int solution(vector<int> A, vector<int> B) {
 	int answer = 0;
 	sort(A.begin(), A.end());
 	sort(B.begin(), B.end());

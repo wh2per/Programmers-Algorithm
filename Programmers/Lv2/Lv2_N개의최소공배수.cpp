@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution70(vector<int> arr) {
+int solution(vector<int> arr) {
 	sort(arr.begin(), arr.end());
 	int answer = arr[0];
 

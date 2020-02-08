@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution123(vector<int> money) {
+int solution(vector<int> money) {
 	int answer = 0;
 	vector<int> d(money.size(), 0);
 

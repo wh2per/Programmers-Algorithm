@@ -3,7 +3,7 @@
 
 using namespace std;
 
-vector<int> solution52(int n, int m) {
+vector<int> solution(int n, int m) {
 	vector<int> answer;
 	int max = 1;
 	int min = m;

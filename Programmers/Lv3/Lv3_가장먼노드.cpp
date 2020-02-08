@@ -9,7 +9,7 @@ using namespace std;
 // 다익스트라 알고리즘보다 BFS가 훨씬 빠름.
 // 가중치가 1일 때는 BFS를 이용하자!
 
-int solution91(int n, vector<vector<int>> edge) {
+int solution(int n, vector<vector<int>> edge) {
 	int answer = 0;
 	int inf = 0;
 	vector<list<int> > graph(n+1, list<int>());

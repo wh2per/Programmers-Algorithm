@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution81(vector<int> weight) {
+int solution(vector<int> weight) {
 	int answer = 1;
 	sort(weight.begin(), weight.end());
 	

@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> solution108(int n, int s) {
+vector<int> solution(int n, int s) {
 	vector<int> answer;
 	if (s / n == 0)
 		return { -1 };

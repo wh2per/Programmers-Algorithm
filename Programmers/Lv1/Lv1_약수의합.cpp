@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution44(int n) {
+int solution(int n) {
 	int answer = 0;
 
 	for (int i = 1; i <= n; i++) {

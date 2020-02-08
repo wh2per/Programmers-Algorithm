@@ -14,7 +14,7 @@ struct info_word {
 	info_word *next_info[26];
 };
 
-int solution131(vector<string> words) {
+int solution(vector<string> words) {
 	int answer = 0;
 	info_word dic[26] = { {false,0,NULL}, };		// 모든 알파벳 초기화
 	sort(words.begin(), words.end(), cmp_word);		// 짧은 순 정렬

@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution139(int n, int m, vector<vector<int>> edge_list, int k, vector<int> gps_log) {
+int solution(int n, int m, vector<vector<int>> edge_list, int k, vector<int> gps_log) {
 	int answer = 10001;
 	vector<vector<int>> gps_dp(n + 1,vector<int>(n + 1,10001));			// i->j 가는 동안 최소 수정값
 	vector<vector<int>> gps_graph(n+1);

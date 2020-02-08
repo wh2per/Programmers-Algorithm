@@ -5,7 +5,7 @@
 using namespace std;
 
 // manacher 알고리즘 
-int solution98(string s)
+int solution(string s)
 {
 	int answer = 0;
 	string str = "";

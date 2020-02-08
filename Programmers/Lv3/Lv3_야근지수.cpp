@@ -10,7 +10,7 @@ struct work_cmp {				// top에 가장 높은 수가 가도록 정렬
 	}
 };
 
-long long solution107(int n, vector<int> works) {
+long long solution(int n, vector<int> works) {
 	long long answer = 0;
 	priority_queue <int, vector<int>, work_cmp > pq;
 	for (auto i : works)

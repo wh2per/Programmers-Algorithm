@@ -14,7 +14,7 @@ Comparator compFunctor =
 	return elem1.second > elem2.second;
 };
 
-vector<int> solution75(vector<string> genres, vector<int> plays) {
+vector<int> solution(vector<string> genres, vector<int> plays) {
 	vector<int> answer;
 	multimap<string, pair<int,int>> m;
 	map<string, int> sum;

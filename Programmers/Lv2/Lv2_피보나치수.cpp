@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution67(int n) {
+int solution(int n) {
 	vector<int> v(n+1);
 	v[0] = 0;
 	v[1] = 1;

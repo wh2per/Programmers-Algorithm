@@ -10,7 +10,7 @@ bool compare(string a, string b) {
 		return a[index] < b[index];
 }
 
-vector<string> solution35(vector<string> strings, int n) {
+vector<string> solution(vector<string> strings, int n) {
 	
 	index = n;
 	sort(strings.begin(), strings.end(), compare);

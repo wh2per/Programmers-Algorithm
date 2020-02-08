@@ -21,7 +21,7 @@ bool isEnd(bool check[], int n) {
 	return true;
 }
 
-int solution80(int n, vector<vector<int>> costs) {
+int solution(int n, vector<vector<int>> costs) {
 	int answer = 0;
 	bool check[101] = { false, };
 	int pos = 0;

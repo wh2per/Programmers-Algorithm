@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-bool solutionQ1(vector<int> arrA, vector<int> arrB) {
+bool solution(vector<int> arrA, vector<int> arrB) {
 	if (arrA.size() != arrB.size())
 		return false;
 	else {

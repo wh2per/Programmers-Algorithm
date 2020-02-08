@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-long long solution48(long long n) {
+long long solution(long long n) {
 	long long answer = 0;
 	vector<int> v;
 	int ten = 1;

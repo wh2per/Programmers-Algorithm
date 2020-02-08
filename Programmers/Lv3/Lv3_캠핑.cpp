@@ -12,7 +12,7 @@ struct tent_cmp{				// top에 가장 작은 수가 가도록 내림차순 정렬
 };
 
 // 전역 변수를 정의할 경우 함수 내에 초기화 코드를 꼭 작성해주세요.
-int solution104(int n, vector<vector<int>> data) {
+int solution(int n, vector<vector<int>> data) {
 	int answer = 0;
 	set<pair<int, int>, tent_cmp> s;
 

@@ -4,7 +4,7 @@
 #include <sstream>
 using namespace std;
 
-string solution65(string s) {
+string solution(string s) {
 	string answer = "";
 	vector<int> v;
 	stringstream split_string(s);

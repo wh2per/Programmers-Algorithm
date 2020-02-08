@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-int solution83(vector<vector<int>> triangle) {
+int solution(vector<vector<int>> triangle) {
 	int answer = triangle[0][0];
 
 	if(triangle.size()==1)

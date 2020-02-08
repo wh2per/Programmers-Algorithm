@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int solution40(int n) {
+int solution(int n) {
 	vector<int> p(1000001);
 	vector<bool> check(1000001);
 	int pn = 0;

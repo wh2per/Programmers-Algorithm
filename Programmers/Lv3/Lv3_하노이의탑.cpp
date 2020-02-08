@@ -23,7 +23,7 @@ void hanoi(int n, int from, int by, int to)			// 1.재귀함수 이용
 	hanoi(n - 1, by, from, to); // n-1개의 원판을 2에서 1을 이용하여 3으로 옮긴다.
 }
 
-vector<vector<int>> solution102(int n) {
+vector<vector<int>> solution(int n) {
 	//hanoi(n, 1, 2, 3);
 	stack<int> s;							// 2. 비재귀 
 	int from = 1;

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int solution58(string skill, vector<string> skill_trees) {
+int solution(string skill, vector<string> skill_trees) {
 	int answer = 0;
 	vector<bool> check(26);
 

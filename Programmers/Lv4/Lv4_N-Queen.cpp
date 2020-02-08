@@ -46,7 +46,7 @@ int calc(int n, int row) {
 	return cnt;
 }
 
-int solution111(int n) {
+int solution(int n) {
 	int answer = calc(n,0);
 
 	return answer;

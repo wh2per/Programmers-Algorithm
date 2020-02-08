@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string solution42(string s, int n) {
+string solution(string s, int n) {
 	string answer = "";
 	for (int i = 0; i < s.length(); i++) {
 		if (s[i] != ' ') {

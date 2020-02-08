@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string solution4(string s) {
+string solution(string s) {
 	string answer = "";
 	if (s.length() % 2 == 0)
 		answer.push_back(s[(s.length() / 2) - 1]);

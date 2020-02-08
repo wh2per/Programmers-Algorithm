@@ -3,7 +3,7 @@
 #include <climits>
 using namespace std;
 
-int solution121(vector<string> arr)
+int solution(vector<string> arr)
 {
 	vector < vector<vector<int>>> d(201,vector<vector<int>>(201,vector<int>(2,0)));
 	int len = arr.size();

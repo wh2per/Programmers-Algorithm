@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int solution113(vector<int> sticker)
+int solution(vector<int> sticker)
 {
 	int answer = 0;
 	vector<int> d(sticker.size(), 0);

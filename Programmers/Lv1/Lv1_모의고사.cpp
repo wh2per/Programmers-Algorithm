@@ -5,7 +5,7 @@
 
 using namespace std;
 
-vector<int> solution7(vector<int> answers) {
+vector<int> solution(vector<int> answers) {
 	vector<int> answer;
 	int a = 0, b = 0, c = 0;
 	int size = answers.size();

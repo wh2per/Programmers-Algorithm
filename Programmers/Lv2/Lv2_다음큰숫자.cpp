@@ -13,7 +13,7 @@ int countOne(int num) {
 	return count;
 }
 
-int solution61(int n) {
+int solution(int n) {
 	int answer = 0;
 	int nc = countOne(n);
 	int uc = 0;

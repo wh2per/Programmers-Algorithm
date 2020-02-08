@@ -19,188 +19,491 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Lv1\Lv1_2016년.cpp" />
-    <ClCompile Include="Lv1\Lv1_K번째수.cpp" />
-    <ClCompile Include="Lv1\Lv1_N으로표현.cpp" />
-    <ClCompile Include="Lv1\Lv1_x만큼간격이있는n개의숫자.cpp" />
-    <ClCompile Include="Lv1\Lv1_가운데글자가져오기.cpp" />
-    <ClCompile Include="Lv1\Lv1_같은숫자는싫어.cpp" />
-    <ClCompile Include="Lv1\Lv1_나누어떨어지는숫자배열.cpp" />
-    <ClCompile Include="Lv1\Lv1_두정수사이의합.cpp" />
-    <ClCompile Include="Lv1\Lv1_모의고사.cpp" />
-    <ClCompile Include="Lv1\Lv1_문자열내p와y의개수.cpp" />
-    <ClCompile Include="Lv1\Lv1_문자열내림차순으로배치하기.cpp" />
-    <ClCompile Include="Lv1\Lv1_문자열내마음대로정렬하기.cpp" />
-    <ClCompile Include="Lv1\Lv1_문자열다루기기본.cpp" />
-    <ClCompile Include="Lv1\Lv1_문자열을정수로바꾸기.cpp" />
-    <ClCompile Include="Lv1\Lv1_서울에서김서방찾기.cpp" />
-    <ClCompile Include="Lv1\Lv1_소수의합.cpp" />
-    <ClCompile Include="Lv1\Lv1_소수찾기.cpp" />
-    <ClCompile Include="Lv1\Lv1_수박수박수박수박수박수.cpp" />
-    <ClCompile Include="Lv1\Lv1_시저암호.cpp" />
-    <ClCompile Include="Lv1\Lv1_약수의합.cpp" />
-    <ClCompile Include="Lv1\Lv1_예산.cpp" />
-    <ClCompile Include="Lv1\Lv1_완주하지못한선수.cpp" />
-    <ClCompile Include="Lv1\Lv1_이상한문자만들기.cpp" />
-    <ClCompile Include="Lv1\Lv1_자릿수더하기.cpp" />
-    <ClCompile Include="Lv1\Lv1_자연수뒤집어배열로만들기.cpp" />
-    <ClCompile Include="Lv1\Lv1_정수내림차순으로배치하기.cpp" />
-    <ClCompile Include="Lv1\Lv1_정수제곱근판별.cpp" />
-    <ClCompile Include="Lv1\Lv1_제일작은수제거하기.cpp" />
-    <ClCompile Include="Lv1\Lv1_직사각형별찍기.cpp" />
-    <ClCompile Include="Lv1\Lv1_짝수와홀수.cpp" />
-    <ClCompile Include="Lv1\Lv1_체육복.cpp" />
-    <ClCompile Include="Lv1\Lv1_최대공약수와최소공배수.cpp" />
-    <ClCompile Include="Lv1\Lv1_콜라츠추측.cpp" />
-    <ClCompile Include="Lv1\Lv1_평균구하기.cpp" />
-    <ClCompile Include="Lv1\Lv1_하샤드수.cpp" />
-    <ClCompile Include="Lv1\Lv1_핸드폰번호가리기.cpp" />
-    <ClCompile Include="Lv1\Lv1_행렬의덧셈.cpp" />
-    <ClCompile Include="Lv2\Lv2_124나라의숫자.cpp" />
-    <ClCompile Include="Lv2\Lv2_H-Index.cpp" />
-    <ClCompile Include="Lv2\Lv2_JadenCase문자열만들기.cpp" />
-    <ClCompile Include="Lv2\Lv2_N개의최소공배수.cpp" />
-    <ClCompile Include="Lv2\Lv2_가장큰수.cpp" />
-    <ClCompile Include="Lv2\Lv2_가장큰정사각형찾기.cpp" />
-    <ClCompile Include="Lv2\Lv2_구명보트.cpp" />
-    <ClCompile Include="Lv2\Lv2_기능개발.cpp" />
-    <ClCompile Include="Lv2\Lv2_다리를지나는트럭.cpp" />
-    <ClCompile Include="Lv2\Lv2_다음큰숫자.cpp" />
-    <ClCompile Include="Lv2\Lv2_더맵게.cpp" />
-    <ClCompile Include="Lv2\Lv2_땅따먹기.cpp" />
-    <ClCompile Include="Lv2\Lv2_라면공장.cpp" />
-    <ClCompile Include="Lv2\Lv2_소수만들기.cpp" />
-    <ClCompile Include="Lv2\Lv2_소수찾기.cpp" />
-    <ClCompile Include="Lv2\Lv2_쇠막대기.cpp" />
-    <ClCompile Include="Lv2\Lv2_숫자야구.cpp" />
-    <ClCompile Include="Lv2\Lv2_숫자의표현.cpp" />
-    <ClCompile Include="Lv2\Lv2_스킬트리.cpp" />
-    <ClCompile Include="Lv2\Lv2_영어끝말잇기.cpp" />
-    <ClCompile Include="Lv2\Lv2_예상대진표.cpp" />
-    <ClCompile Include="Lv2\Lv2_올바른괄호.cpp" />
-    <ClCompile Include="Lv2\Lv2_위장.cpp" />
-    <ClCompile Include="Lv2\Lv2_전화번호목록.cpp" />
-    <ClCompile Include="Lv2\Lv2_점프와순간이동.cpp" />
-    <ClCompile Include="Lv2\Lv2_조이스틱.cpp" />
-    <ClCompile Include="Lv2\Lv2_주식가격.cpp" />
-    <ClCompile Include="Lv2\Lv2_최댓값과최솟값.cpp" />
-    <ClCompile Include="Lv2\Lv2_최솟값만들기.cpp" />
-    <ClCompile Include="Lv2\Lv2_카펫.cpp" />
-    <ClCompile Include="Lv2\Lv2_큰수만들기.cpp" />
-    <ClCompile Include="Lv2\Lv2_타겟넘버.cpp" />
-    <ClCompile Include="Lv2\Lv2_탑.cpp" />
-    <ClCompile Include="Lv2\Lv2_폰켓몬.cpp" />
-    <ClCompile Include="Lv2\Lv2_프린터.cpp" />
-    <ClCompile Include="Lv2\Lv2_피보나치수.cpp" />
-    <ClCompile Include="Lv2\Lv2_행렬의곱셈.cpp" />
-    <ClCompile Include="Lv3\Lv3_2xn타일링.cpp" />
-    <ClCompile Include="Lv3\Lv3_4단고음.cpp" />
-    <ClCompile Include="Lv3\Lv3_가장긴펠린드롬.cpp" />
-    <ClCompile Include="Lv3\Lv3_가장먼노드.cpp" />
-    <ClCompile Include="Lv3\Lv3_거스름돈.cpp" />
-    <ClCompile Include="Lv3\Lv3_기지국설치.cpp" />
-    <ClCompile Include="Lv3\Lv3_네트워크.cpp" />
-    <ClCompile Include="Lv3\Lv3_단속카메라.cpp" />
-    <ClCompile Include="Lv3\Lv3_단어변환.cpp" />
-    <ClCompile Include="Lv3\Lv3_등굣길.cpp" />
-    <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp" />
-    <ClCompile Include="Lv3\Lv3_멀리뛰기.cpp" />
-    <ClCompile Include="Lv3\Lv3_방문길이.cpp" />
-    <ClCompile Include="Lv3\Lv3_배달.cpp" />
-    <ClCompile Include="Lv3\Lv3_베스트앨범.cpp" />
-    <ClCompile Include="Lv3\Lv3_보행자천국.cpp" />
-    <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp" />
-    <ClCompile Include="Lv3\Lv3_섬연결하기.cpp" />
-    <ClCompile Include="Lv3\Lv3_순위.cpp" />
-    <ClCompile Include="Lv3\Lv3_숫자게임.cpp" />
-    <ClCompile Include="Lv3\Lv3_야근지수.cpp" />
-    <ClCompile Include="Lv3\Lv3_여행경로.cpp" />
-    <ClCompile Include="Lv3\Lv3_예산.cpp" />
-    <ClCompile Include="Lv3\Lv3_이중우선순위큐.cpp" />
-    <ClCompile Include="Lv3\Lv3_입국심사.cpp" />
-    <ClCompile Include="Lv3\Lv3_저울.cpp" />
-    <ClCompile Include="Lv3\Lv3_정수삼각형.cpp" />
-    <ClCompile Include="Lv3\Lv3_줄서는방법.cpp" />
-    <ClCompile Include="Lv3\Lv3_짝지어제거하기.cpp" />
-    <ClCompile Include="Lv3\Lv3_최고의집합.cpp" />
-    <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp" />
-    <ClCompile Include="Lv3\Lv3_캠핑.cpp" />
-    <ClCompile Include="Lv3\Lv3_타일장식물.cpp" />
-    <ClCompile Include="Lv3\Lv3_하노이의탑.cpp" />
-    <ClCompile Include="Lv4\Lv4_3xn타일링.cpp" />
-    <ClCompile Include="Lv4\Lv4_GPS.cpp" />
-    <ClCompile Include="Lv4\Lv4_N-Queen.cpp" />
-    <ClCompile Include="Lv4\Lv4_게임맵최단거리.cpp" />
-    <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp" />
-    <ClCompile Include="Lv4\Lv4_단체사진찍기.cpp" />
-    <ClCompile Include="Lv4\Lv4_도둑질.cpp" />
-    <ClCompile Include="Lv4\Lv4_리틀프렌즈사천성.cpp" />
-    <ClCompile Include="Lv4\Lv4_사칙연산.cpp" />
-    <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp" />
-    <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp" />
-    <ClCompile Include="Lv4\Lv4_숫자블록.cpp" />
-    <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp" />
-    <ClCompile Include="Lv4\Lv4_올바른괄호의갯수.cpp" />
-    <ClCompile Include="Lv4\Lv4_지형편집.cpp" />
-    <ClCompile Include="Lv4\Lv4_징검다리.cpp" />
-    <ClCompile Include="Lv4\Lv4_최적의행렬곱셈.cpp" />
-    <ClCompile Include="Lv4\Lv4_카드게임.cpp" />
-    <ClCompile Include="Lv4\Lv4_쿠키구입.cpp" />
-    <ClCompile Include="Lv4\Lv4_튜브의소개팅.cpp" />
-    <ClCompile Include="Lv5\Lv5_N진수게임.cpp" />
-    <ClCompile Include="Lv5\Lv5_다트게임.cpp" />
-    <ClCompile Include="Lv5\Lv5_무지의먹방라이브.cpp" />
-    <ClCompile Include="Lv5\Lv5_방금그곡.cpp" />
-    <ClCompile Include="Lv5\Lv5_비밀지도.cpp" />
-    <ClCompile Include="Lv5\Lv5_셔틀버스.cpp" />
-    <ClCompile Include="Lv5\Lv5_실패율.cpp" />
-    <ClCompile Include="Lv5\Lv5_압축.cpp" />
-    <ClCompile Include="Lv5\Lv5_오픈채팅방.cpp" />
-    <ClCompile Include="Lv5\Lv5_자동완성.cpp" />
-    <ClCompile Include="Lv5\Lv5_직사각형의넓이.cpp" />
-    <ClCompile Include="Lv5\Lv5_캐시.cpp" />
-    <ClCompile Include="Lv5\Lv5_파일명정렬.cpp" />
-    <ClCompile Include="Lv5\Lv5_프렌즈4블록.cpp" />
-    <ClCompile Include="Lv5\Lv5_후보키.cpp" />
-    <ClCompile Include="라인코딩테스트\Line_1번.cpp" />
-    <ClCompile Include="라인코딩테스트\Line_2번.cpp" />
-    <ClCompile Include="라인코딩테스트\Line_3번.cpp" />
-    <ClCompile Include="라인코딩테스트\Line_4번.cpp" />
-    <ClCompile Include="라인코딩테스트\Line_5번.cpp" />
-    <ClCompile Include="실전모의고사2회\배열회전.cpp" />
-    <ClCompile Include="실전모의고사2회\가로등.cpp" />
-    <ClCompile Include="실전모의고사2회\빙고.cpp" />
+    <ClCompile Include="Lv1\Lv1_2016년.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_K번째수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_N으로표현.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_x만큼간격이있는n개의숫자.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_가운데글자가져오기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_같은숫자는싫어.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_나누어떨어지는숫자배열.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_두정수사이의합.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_모의고사.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열내p와y의개수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열내림차순으로배치하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열내마음대로정렬하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열다루기기본.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열을정수로바꾸기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_서울에서김서방찾기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_소수의합.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_소수찾기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_수박수박수박수박수박수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_시저암호.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_약수의합.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_예산.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_완주하지못한선수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_이상한문자만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_자릿수더하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_자연수뒤집어배열로만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_정수내림차순으로배치하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_정수제곱근판별.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_제일작은수제거하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_직사각형별찍기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_짝수와홀수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_체육복.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_최대공약수와최소공배수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_콜라츠추측.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_평균구하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_하샤드수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_핸드폰번호가리기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_행렬의덧셈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv1_문자열압축.cpp" />
+    <ClCompile Include="Lv2\Lv2_124나라의숫자.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_H-Index.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_JadenCase문자열만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_N개의최소공배수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_가장큰수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_가장큰정사각형찾기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_구명보트.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_기능개발.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_다리를지나는트럭.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_다음큰숫자.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_더맵게.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_땅따먹기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_라면공장.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_소수만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_소수찾기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_쇠막대기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_숫자야구.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_숫자의표현.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_스킬트리.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_영어끝말잇기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_예상대진표.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_올바른괄호.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_위장.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_전화번호목록.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_점프와순간이동.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_조이스틱.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_주식가격.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_최댓값과최솟값.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_최솟값만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_카펫.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_큰수만들기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_타겟넘버.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_탑.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_폰켓몬.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_프린터.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_피보나치수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_행렬의곱셈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_2xn타일링.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_4단고음.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_가장긴펠린드롬.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_가장먼노드.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_거스름돈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_기지국설치.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_네트워크.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_단속카메라.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_단어변환.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_등굣길.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_멀리뛰기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_방문길이.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_배달.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_베스트앨범.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_보행자천국.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_섬연결하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_순위.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_숫자게임.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_야근지수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_여행경로.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_예산.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_이중우선순위큐.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_입국심사.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_저울.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_정수삼각형.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_줄서는방법.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_짝지어제거하기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_최고의집합.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_캠핑.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_타일장식물.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_하노이의탑.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_3xn타일링.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_GPS.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_N-Queen.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_게임맵최단거리.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_단체사진찍기.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_도둑질.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_리틀프렌즈사천성.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_사칙연산.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_숫자블록.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_올바른괄호의갯수.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_지형편집.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_징검다리.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_최적의행렬곱셈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_카드게임.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_쿠키구입.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_튜브의소개팅.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_N진수게임.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_다트게임.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_무지의먹방라이브.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_방금그곡.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_비밀지도.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_셔틀버스.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_실패율.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_압축.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_오픈채팅방.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_자동완성.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_직사각형의넓이.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_캐시.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_파일명정렬.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_프렌즈4블록.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_후보키.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_1번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_2번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_3번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_4번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_5번.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="실전모의고사2회\배열회전.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="실전모의고사2회\가로등.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="실전모의고사2회\빙고.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{8AD8F2CB-4DFD-4C56-A53F-558099E76E3C}</ProjectGuid>
     <RootNamespace>Programmers</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>

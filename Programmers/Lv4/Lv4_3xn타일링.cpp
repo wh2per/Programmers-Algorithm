@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int solution110(int n) {
+int solution(int n) {
 	vector<long long> d(n + 1, 0);
 	d[0] = 1;
 	for (int i = 2; i <= n; i += 2) {

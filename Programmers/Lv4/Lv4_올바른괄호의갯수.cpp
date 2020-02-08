@@ -3,7 +3,7 @@
 using namespace std;
 
 // 카탈란 수 -> Cn = C0*Cn-1 + C1*Cn-2 + C2*Cn-3 + ... + Cn-1C0
-int solution117(int n) {
+int solution(int n) {
 	int answer = 0;
 	vector<int> d;
 	d.push_back(1); //C0 = 1;

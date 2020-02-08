@@ -7,7 +7,7 @@ using namespace std;
 // BFS가 DFS보다 탐색 횟수가 더 많음
 // DP가 가장 빠름
 
-int solution124(int tK, vector<vector<int>> travel) {
+int solution(int tK, vector<vector<int>> travel) {
 	vector<int> d(100003);
 	int tsize = travel.size();
 	

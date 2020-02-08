@@ -4,7 +4,7 @@
 #include <queue>
 using namespace std;
 
-int solution141(vector<int> food_times, long long k) {
+int solution(vector<int> food_times, long long k) {
 	queue<pair<int, int>> q;
 	for (int i = 0; i < food_times.size(); ++i)
 		q.push({ i + 1,food_times[i] });

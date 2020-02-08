@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-bool solution36(string s)
+bool solution(string s)
 {
 	bool answer = true;
 	int p = 0;

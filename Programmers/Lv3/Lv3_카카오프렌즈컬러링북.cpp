@@ -20,7 +20,7 @@ int flood_fill(int color, int i, int j, int m, int n) {
 }
 
 // flood_fill 알고리즘 사용!
-vector<int> solution93(int m, int n, vector<vector<int>> picture) {
+vector<int> solution(int m, int n, vector<vector<int>> picture) {
 	int number_of_area = 0;
 	int max_size_of_one_area = 0;
 

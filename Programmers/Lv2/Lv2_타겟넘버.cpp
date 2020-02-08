@@ -26,7 +26,7 @@ void go(vector<int> numbers, int target, int index,int result) {
 		go(numbers, target, index + 1, oper(i, numbers[index], result));
 }
 
-int solution30(vector<int> numbers, int target) {
+int solution(vector<int> numbers, int target) {
 	go(numbers,target,0,0);
 	
 	return answer;

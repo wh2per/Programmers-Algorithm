@@ -14,7 +14,7 @@ struct cmp_cache {
 	}
 };
 
-int solution127(int cacheSize, vector<string> cities) {
+int solution(int cacheSize, vector<string> cities) {
 	int answer = 0;
 	int time = 0;
 	if (cacheSize == 0)		// 사이즈가 0일때
