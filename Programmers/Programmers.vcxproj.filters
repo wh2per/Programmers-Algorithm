@@ -468,7 +468,7 @@
     <ClCompile Include="Lv5\Lv5_후보키.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Lv1_문자열압축.cpp">
+    <ClCompile Include="Lv1\Lv1_문자열압축.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

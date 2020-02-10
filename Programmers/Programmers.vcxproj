@@ -58,6 +58,7 @@
     <ClCompile Include="Lv1\Lv1_문자열다루기기본.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열압축.cpp" />
     <ClCompile Include="Lv1\Lv1_문자열을정수로바꾸기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -130,7 +131,6 @@
     <ClCompile Include="Lv1\Lv1_행렬의덧셈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Lv1_문자열압축.cpp" />
     <ClCompile Include="Lv2\Lv2_124나라의숫자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
