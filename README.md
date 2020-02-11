@@ -1,7 +1,7 @@
 # Programmers
 * 순위 1 
-* 획득점수 1606
-* 해결한 문제 수 142
+* 획득점수 1607
+* 해결한 문제 수 143
 
 ## Lv1
 | 문제 | 코드 |
@@ -43,6 +43,7 @@
 | [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) | [cpp](Programmers/Lv1/Lv1_x만큼간격이있는n개의숫자.cpp), [py](Programmers/Lv1/Lv1_x만큼간격이있는n개의숫자.py)| 
 | [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969) | [cpp](Programmers/Lv1/Lv1_직사각형별찍기.cpp), [py](Programmers/Lv1/Lv1_직사각형별찍기.py)| 
 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [cpp](Programmers/Lv1/Lv1_예산.cpp), [py](Programmers/Lv1/Lv1_예산.py)| 
+| [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [cpp](Programmers/Lv1/Lv1_문자열압축.cpp)| 
 
 
 ## Lv2
