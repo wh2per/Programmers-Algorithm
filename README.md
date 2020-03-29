@@ -1,7 +1,7 @@
 # Programmers
 * 순위 1 
-* 획득점수 1607
-* 해결한 문제 수 143
+* 획득점수 1608
+* 해결한 문제 수 145
 
 ## Lv1
 | 문제 | 코드 |
@@ -86,6 +86,7 @@
 | [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [cpp](Programmers/Lv2/Lv2_점프와순간이동.cpp), [py](Programmers/Lv2/Lv2_점프와순간이동.py)|
 | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [cpp](Programmers/Lv2/Lv2_영어끝말잇기.cpp), [py](Programmers/Lv2/Lv2_영어끝말잇기.py)|
 | [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [cpp](Programmers/Lv2/Lv2_예상대진표.cpp), [py](Programmers/Lv2/Lv2_예상대진표.py)|
+| [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [cpp](Programmers/Lv2/Lv2_멀쩡한사격형.cpp)|
 
 
 ## Lv3
