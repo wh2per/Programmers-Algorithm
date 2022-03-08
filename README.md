@@ -43,9 +43,9 @@
 | [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) | [cpp](Programmers/Lv1/Lv1_x만큼간격이있는n개의숫자.cpp), [py](Programmers/Lv1/Lv1_x만큼간격이있는n개의숫자.py)| 
 | [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969) | [cpp](Programmers/Lv1/Lv1_직사각형별찍기.cpp), [py](Programmers/Lv1/Lv1_직사각형별찍기.py)| 
 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [cpp](Programmers/Lv1/Lv1_예산.cpp), [py](Programmers/Lv1/Lv1_예산.py)| 
-| [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [cpp](Programmers/Lv1/Lv1_문자열압축.cpp)| 
-| [신고결과받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [cpp](Programmers/Lv1/Lv1_신고결과받기.cpp)| 
-| [로또의최고순위와최저순위](https://programmers.co.kr/learn/courses/30/lessons/77484) | [cpp](Programmers/Lv1/Lv1_로또의최고순위와최저순위.cpp)| 
+| [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [cpp](Programmers/Lv1/Lv1_문자열압축.cpp)| 
+| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [cpp](Programmers/Lv1/Lv1_신고결과받기.cpp)| 
+| [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484) | [cpp](Programmers/Lv1/Lv1_로또의최고순위와최저순위.cpp)| 
 
 
 ## Lv2
