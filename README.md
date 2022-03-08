@@ -44,6 +44,7 @@
 | [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969) | [cpp](Programmers/Lv1/Lv1_직사각형별찍기.cpp), [py](Programmers/Lv1/Lv1_직사각형별찍기.py)| 
 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [cpp](Programmers/Lv1/Lv1_예산.cpp), [py](Programmers/Lv1/Lv1_예산.py)| 
 | [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [cpp](Programmers/Lv1/Lv1_문자열압축.cpp)| 
+| [신고결과받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [cpp](Programmers/Lv1/Lv1_신고결과받기.cpp)| 
 
 
 ## Lv2
