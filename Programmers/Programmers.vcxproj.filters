@@ -477,5 +477,8 @@
     <ClCompile Include="Lv1_신고결과받기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv1\Lv1_로또의최고순위와최저순위.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
