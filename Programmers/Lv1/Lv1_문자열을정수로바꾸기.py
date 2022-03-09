@@ -1,2 +1,2 @@
-def solution(s):
+﻿def solution(s):
     return int(s)

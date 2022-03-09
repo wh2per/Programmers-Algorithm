@@ -1,4 +1,4 @@
-def solution(s):
+﻿def solution(s):
     answer = True
     stack = []
     for i in s:

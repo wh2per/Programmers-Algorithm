@@ -1,4 +1,4 @@
-def solution(cookie):
+﻿def solution(cookie):
     answer = 0
     sum = []
     sum.append(0)
@@ -12,9 +12,9 @@ def solution(cookie):
     for start in range(size):
         for end in range(size - 1, start, -1):
             total = sum[end] - sum[start]
-            if total % 2 != 0:  # 쿠키가 홀수개이면 패스
+            if total % 2 != 0:  # 荑좏궎媛 ??섍컻?대㈃ ?⑥뒪
                 continue
-            if total // 2 < answer:  # 나눠 가져도 이전 답보다 작을 경우 패스
+            if total // 2 < answer:  # ?섎닠 媛?몃룄 ?댁쟾 ?듬낫???묒쓣 寃쎌슦 ?⑥뒪
                 continue
             for index in range(end, start, -1):
                 if sum[index] - sum[start] == total // 2:

@@ -1,8 +1,8 @@
-def solution(money):
+﻿def solution(money):
     answer = 0
     d = [0 for x in range(len(money))]
 
-    # 첫번째 집 털기
+    # 泥ル쾲吏?吏??멸린
     d[0] = money[0]
     d[1] = money[0]
 
@@ -10,7 +10,7 @@ def solution(money):
         d[i] = max(d[i-2] + money[i], d[i-1])
     answer = d[len(money)-2]
 
-    # 첫번째 집X -> 두번째 집부터 털기
+    # 泥ル쾲吏?吏멭 -> ?먮쾲吏?吏묐????멸린
     d[0] = 0
     d[1] = money[1]
     for i in range(2, len(money)):

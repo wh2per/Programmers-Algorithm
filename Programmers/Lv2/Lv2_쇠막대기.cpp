@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 #include <string>
@@ -11,7 +11,7 @@ int solution(string arrangement) {
 	queue<int> q;
 
 	for (int i = 0; i < arrangement.length() - 1; i++) {
-		if (arrangement[i] == '(' && arrangement[i + 1] == '(')		//¸·´ë±âÀÇ ½ÃÀÛ
+		if (arrangement[i] == '(' && arrangement[i + 1] == '(')		//ë§‰ëŒ€ê¸°ì˜ ì‹œìž‘
 			q.push(i);
 	}
 
@@ -32,10 +32,10 @@ int solution(string arrangement) {
 			else
 				end++;
 
-			if (n == ')' && p == ')' && end == 0) {		// ¸·´ë±âÀÇ Á¾·á
+			if (n == ')' && p == ')' && end == 0) {		// ë§‰ëŒ€ê¸°ì˜ ì¢…ë£Œ
 				break;
 			}
-			else if (n == ')' && p == '(') { 		//·¹ÀÌÀú
+			else if (n == ')' && p == '(') { 		//ë ˆì´ì €
 				answer++;
 			}
 			p = n;

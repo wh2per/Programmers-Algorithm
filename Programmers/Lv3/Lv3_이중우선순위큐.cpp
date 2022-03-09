@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <list>
 #include <sstream>
@@ -24,11 +24,11 @@ vector<int> solution(vector<string> operations) {
 			l.sort();
 		}
 		else {
-			if (num == "1") {			// ÃÖ´ñ°ª »èÁ¦ 
+			if (num == "1") {			// ìµœëŒ“ê°’ ì‚­ì œ 
 				if(l.size()>0)
 					l.pop_back();
 			}
-			else {						// ÃÖ¼Ú°ª »èÁ¦ 
+			else {						// ìµœì†Ÿê°’ ì‚­ì œ 
 				if (l.size() > 0)
 					l.pop_front();
 			}

@@ -474,13 +474,16 @@
     <ClCompile Include="Lv2\Lv2_멀쩡한사각형.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Lv1_신고결과받기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Lv1\Lv1_로또의최고순위와최저순위.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_신규아이디추천.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_숫자문자열과영단어.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_신고결과받기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

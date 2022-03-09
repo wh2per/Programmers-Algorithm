@@ -1,4 +1,4 @@
-def solution(num):
+﻿def solution(num):
     answer = 0
     while num!=1:
         if answer==500 :

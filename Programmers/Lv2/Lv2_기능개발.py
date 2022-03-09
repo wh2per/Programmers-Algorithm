@@ -1,4 +1,4 @@
-def solution(progresses, speeds):
+﻿def solution(progresses, speeds):
     answer = []
     temp = []
     for i, j in zip(progresses, speeds):
@@ -11,10 +11,10 @@ def solution(progresses, speeds):
         temp.append(count)
     temp.reverse()
     while len(temp)>0:
-        t1 = temp[-1]       # 최상위
-        t2 = 1              # 1개로 초기화
-        temp.pop()          # 제거
-        while len(temp)!=0 and temp[-1] <= t1:      # 최상위가 나랑 같거나 작으면 추가
+        t1 = temp[-1]       # 理쒖긽??
+        t2 = 1              # 1媛쒕줈 珥덇린??
+        temp.pop()          # ?쒓굅
+        while len(temp)!=0 and temp[-1] <= t1:      # 理쒖긽?꾧? ?섎옉 媛숆굅???묒쑝硫?異붽?
             temp.pop()
             t2 += 1
         answer.append(t2)

@@ -1,5 +1,5 @@
-import math
-def get_num(target):        # 자신을 제외한 최대 약수를 반환
+﻿import math
+def get_num(target):        # ?먯떊???쒖쇅??理쒕? ?쎌닔瑜?諛섑솚
     end = int(math.sqrt(target))
     if end*end<target:
         end += 1

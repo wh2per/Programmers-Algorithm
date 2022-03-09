@@ -1,4 +1,4 @@
-def solution(matrix_sizes):
+﻿def solution(matrix_sizes):
     m = [[0 for x in range(len(matrix_sizes) + 1)] for y in range(len(matrix_sizes) + 1)]
     d = [matrix_sizes[0][0]]
 

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <set>
 #include <iostream>
@@ -12,25 +12,25 @@ int solution(int n, vector<vector<int>> computers) {
 		int no = 0;
 		set<int> s;
 		for(int j = 0; j < n; j++) {
-			if (computers[i][j] == 1 && check[j] != 0) { 			// ÀÌ¹Ì ¿¬°áµÈ °ÍÀÌ ÀÖÀ¸¸é
+			if (computers[i][j] == 1 && check[j] != 0) { 			// ì´ë¯¸ ì—°ê²°ëœ ê²ƒì´ ìˆìœ¼ë©´
 				no = check[j];
 				s.insert(check[j]);
 			}
 		}
-		if (no == 0) {		// ¿¬°áÇÒ ¼ö ÀÖ´Â ³×Æ®¿öÅ©°¡ ¾øÀ¸¸é
+		if (no == 0) {		// ì—°ê²°í•  ìˆ˜ ìˆëŠ” ë„¤íŠ¸ì›Œí¬ê°€ ì—†ìœ¼ë©´
 			net++;
 			for (int k = 0; k < n; k++) {  
 				if (computers[i][k] == 1)
 					check[k] = net;
 			}
 		}
-		else {				// ¿¬°áÇÒ ¼ö ÀÖ´Â ³×Æ®¿öÅ©°¡ ÀÖÀ¸¸é
-			if (s.size() == 1) {				// ³×Æ®¿öÅ©°¡ ÇÏ³ª ÀÏ¶§
+		else {				// ì—°ê²°í•  ìˆ˜ ìˆëŠ” ë„¤íŠ¸ì›Œí¬ê°€ ìˆìœ¼ë©´
+			if (s.size() == 1) {				// ë„¤íŠ¸ì›Œí¬ê°€ í•˜ë‚˜ ì¼ë•Œ
 				for (int k = 0; k < n; k++)
 					if (computers[i][k] == 1)
 						check[k] = no;
 			}
-			else {								// ³×Æ®¿öÅ©°¡ ¿©·¯°³ ÀÏ¶§
+			else {								// ë„¤íŠ¸ì›Œí¬ê°€ ì—¬ëŸ¬ê°œ ì¼ë•Œ
 				net++;
 				set<int>::iterator iter;
 				for (iter = s.begin(); iter != s.end(); iter++) {
@@ -56,7 +56,7 @@ int solution(int n, vector<vector<int>> computers) {
 }
 
 /*
-´Ù¸¥»ç¶÷ Ç®ÀÌ dfs  -> ½Ã°£Àº À§ ÄÚµå°¡ ´õ Âª°Ô ¼Ò¿ä
+ë‹¤ë¥¸ì‚¬ëŒ í’€ì´ dfs  -> ì‹œê°„ì€ ìœ„ ì½”ë“œê°€ ë” ì§§ê²Œ ì†Œìš”
 
 #include <string>
 #include <vector>

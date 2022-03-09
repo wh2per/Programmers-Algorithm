@@ -1,10 +1,10 @@
-ans = -1
+﻿ans = -1
 
 def go(N, number, result, count):
     global ans
-    if count > 8:       # 종료조건
+    if count > 8:       # 醫낅즺議곌굔
         return
-    if number == result:    # 완료조건
+    if number == result:    # ?꾨즺議곌굔
         if count < ans or ans == -1:
             ans = count
         return

@@ -1,4 +1,4 @@
-def solution(n, times):
+﻿def solution(n, times):
     left = 0
     right = n * max(times)
 

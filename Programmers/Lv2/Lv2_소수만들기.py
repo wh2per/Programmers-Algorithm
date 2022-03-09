@@ -1,4 +1,4 @@
-import itertools
+﻿import itertools
 
 def solution(nums):
     answer = 0

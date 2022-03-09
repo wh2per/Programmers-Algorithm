@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -6,7 +6,7 @@ int solution(int n, int a, int b)
 {
 	int answer = 0;
 	while (n != 0){
-		answer++;		// ¶ó¿îµå 
+		answer++;		// ë¼ìš´ë“œ 
 		n /= 2;
 		if (a/2 != b/2 && abs(a - b) == 1)
 			break;

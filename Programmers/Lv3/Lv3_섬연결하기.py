@@ -1,4 +1,4 @@
-# 프림알고리즘(앞 단계에서 만들어진 신장 트리 집합에 인접한 정점들 중에서 최소 간선으로 연결된 정점을 선택하여 트리를 확장)
+﻿# ?꾨┝?뚭퀬由ъ쬁(???④퀎?먯꽌 留뚮뱾?댁쭊 ?좎옣 ?몃━ 吏묓빀???몄젒???뺤젏??以묒뿉??理쒖냼 媛꾩꽑?쇰줈 ?곌껐???뺤젏???좏깮?섏뿬 ?몃━瑜??뺤옣)
 import operator
 
 def isEnd(check, n):
@@ -11,14 +11,14 @@ def solution(n, costs):
     answer = 0
     check = [False]*101
 
-    check[costs[0][0]] = True       # 시작지점 True
+    check[costs[0][0]] = True       # ?쒖옉吏??True
 
     while not isEnd(check,n):
         island = []
         for i in range(n):
-            if check[i]:        # 검사할 정점
+            if check[i]:        # 寃?ы븷 ?뺤젏
                 for j in costs:
-                    if (j[0] == i and check[j[1]] == False) or (j[1] == i and check[j[0]] == False):    # 아직 안 사용한 간선일 때
+                    if (j[0] == i and check[j[1]] == False) or (j[1] == i and check[j[0]] == False):    # ?꾩쭅 ???ъ슜??媛꾩꽑????
                         island.append(j)
 
         island.sort(key=operator.itemgetter(2))

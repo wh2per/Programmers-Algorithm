@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <iostream>
 #include <set>
 #include <queue>
@@ -15,13 +15,13 @@ string solution(string sentence) {
 	queue<pair<int, char>> q;
 	list<pair<int, int>> l;
 
-	l.push_back(make_pair(-1, -1));		// (start,end) ÁöÁ¡ ÀúÀå
+	l.push_back(make_pair(-1, -1));		// (start,end) ì§€ì  ì €ì¥
 
 	for (int i = 0; i < sentence.length(); i++) {
 		char c = sentence[i];
-		if (c == ' ')					// °ø¹éÀÌ ÀÖÀ¸¸é ±ÔÄ¢À§¹İ!
+		if (c == ' ')					// ê³µë°±ì´ ìˆìœ¼ë©´ ê·œì¹™ìœ„ë°˜!
 			return "invalid";
-		if (c >= 'a' && c <= 'z') {					// ¸ğµç ¼Ò¹®ÀÚÀÇ ½ÃÀÛÀ§Ä¡¸¦ Å¥¿¡ ÀúÀå
+		if (c >= 'a' && c <= 'z') {					// ëª¨ë“  ì†Œë¬¸ìì˜ ì‹œì‘ìœ„ì¹˜ë¥¼ íì— ì €ì¥
 			if (s.find(c) == s.end()) {
 				q.push(make_pair(i, c));
 				s.insert(c);
@@ -36,16 +36,16 @@ string solution(string sentence) {
 		int end = start;
 		int count = 0;
 
-		if (duplicate.find(c) == duplicate.end())	// »ç¿ëÇÏÁö ¾ÊÀº ±âÈ£
+		if (duplicate.find(c) == duplicate.end())	// ì‚¬ìš©í•˜ì§€ ì•Šì€ ê¸°í˜¸
 			duplicate.insert(c);
-		else										// »ç¿ëÇÑ ±âÈ£
+		else										// ì‚¬ìš©í•œ ê¸°í˜¸
 			return "invalid";
 
 		vector<int> pos;
-		for (int i = start; i < sentence.length(); i++) {			// ±ÔÄ¢ÀÇ ½ÃÀÛ°ú ³¡Á¡ °è»ê	
+		for (int i = start; i < sentence.length(); i++) {			// ê·œì¹™ì˜ ì‹œì‘ê³¼ ëì  ê³„ì‚°	
 			if (sentence[i] == c) {
 				if (pos.size() > 0) {
-					if (i-pos.back() == 1)					// ÀÌÀü À§Ä¡¶û ºÙ¾îÀÖ´Ù¸é
+					if (i-pos.back() == 1)					// ì´ì „ ìœ„ì¹˜ë‘ ë¶™ì–´ìˆë‹¤ë©´
 						return "invalid";
 				}
 				pos.push_back(i);
@@ -53,37 +53,37 @@ string solution(string sentence) {
 			}
 		}
 
-		if (l.size() > 1) {											// ÀÌÀü ±âÈ£°¡ ºÙ¾îÀÖÀ¸¸é ±ÔÄ¢À§¹İ!  
-			if (abs(start - l.back().first) == 1 || abs(l.back().second - end) == 1)		//½ÃÀÛ¿¡ ±âÈ£°¡ µÎ°³ºÙ¾îÀÖ°Å³ª, ³¡¿¡ ±âÈ£°¡ µÎ°³ ºÙ¾îÀÖ°Å³ª
+		if (l.size() > 1) {											// ì´ì „ ê¸°í˜¸ê°€ ë¶™ì–´ìˆìœ¼ë©´ ê·œì¹™ìœ„ë°˜!  
+			if (abs(start - l.back().first) == 1 || abs(l.back().second - end) == 1)		//ì‹œì‘ì— ê¸°í˜¸ê°€ ë‘ê°œë¶™ì–´ìˆê±°ë‚˜, ëì— ê¸°í˜¸ê°€ ë‘ê°œ ë¶™ì–´ìˆê±°ë‚˜
 				return "invalid";
 		}
 
-		if (pos.size() == 2 && two < 1) {		// ±ÔÄ¢2
-			l.push_back(make_pair(start, end));		// ±ÔÄ¢2 (start,end) ÀúÀå : ±âÈ£±âÁØ
+		if (pos.size() == 2 && two < 1) {		// ê·œì¹™2
+			l.push_back(make_pair(start, end));		// ê·œì¹™2 (start,end) ì €ì¥ : ê¸°í˜¸ê¸°ì¤€
 			for (int j = start + 1; j < end; j++) {
-				if (sentence[j] >= 'a' && sentence[j]<='z') {			// »õ·Î¿î ¼Ò¹®ÀÚ µîÀå -> ±ÔÄ¢1 Ãß°¡
+				if (sentence[j] >= 'a' && sentence[j]<='z') {			// ìƒˆë¡œìš´ ì†Œë¬¸ì ë“±ì¥ -> ê·œì¹™1 ì¶”ê°€
 					two = 2;
 					break;
 				}
 				ans.push_back(sentence[j]);
 				count++;
 			}
-			if (two < 1)			// ±ÔÄ¢2¸¸ ÀÖ´Ù¸é
+			if (two < 1)			// ê·œì¹™2ë§Œ ìˆë‹¤ë©´
 				ans.push_back(' ');
-			else {					// ±ÔÄ¢1ÀÌ °°ÀÌ ÀÖ´Ù¸é
+			else {					// ê·œì¹™1ì´ ê°™ì´ ìˆë‹¤ë©´
 				for (int j = 0; j < count; j++)
 					ans.pop_back();
 			}
 		}
-		else {						// ±ÔÄ¢1
+		else {						// ê·œì¹™1
 			if (two > 0) {
-				if (sentence[pos.back() + 2] != sentence[l.back().second])		// dAeA"A"d  -> A°¡ d¿©¾ßÇÔ
+				if (sentence[pos.back() + 2] != sentence[l.back().second])		// dAeA"A"d  -> Aê°€ dì—¬ì•¼í•¨
 					return "invalid";
-				if (sentence[pos.front() - 2] != sentence[l.back().first])		// d"A"AeAd  -> A°¡ d¿©¾ßÇÔ
+				if (sentence[pos.front() - 2] != sentence[l.back().first])		// d"A"AeAd  -> Aê°€ dì—¬ì•¼í•¨
 					return "invalid";
 			}
 
-			if (start - 1 <= l.back().second && two<1)		// ½ÃÀÛÁ¡ÀÌ ÀÌÀü ¹üÀ§¿Í °ãÄ¡¸é ±ÔÄ¢À§¹İ!
+			if (start - 1 <= l.back().second && two<1)		// ì‹œì‘ì ì´ ì´ì „ ë²”ìœ„ì™€ ê²¹ì¹˜ë©´ ê·œì¹™ìœ„ë°˜!
 				return "invalid";
 			else {
 				if (pos.size() == 1) {						// aAA,  AAa
@@ -91,7 +91,7 @@ string solution(string sentence) {
 						return "invalid";
 
 				}else {
-					for (int j = 0; j < pos.size() - 1; j++) {		// 2Â÷ÀÌ¾¿ ¾È³ª¸é ±ÔÄ¢ À§¹İ!
+					for (int j = 0; j < pos.size() - 1; j++) {		// 2ì°¨ì´ì”© ì•ˆë‚˜ë©´ ê·œì¹™ ìœ„ë°˜!
 						if (pos[j + 1] - pos[j] != 2)
 							return "invalid";
 					}
@@ -103,9 +103,9 @@ string solution(string sentence) {
 				end = end + 1;
 
 				if (two < 1)
-					l.push_back(make_pair(start, end));		// ±ÔÄ¢1 (start,end) ÀúÀå : ¿ø¹®±âÁØ
+					l.push_back(make_pair(start, end));		// ê·œì¹™1 (start,end) ì €ì¥ : ì›ë¬¸ê¸°ì¤€
 				for (int j = start; j <= end; j += 2) {
-					if(sentence[j] >= 'a' && sentence[j] <= 'z')						// ´ë¹®ÀÚ°¡ ¾Æ´Ï¸é
+					if(sentence[j] >= 'a' && sentence[j] <= 'z')						// ëŒ€ë¬¸ìê°€ ì•„ë‹ˆë©´
 						return "invalid";
 					else {
 						ans.push_back(sentence[j]);
@@ -117,12 +117,12 @@ string solution(string sentence) {
 		}
 		list<pair<int, int>>::iterator iter1 = l.end();
 		list<char>::iterator iter2 = ans.end();
-		iter1--;		// ¸¶Áö¸· ³ëµå
-		iter1--;		// ¸¶Áö¸· ¹Ù·Î Àü ³ëµå
+		iter1--;		// ë§ˆì§€ë§‰ ë…¸ë“œ
+		iter1--;		// ë§ˆì§€ë§‰ ë°”ë¡œ ì „ ë…¸ë“œ
 		int prevEnd = (*iter1).second + 1;
 		
-		if (prevEnd < start && two!=1) {		// ÀÌÀü¿¡ ±ÔÄ¢¾ø´ø ´Ü¾îµé Ãß°¡, 
-			if (two < 1) {			// ´ÜÇ° ±ÔÄ¢Àº ans¾È¿¡ ±ÛÀÚ°¡ ÀÖ¾î¼­ ¾ÕÀ¸·Î °¡¾ßÇÔ
+		if (prevEnd < start && two!=1) {		// ì´ì „ì— ê·œì¹™ì—†ë˜ ë‹¨ì–´ë“¤ ì¶”ê°€, 
+			if (two < 1) {			// ë‹¨í’ˆ ê·œì¹™ì€ ansì•ˆì— ê¸€ìê°€ ìˆì–´ì„œ ì•ìœ¼ë¡œ ê°€ì•¼í•¨
 				for (int i = 0; i <= count; i++)
 					iter2--;
 			}
@@ -131,7 +131,7 @@ string solution(string sentence) {
 			ans.insert(iter2, ' ');
 		}
 
-		if (two > 0) 			// ±ÔÄ¢ 1,2°¡ °°ÀÌ ÀÖÀ»¶§
+		if (two > 0) 			// ê·œì¹™ 1,2ê°€ ê°™ì´ ìˆì„ë•Œ
 			two--;
 	}
 

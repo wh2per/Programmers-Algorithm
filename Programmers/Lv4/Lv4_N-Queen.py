@@ -1,4 +1,4 @@
-arr = [[False for x in range(13)] for y in range(13)]
+﻿arr = [[False for x in range(13)] for y in range(13)]
 check_col = [False for x in range(13)]
 check_dig = [False for x in range(26)]
 check_dig2 = [False for x in range(26)]
@@ -6,7 +6,7 @@ check_dig2 = [False for x in range(26)]
 def check(row, col, n):
     if check_col[col]:      # |
         return False
-    if check_dig[row+col]:  # 왼쪽위 대각선
+    if check_dig[row+col]:  # ?쇱そ???媛곸꽑
         return False
     if check_dig2[row-col+n]:   # /
         return False

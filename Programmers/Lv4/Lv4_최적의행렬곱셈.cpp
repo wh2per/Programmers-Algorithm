@@ -1,11 +1,11 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <climits>
 #include <algorithm>
 using namespace std;
 
-// ºê·çÆ®Æ÷½º´Â ½Ã°£ÃÊ°ú
-// DP¸¦ ÀÌ¿ë!
+// ë¸Œë£¨íŠ¸í¬ìŠ¤ëŠ” ì‹œê°„ì´ˆê³¼
+// DPë¥¼ ì´ìš©!
 // m[i][j] = min(m[i][k] + m[k+1][j] + d[i-1]*d[k]*d[j])  (i<=k<j)
 // m[i][j] = 0 (i==j)
 
@@ -37,7 +37,7 @@ int solution(vector<vector<int>> matrix_sizes) {
 }
 
 
-// ´Ù¸¥ »ç¶÷Ç®ÀÌ
+// ë‹¤ë¥¸ ì‚¬ëŒí’€ì´
 //int solution(vector<vector<int>> matrix_sizes){
 //	vector<vector<int> > d;
 //	int answer = 0, s = matrix_sizes.size();

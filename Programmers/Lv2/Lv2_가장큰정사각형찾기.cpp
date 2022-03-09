@@ -1,16 +1,16 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
 
-// DP »ç¿ë
+// DP ì‚¬ìš©
 int solution(vector<vector<int>> board)
 {
 	int xlen = board[0].size();
 	int ylen = board.size();
 	int answer = 0;
 
-	if (xlen < 2 || ylen < 2) {					// °¡·Î,¼¼·Î Áß ÇÏ³ª¶óµµ 1ÀÌ¸é Ä¿ºÁ¾ß 1
+	if (xlen < 2 || ylen < 2) {					// ê°€ë¡œ,ì„¸ë¡œ ì¤‘ í•˜ë‚˜ë¼ë„ 1ì´ë©´ ì»¤ë´ì•¼ 1
 		for (int i = 0; i < ylen; i++) {
 			for (int j = 0; j < xlen; j++) {
 				if (board[i][j] == 1)

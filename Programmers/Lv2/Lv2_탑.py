@@ -1,4 +1,4 @@
-def solution(heights):
+﻿def solution(heights):
     answer = []
     for i in range(len(heights)-1, 0, -1):
         flag = True

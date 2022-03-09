@@ -1,4 +1,4 @@
-def solution(baseball):
+﻿def solution(baseball):
     answer = 0
     for i in range(123,988):
         s = str(i)

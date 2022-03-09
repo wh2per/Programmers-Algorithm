@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 #include <list>
@@ -6,8 +6,8 @@
 #include <limits>
 using namespace std;
 
-// ´ÙÀÍ½ºÆ®¶ó ¾Ë°í¸®Áòº¸´Ù BFS°¡ ÈÎ¾À ºü¸§.
-// °¡ÁßÄ¡°¡ 1ÀÏ ¶§´Â BFS¸¦ ÀÌ¿ëÇÏÀÚ!
+// ë‹¤ìµìŠ¤íŠ¸ë¼ ì•Œê³ ë¦¬ì¦˜ë³´ë‹¤ BFSê°€ í›¨ì”¬ ë¹ ë¦„.
+// ê°€ì¤‘ì¹˜ê°€ 1ì¼ ë•ŒëŠ” BFSë¥¼ ì´ìš©í•˜ì!
 
 int solution(int n, vector<vector<int>> edge) {
 	int answer = 0;
@@ -17,7 +17,7 @@ int solution(int n, vector<vector<int>> edge) {
 	vector<bool> check(n+1, false);
 	queue<int> q;
 
-	for (auto i = edge.begin(); i != edge.end(); i++) {		// 1-2, 2-1 µÎ °³·Î ÀúÀå
+	for (auto i = edge.begin(); i != edge.end(); i++) {		// 1-2, 2-1 ë‘ ê°œë¡œ ì €ì¥
 		graph[(*i).front()].push_back((*i).back());
 		graph[(*i).back()].push_back((*i).front());
 	}

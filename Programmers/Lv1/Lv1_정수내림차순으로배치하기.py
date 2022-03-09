@@ -1,4 +1,4 @@
-def solution(n):
+﻿def solution(n):
     num = list(str(n))
     num.sort(reverse=True)
 

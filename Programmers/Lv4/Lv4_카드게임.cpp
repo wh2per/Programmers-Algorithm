@@ -1,4 +1,4 @@
-#include <vector>
+ï»¿#include <vector>
 #include <cmath>
 #include <algorithm>
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 int solution(vector<int> left, vector<int> right) {
 	int answer = 0;
 	int size = left.size();
-	vector<vector<int>> d(size + 1, vector<int>(size + 1, 0));		// 0À¸·Î ÃÊ±âÈ­ 
+	vector<vector<int>> d(size + 1, vector<int>(size + 1, 0));		// 0ìœ¼ë¡œ ì´ˆê¸°í™” 
 
 	for (int i = 0; i <= size; i++) 
 		d[0][i] = -1;

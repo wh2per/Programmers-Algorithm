@@ -1,18 +1,18 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 #include <tuple>
 #include <iostream>
 using namespace std;
 
-// BFS ÀÌ¿ë
+// BFS ì´ìš©
 int solution(string begin, string target, vector<string> words) {
 	int answer = 51;
 	int i;
-	vector<vector<int>> check(words.size() + 1, vector<int>(words.size() + 1, 0));		// 0À¸·Î ÃÊ±âÈ­
+	vector<vector<int>> check(words.size() + 1, vector<int>(words.size() + 1, 0));		// 0ìœ¼ë¡œ ì´ˆê¸°í™”
 
 	
-	for (i = 0; i < words.size(); i++) {			// targetÀÌ ¾øÀ¸¸é ¹Ù·Î 0À» ¸®ÅÏ
+	for (i = 0; i < words.size(); i++) {			// targetì´ ì—†ìœ¼ë©´ ë°”ë¡œ 0ì„ ë¦¬í„´
 		if (words[i] == target)
 			break;
 	}
@@ -29,13 +29,13 @@ int solution(string begin, string target, vector<string> words) {
 		int index = get<2>(t);
 		q.pop();
 			
-		if (now == target) {			// ÀÌ¹Ì targetÀÌ µÇ¾úÀ» °æ¿ì
+		if (now == target) {			// ì´ë¯¸ targetì´ ë˜ì—ˆì„ ê²½ìš°
 			if (answer > count)		
 				answer = count;
 			continue;
 		}
 
-		if (count >= words.size()) 						// ¿öµå °¹¼öº¸´Ù ¸¹ÀÌ µ¹¾Ò´Ù¸é out
+		if (count >= words.size()) 						// ì›Œë“œ ê°¯ìˆ˜ë³´ë‹¤ ë§ì´ ëŒì•˜ë‹¤ë©´ out
 			continue;
 		
 		for (int i = 0; i < words.size(); i++) {
@@ -57,7 +57,7 @@ int solution(string begin, string target, vector<string> words) {
 }
 
 /*
-´Ù¸¥»ç¶÷ Ç®ÀÌ DFS
+ë‹¤ë¥¸ì‚¬ëŒ í’€ì´ DFS
 
 #include <string>
 #include <vector>

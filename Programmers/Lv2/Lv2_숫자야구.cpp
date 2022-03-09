@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -7,13 +7,13 @@ using namespace std;
 int solution(vector<vector<int>> baseball) {
 	int answer = 0;
 	vector<int> v = { 0,0,0,0,0,0,1,1,1 };
-	do {										// ¼ıÀÚ 3°³ °í¸£±â
+	do {										// ìˆ«ì 3ê°œ ê³ ë¥´ê¸°
 		vector<int> b;
 		for (int i = 0; i < 9; i++) {
 			if (v[i] == 1)
 				b.push_back(i + 1);
 		}
-		do {									// ¼ıÀÚ 3°³¸¦ Àç¹è¿­ ÇÏ±â
+		do {									// ìˆ«ì 3ê°œë¥¼ ì¬ë°°ì—´ í•˜ê¸°
 			int j = 0;
 			for (j = 0; j < baseball.size(); j++) {
 				int strike = 0;

@@ -1,12 +1,12 @@
-# DP
-# 맨 뒷자리부터 한글자씩 늘려가며 확인
+﻿# DP
+# 留??룹옄由щ????쒓??먯뵫 ?섎젮媛硫??뺤씤
 def solution(strs, t):
     answer = 0
     size = len(t)
     s = []
     d = [99999999 for x in range(size+1)]
 
-    for i in strs:      # 단어 조각을 삽입
+    for i in strs:      # ?⑥뼱 議곌컖???쎌엯
         s.append(i)
 
     d[size] = 0
@@ -14,7 +14,7 @@ def solution(strs, t):
         temp = ""
         for j in range(i, size):
             temp += t[j]
-            if s.count(temp) != 0:           # 있으면
+            if s.count(temp) != 0:           # ?덉쑝硫?
                 if d[j+1] != 99999999:
                     d[i] = min(d[i], d[j+1] + 1)
             if j > i + 5:

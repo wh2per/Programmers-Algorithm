@@ -1,4 +1,4 @@
-def solution(bridge_length, weight, truck_weights):
+﻿def solution(bridge_length, weight, truck_weights):
     q = []
     time = 0
     total = 0

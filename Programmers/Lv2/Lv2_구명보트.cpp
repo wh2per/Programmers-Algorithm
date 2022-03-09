@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -11,7 +11,7 @@ int solution(vector<int> people, int limit) {
 
 	while (people.size()-index !=0) {
 		int end = people.size() - 1;
-		if (end == index) {		//ÇÑ ¸í ³²¾ÒÀ» ¶§
+		if (end == index) {		//í•œ ëª… ë‚¨ì•˜ì„ ë•Œ
 			answer++;
 			break;
 		}

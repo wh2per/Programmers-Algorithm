@@ -1,21 +1,21 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 using namespace std;
 
-struct cmp1 {				// top¿¡ °¡Àå ÀÛÀº ¼ö°¡ °¡µµ·Ï ³»¸²Â÷¼ø Á¤·Ä
+struct cmp1 {				// topì— ê°€ì¥ ì‘ì€ ìˆ˜ê°€ ê°€ë„ë¡ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 	bool operator()(vector<int> t, vector<int> u) {
 		return t[1] > u[1];
 	}
 };
 
-struct cmp2 {				// top¿¡ °¡Àå ÀÛÀº ¼ö°¡ °¡µµ·Ï ³»¸²Â÷¼ø Á¤·Ä
+struct cmp2 {				// topì— ê°€ì¥ ì‘ì€ ìˆ˜ê°€ ê°€ë„ë¡ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 	bool operator()(vector<int> t, vector<int> u) {
 		return t[0] > u[0];
 	}
 };
 
-// SJF ½ºÄÉÁÙ¸µÀ» ±¸Çö
+// SJF ìŠ¤ì¼€ì¤„ë§ì„ êµ¬í˜„
 int solution(vector<vector<int>> jobs) {
 	int answer = 0;
 	priority_queue <vector<int>, vector<vector<int>>, cmp1 > pq_len;
@@ -36,7 +36,7 @@ int solution(vector<vector<int>> jobs) {
 		else if(!pq_len.empty()){
 			int arrive = pq_len.top()[0];
 			int len = pq_len.top()[1];
-			answer += len;						// ½ÇÇà½Ã°£
+			answer += len;						// ì‹¤í–‰ì‹œê°„
 			if (time < arrive)
 			pq_len.pop();
 		}

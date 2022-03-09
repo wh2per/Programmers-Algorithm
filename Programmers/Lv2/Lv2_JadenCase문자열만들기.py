@@ -1,4 +1,4 @@
-def solution(s):
+﻿def solution(s):
     answer = ''
     flag = True
     for i in s:

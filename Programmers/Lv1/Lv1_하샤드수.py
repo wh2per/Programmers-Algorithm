@@ -1,4 +1,4 @@
-def solution(x):
+﻿def solution(x):
     s = str(x)
     num = 0
     for i in s:

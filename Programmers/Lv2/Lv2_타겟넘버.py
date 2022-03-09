@@ -1,4 +1,4 @@
-answer = 0
+﻿answer = 0
 
 def oper(i,num,sum):
     if i==0:

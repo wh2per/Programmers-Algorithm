@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <iostream>
 #include <sstream>
@@ -30,8 +30,8 @@ vector<int> solution(vector<string> id_list, vector<string> report, int k) {
         stream >> s1;
         stream >> s2;
 
-        check[m[s2]]++;                     // ½Å°í´çÇÑ »ç¶÷ È½¼ö Áõ°¡ 
-        info[m[s2]].push_back(m[s1]);       // ´©°¡ ½Å°íÇß´ÂÁö ÀúÀå (¾Ë¸²¿ë)
+        check[m[s2]]++;                     // ì‹ ê³ ë‹¹í•œ ì‚¬ëŒ íšŸìˆ˜ ì¦ê°€ 
+        info[m[s2]].push_back(m[s1]);       // ëˆ„ê°€ ì‹ ê³ í–ˆëŠ”ì§€ ì €ì¥ (ì•Œë¦¼ìš©)
     }
 
     for (int i = 0; i < check.size(); i++) {

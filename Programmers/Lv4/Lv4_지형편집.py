@@ -1,22 +1,22 @@
-def solution(land, P, Q):
+﻿def solution(land, P, Q):
     answer = -1
     N = len(land)
     v = []
     for i in range(N):
         for j in range(N):
             v.append(land[i][j])
-    v.sort()            # 높이 순으로 정렬
+    v.sort()            # ?믪씠 ?쒖쑝濡??뺣젹
 
     temp = 0
     for i in range(len(v)):
-        temp += (v[i]-v[0])*Q       # 가장 낲은 높이 기준으로 맞출 때 금액 계산
+        temp += (v[i]-v[0])*Q       # 媛???뀁? ?믪씠 湲곗??쇰줈 留욎텧 ??湲덉븸 怨꾩궛
     answer = temp
 
     for i in range(1, len(v)):
-        down = i             # i번째 블럭
-        up = len(v) - i      # i번째 블럭 이후로 남은 블럭 갯수
-        temp += down*(v[i]-v[i-1])*P        # v[i]로 만들기 위한 블럭 추가 비용
-        temp -= up*(v[i] - v[i-1])*Q        # v[i]로 만들기 위한 블럭 제거 비용 반환
+        down = i             # i踰덉㎏ 釉붾윮
+        up = len(v) - i      # i踰덉㎏ 釉붾윮 ?댄썑濡??⑥? 釉붾윮 媛?닔
+        temp += down*(v[i]-v[i-1])*P        # v[i]濡?留뚮뱾湲??꾪븳 釉붾윮 異붽? 鍮꾩슜
+        temp -= up*(v[i] - v[i-1])*Q        # v[i]濡?留뚮뱾湲??꾪븳 釉붾윮 ?쒓굅 鍮꾩슜 諛섑솚
         if answer > temp:
             answer = temp
     return answer

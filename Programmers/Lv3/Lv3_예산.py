@@ -1,4 +1,4 @@
-def solution(budgets, M):
+﻿def solution(budgets, M):
     right = max(budgets)
     left = 0
     

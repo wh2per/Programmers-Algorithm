@@ -1,4 +1,4 @@
-def solution(maps):
+﻿def solution(maps):
     answer = 0
     ey = len(maps)
     ex = len(maps[0])

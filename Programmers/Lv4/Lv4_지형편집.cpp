@@ -1,11 +1,11 @@
-#include <vector>
+ï»¿#include <vector>
 #include <climits>
 #include <algorithm>
 using namespace std;
 
 long long min_ll(long long a, long long b) { return a < b ? a : b; }
 
-inline long long cal_cost(vector<vector<int> >& land, int P, int Q, long long check, int n) {		// &¿¬»êÀÚ¸¦ ³ÖÁö ¾ÊÀ¸¸é ¹«Á¶°Ç ½Ã°£ÃÊ°ú..
+inline long long cal_cost(vector<vector<int> >& land, int P, int Q, long long check, int n) {		// &ì—°ì‚°ìë¥¼ ë„£ì§€ ì•Šìœ¼ë©´ ë¬´ì¡°ê±´ ì‹œê°„ì´ˆê³¼..
 
 	long long ans = 0;
 	for (int i = 0; i < n; i++) {
@@ -16,7 +16,7 @@ inline long long cal_cost(vector<vector<int> >& land, int P, int Q, long long ch
 	return ans;
 }
 
-// ÆÄ¶ó¸ŞÆ®¸¯ ¼­Ä¡ ÀÌ¿ë! 
+// íŒŒë¼ë©”íŠ¸ë¦­ ì„œì¹˜ ì´ìš©! 
 long long solution(vector<vector<int> > land, int P, int Q)
 {
 	long long answer = LONG_MAX;
@@ -25,8 +25,8 @@ long long solution(vector<vector<int> > land, int P, int Q)
 	int high = 1000000000;
 	int mid = 0;
 
-	// ºñ¿ë ±×·¡ÇÁ´Â ¾Æ·¡·Î º¼·Ï
-	// ¾Æ·¡·Î º¼·ÏÇÑ ±×·¡ÇÁ´Â ±â¿ï±â°¡ 0ÀÏ¶§ ÃÖ¼Ò°ª. µû¶ó¼­ ±â¿ï±â 0ÀÎ ÁöÁ¡ Å½»ö
+	// ë¹„ìš© ê·¸ë˜í”„ëŠ” ì•„ë˜ë¡œ ë³¼ë¡
+	// ì•„ë˜ë¡œ ë³¼ë¡í•œ ê·¸ë˜í”„ëŠ” ê¸°ìš¸ê¸°ê°€ 0ì¼ë•Œ ìµœì†Œê°’. ë”°ë¼ì„œ ê¸°ìš¸ê¸° 0ì¸ ì§€ì  íƒìƒ‰
 	while (low <= high) {
 		mid = (low + high) / 2;
 		unsigned long long pos1 = cal_cost(land, P, Q, mid, n);
@@ -38,7 +38,7 @@ long long solution(vector<vector<int> > land, int P, int Q)
 		else
 			low = mid + 1;
 	}
-	// ±Ù»ç°ªÀÌ±â ¶§¹®¿¡ ¾ÕµÚ°ªÀ» ÇÑ¹ø´õ °Ë»ç
+	// ê·¼ì‚¬ê°’ì´ê¸° ë•Œë¬¸ì— ì•ë’¤ê°’ì„ í•œë²ˆë” ê²€ì‚¬
 	for (int i = mid - 1; i <= mid + 1; i++)
 		answer = min(answer, cal_cost(land, P, Q, i, n));
 
@@ -47,7 +47,7 @@ long long solution(vector<vector<int> > land, int P, int Q)
 
 /*
 
-//»ïºĞÅ½»ö ÀÌ¿ë! 
+//ì‚¼ë¶„íƒìƒ‰ ì´ìš©! 
 long long solution(vector<vector<int> > land, int P, int Q)
 {
 	long long answer = LONG_MAX;
@@ -61,8 +61,8 @@ long long solution(vector<vector<int> > land, int P, int Q)
 		}
 	}
 
-	// ºñ¿ë ±×·¡ÇÁ´Â ¾Æ·¡·Î º¼·Ï
-	// ¾Æ·¡·Î º¼·ÏÇÑ ±×·¡ÇÁ´Â ±â¿ï±â°¡ 0ÀÏ¶§ ÃÖ¼Ò°ª. µû¶ó¼­ ±â¿ï±â 0ÀÎ ÁöÁ¡ Å½»ö
+	// ë¹„ìš© ê·¸ë˜í”„ëŠ” ì•„ë˜ë¡œ ë³¼ë¡
+	// ì•„ë˜ë¡œ ë³¼ë¡í•œ ê·¸ë˜í”„ëŠ” ê¸°ìš¸ê¸°ê°€ 0ì¼ë•Œ ìµœì†Œê°’. ë”°ë¼ì„œ ê¸°ìš¸ê¸° 0ì¸ ì§€ì  íƒìƒ‰
 	double aab, abb;
 	long long pos1, pos2;
 	for (int i = 0; i < 50; i++) {
@@ -76,14 +76,14 @@ long long solution(vector<vector<int> > land, int P, int Q)
 			high = abb;
 	}
 	double mid = (low + high) / 2;
-	// ±Ù»ç°ªÀÌ±â ¶§¹®¿¡ ¾ÕµÚ°ªÀ» ÇÑ¹ø´õ °Ë»ç
+	// ê·¼ì‚¬ê°’ì´ê¸° ë•Œë¬¸ì— ì•ë’¤ê°’ì„ í•œë²ˆë” ê²€ì‚¬
 	for (int i = mid - 3; i <= mid + 3; i++)
 		answer = min_ll(answer, cal_cost(land, P, Q, i,n));
 
 	return answer;
 }
 
-// ´Ù¸¥ »ç¶÷ Ç®ÀÌ -> ½Ã°£º¹Àâµµ°¡ ÁÁÀ½!
+// ë‹¤ë¥¸ ì‚¬ëŒ í’€ì´ -> ì‹œê°„ë³µì¡ë„ê°€ ì¢‹ìŒ!
 long long solution(vector<vector<int> > land, int P, int Q)
 {
 	long long answer = -1;
@@ -92,21 +92,21 @@ long long solution(vector<vector<int> > land, int P, int Q)
 	for (int i = 0; i < N; i++)
 		for (int j = 0; j < N; j++)
 			v.push_back(land[i][j]);
-	sort(v.begin(), v.end());				// ³ôÀÌ ¼øÀ¸·Î Á¤·Ä
+	sort(v.begin(), v.end());				// ë†’ì´ ìˆœìœ¼ë¡œ ì •ë ¬
 
 	long long temp = 0;
 	for (int i = 0; i < v.size(); i++)
-		temp += (v[i]-v[0]) * Q;			// °¡Àå ³·Àº ³ôÀÌ ±âÁØÀ¸·Î ¸ÂÃâ ¶§ ±İ¾× °è»ê
+		temp += (v[i]-v[0]) * Q;			// ê°€ì¥ ë‚®ì€ ë†’ì´ ê¸°ì¤€ìœ¼ë¡œ ë§ì¶œ ë•Œ ê¸ˆì•¡ ê³„ì‚°
 
 	answer = temp;							
 
-	for (int i = 1; i < v.size();i++) {		// Á¦ÀÏ ³·Àº ³ôÀÌ ±âÁØÀ¸·Î ºí·°À» ¸ğµÎ Á¦°ÅÇßÀ» ¶§¸¦ Ã³À½À¸·Î ÁöÁ¤
+	for (int i = 1; i < v.size();i++) {		// ì œì¼ ë‚®ì€ ë†’ì´ ê¸°ì¤€ìœ¼ë¡œ ë¸”ëŸ­ì„ ëª¨ë‘ ì œê±°í–ˆì„ ë•Œë¥¼ ì²˜ìŒìœ¼ë¡œ ì§€ì •
 
-		int down = i;						// i¹øÂ° ºí·°
-		int up = v.size() - i;				// i¹øÂ° ºí·° ÀÌÈÄ·Î ³²Àº ºí·° °¹¼ö
+		int down = i;						// ië²ˆì§¸ ë¸”ëŸ­
+		int up = v.size() - i;				// ië²ˆì§¸ ë¸”ëŸ­ ì´í›„ë¡œ ë‚¨ì€ ë¸”ëŸ­ ê°¯ìˆ˜
 
-		temp += down * (v[i] - v[i - 1])*P;	// v[i]·Î ¸¸µé±â À§ÇÑ ºí·° Ãß°¡ ºñ¿ë
-		temp -= up * (v[i] - v[i - 1])*Q;	// v[i]·Î ¸¸µé±â À§ÇÑ ºí·° Á¦°Å ºñ¿ë ¹İÈ¯
+		temp += down * (v[i] - v[i - 1])*P;	// v[i]ë¡œ ë§Œë“¤ê¸° ìœ„í•œ ë¸”ëŸ­ ì¶”ê°€ ë¹„ìš©
+		temp -= up * (v[i] - v[i - 1])*Q;	// v[i]ë¡œ ë§Œë“¤ê¸° ìœ„í•œ ë¸”ëŸ­ ì œê±° ë¹„ìš© ë°˜í™˜
 		if (answer > temp)
 			answer = temp;
 	}

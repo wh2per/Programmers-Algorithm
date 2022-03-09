@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -13,15 +13,15 @@ int solution(vector<int> sticker)
 	else if (sticker.size() == 2)
 		return max(sticker[0], sticker[1]);
 	else {
-		// Ã¹¹øÂ° ½ºÆ¼Ä¿ »ç¿ë
+		// ì²«ë²ˆì§¸ ìŠ¤í‹°ì»¤ ì‚¬ìš©
 		d[0] = sticker[0];
 		d[1] = sticker[0];
 
-		for (int i = 2; i < sticker.size() - 1; i++) 		// ¸Ç¸¶Áö¸·Àº »ç¿ë ºÒ°¡
+		for (int i = 2; i < sticker.size() - 1; i++) 		// ë§¨ë§ˆì§€ë§‰ì€ ì‚¬ìš© ë¶ˆê°€
 			d[i] = max(d[i - 2] + sticker[i], d[i - 1]);
 		answer = d[sticker.size() - 2];
 
-		// Ã¹¹øÂ° ½ºÆ¼Ä¿ »ç¿ë x
+		// ì²«ë²ˆì§¸ ìŠ¤í‹°ì»¤ ì‚¬ìš© x
 		d[0] = 0;
 		d[1] = sticker[1];
 		for (int i = 2; i < sticker.size(); i++)

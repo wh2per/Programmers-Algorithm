@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <set>
 #include <vector>
 #include <iostream>
@@ -8,7 +8,7 @@ int solution(string dirs)
 {
 	int answer = 0;
 	pair<int, int> start = make_pair(0, 0);
-	set<vector<pair<int,int>>> s;		// ÀÌ¹Ì °¬´ø ±æÀÎÁö
+	set<vector<pair<int,int>>> s;		// ì´ë¯¸ ê°”ë˜ ê¸¸ì¸ì§€
 	
 	for (int i = 0; i < dirs.length(); i++) {
 		vector<pair<int, int>> pos;

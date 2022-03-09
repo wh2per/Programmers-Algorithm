@@ -1,4 +1,4 @@
-def solution(n):
+﻿def solution(n):
     d = [0] * (n+1)
     d[1] = 1
     d[2] = 2

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -11,7 +11,7 @@ int solution(string s) {
 	for (int i = 1; i <= slen; ++i) {
 		int ans = i;			
 		string start = s.substr(0, i);
-		int index = i;			// ½ÃÀÛ ÀÎµ¦½º
+		int index = i;			// ì‹œìž‘ ì¸ë±ìŠ¤
 		int count = 1;
 
 		while (index < slen) {

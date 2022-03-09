@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <vector>
 #include <string>
 
@@ -10,7 +10,7 @@ bool solution(vector<string> phone_book) {
 
 	for (int i = 0; i < phone_book.size() - 1; i++) {
 		for (int j = i + 1; j < phone_book.size(); j++) {
-			if (phone_book[i].length() <= phone_book[j].length()) {		// s1ÀÇ ±æÀÌ°¡ s2ÀÇ ±æÀÌº¸´Ù ÀÛ°Å³ª °°À» ¶§¸¸ °Ë»ç
+			if (phone_book[i].length() <= phone_book[j].length()) {		// s1ì˜ ê¸¸ì´ê°€ s2ì˜ ê¸¸ì´ë³´ë‹¤ ìž‘ê±°ë‚˜ ê°™ì„ ë•Œë§Œ ê²€ì‚¬
 				int index = phone_book[j].find(phone_book[i]);
 				if (index == 0) {
 					answer = false;

@@ -1,4 +1,4 @@
-#include <string>
+﻿#include <string>
 #include <vector>
 #include <map>
 #include <algorithm>
@@ -21,7 +21,7 @@ vector<int> solution(vector<string> genres, vector<int> plays) {
 	
 	for (int i = 0; i < plays.size(); i++) {
 		m.insert(make_pair(genres[i],make_pair(plays[i],i)));
-		if (sum.find(genres[i]) != sum.end()) { 				// �ȿ� �̹� �ִٸ� 
+		if (sum.find(genres[i]) != sum.end()) { 				// 안에 이미 있다면 
 			int val = sum.find(genres[i])->second;
 			sum.erase(sum.find(genres[i]));
 			sum.insert(make_pair(genres[i], val + plays[i]));

@@ -1,4 +1,4 @@
-def solution(s, n):
+﻿def solution(s, n):
     answer = ''
     for i in s:
         if i.isalpha():

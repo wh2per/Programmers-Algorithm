@@ -1,4 +1,4 @@
-import operator
+﻿import operator
 import functools
 
 def cmp(a,b):

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -28,7 +28,7 @@ string solution(vector<int> numbers) {
 		temp.push_back(to_string(i));
 	}
 
-	// 000 °æ¿ì
+	// 000 ê²½ìš°
 	if (zero == numbers.size()) return "0";
 
 	sort(temp.begin(), temp.end(), Comp);

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 #include <list>
@@ -6,8 +6,8 @@
 #include <algorithm>
 using namespace std;
 
-// ÇÁ¸² ¾Ë°í¸®Áò »ç¿ë
-struct cmp_cost {				// top¿¡ °¡Àå ÀÛÀº ¼ö°¡ °¡µµ·Ï ³»¸²Â÷¼ø Á¤·Ä
+// í”„ë¦¼ ì•Œê³ ë¦¬ì¦˜ ì‚¬ìš©
+struct cmp_cost {				// topì— ê°€ì¥ ì‘ì€ ìˆ˜ê°€ ê°€ë„ë¡ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 	bool operator()(vector<int> t, vector<int> u) {
 		return t[2] > u[2];
 	}
@@ -30,22 +30,22 @@ int solution(int n, vector<vector<int>> costs) {
 	for (int i = 0; i < costs.size(); i++)
 		l.push_back(costs[i]);
 		
-	check[(*l.begin())[0]] = true;		// ½ÃÀÛ½ÃÁ¡ ¼³Á¤
+	check[(*l.begin())[0]] = true;		// ì‹œì‘ì‹œì  ì„¤ì •
 	
 	while (!isEnd(check, n)) {
 		priority_queue <vector<int>, vector<vector<int>>, cmp_cost > pq_island;
 		for (int i = 0; i < n; i++) {
-			if (check[i]) {		// Ãß°¡µÈ Á¤Á¡
-				for (auto j : l) {		// °Ë»çÇÒ °£¼±À» ¿ì¼±¼øÀ§Å¥¿¡ »ğÀÔ
+			if (check[i]) {		// ì¶”ê°€ëœ ì •ì 
+				for (auto j : l) {		// ê²€ì‚¬í•  ê°„ì„ ì„ ìš°ì„ ìˆœìœ„íì— ì‚½ì…
 					if ((j[0] == i && check[j[1]]!=true) || (j[1] == i && check[j[0]]!=true))
 						pq_island.push(j);
 				}
 			}
 		}
-		vector<int> v = pq_island.top();				// ºñ¿ëÀÌ °¡Àå ÀûÀº °£¼±À» ¼±ÅÃ
-		answer += v[2];									// ºñ¿ë¿¡ Ãß°¡
-		check[v[0]] = true;								// Á¤Á¡ Ãß°¡
-		check[v[1]] = true;								// Á¤Á¡ Ãß°¡
+		vector<int> v = pq_island.top();				// ë¹„ìš©ì´ ê°€ì¥ ì ì€ ê°„ì„ ì„ ì„ íƒ
+		answer += v[2];									// ë¹„ìš©ì— ì¶”ê°€
+		check[v[0]] = true;								// ì •ì  ì¶”ê°€
+		check[v[1]] = true;								// ì •ì  ì¶”ê°€
 		l.erase(find(l.begin(), l.end(), v));
 	}
 

@@ -1,9 +1,9 @@
-import functools
+﻿import functools
 
 def comparator(a,b):
     t1 = a+b
     t2 = b+a
-    return int(t1) - int(t2) #  t1이 크다면 1, t2가 크다면 -1   같으면 0
+    return int(t1) - int(t2) #  t1???щ떎硫?1, t2媛 ?щ떎硫?-1   媛숈쑝硫?0
 
 def solution(numbers):
     n = [str(x) for x in numbers]

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 #include <list>
@@ -7,12 +7,12 @@ using namespace std;
 
 int solution(vector<int> priorities, int location) {
 	int answer = 0;
-	bool check[100] = { false, };         // °Ë»çÇÑ ÀÛ¾÷ÀÎÁö Ã¼Å©
-	vector<int> temp = priorities;      // ¿ì¼±¼øÀ§ ¼øÀ¸·Î Á¤·Ä
-	int p = priorities[location];       // Á¤´ä
+	bool check[100] = { false, };         // ê²€ì‚¬í•œ ì‘ì—…ì¸ì§€ ì²´í¬
+	vector<int> temp = priorities;      // ìš°ì„ ìˆœìœ„ ìˆœìœ¼ë¡œ ì •ë ¬
+	int p = priorities[location];       // ì •ë‹µ
 	int count = priorities.size();
 	int i = 0, j = 0;
-	int cp = 0;     // ÇöÀç ¿ì¼±¼øÀ§
+	int cp = 0;     // í˜„ì¬ ìš°ì„ ìˆœìœ„
 
 	sort(temp.begin(), temp.end(), greater<int>());
 	cp = temp[i];
@@ -38,7 +38,7 @@ int solution(vector<int> priorities, int location) {
 
 /*
 
-»õ·Î Ãß°¡ÇÑ Ç®ÀÌ
+ìƒˆë¡œ ì¶”ê°€í•œ í’€ì´
 
 int solution32(vector<int> priorities, int location) {
 	int answer = 0;
@@ -56,14 +56,14 @@ int solution32(vector<int> priorities, int location) {
 		int prior = l.front().first;
 
 		int p = pq.top();
-		if (prior == p) {		// °¡´É
+		if (prior == p) {		// ê°€ëŠ¥
 			l.pop_front();
 			pq.pop();
 			answer++;
 			if (now == location)
 				check = false;
 		}
-		else {					// ºÒ°¡´É
+		else {					// ë¶ˆê°€ëŠ¥
 			l.pop_front();
 			l.push_back(make_pair(prior, now));
 		}

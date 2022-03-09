@@ -1,4 +1,4 @@
-def solution(arr, divisor):
+﻿def solution(arr, divisor):
     answer = []
     arr.sort()
     for a in arr:

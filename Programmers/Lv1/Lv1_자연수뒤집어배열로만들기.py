@@ -1,4 +1,4 @@
-def solution(n):
+﻿def solution(n):
     answer = []
     s = reversed(str(n))
     for i in s:

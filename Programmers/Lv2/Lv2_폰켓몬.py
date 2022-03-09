@@ -1,4 +1,4 @@
-def solution(nums):
+﻿def solution(nums):
     s = set()
     for i in nums:
         s.add(i)

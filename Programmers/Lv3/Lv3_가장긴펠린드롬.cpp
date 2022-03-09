@@ -1,15 +1,15 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <algorithm>
 #include <vector>
 using namespace std;
 
-// manacher ¾Ë°í¸®Áò 
+// manacher ì•Œê³ ë¦¬ì¦˜ 
 int solution(string s)
 {
 	int answer = 0;
 	string str = "";
-	for (int i = 0; i < s.length(); i++) {		// Â¦¼ö Æç¸°µå·ÒÀ» À§ÇØ
+	for (int i = 0; i < s.length(); i++) {		// ì§ìˆ˜ í ë¦°ë“œë¡¬ì„ ìœ„í•´
 		str += "#";
 		str += s[i];
 	}
@@ -20,13 +20,13 @@ int solution(string s)
 	int p = 0;
 
 	for (int i = 0; i < str.length(); i++) {
-		// ÃÊ±â°ª ¼³Á¤
+		// ì´ˆê¸°ê°’ ì„¤ì •
 		if (i <= r)
 			A[i] = min(A[2 * p - i], r - i);
 		else
 			A[i] = 0;
 
-		while (i - A[i] - 1 >= 0 && i + A[i] + 1 >= 0 && str[i - A[i] - 1] == str[i + A[i] + 1])		// A[i]°ªÀ» Áõ°¡
+		while (i - A[i] - 1 >= 0 && i + A[i] + 1 >= 0 && str[i - A[i] - 1] == str[i + A[i] + 1])		// A[i]ê°’ì„ ì¦ê°€
 			A[i]++;
 
 		if (r < i + A[i]) {				// r = max(i+A[i])

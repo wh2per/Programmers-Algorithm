@@ -1,4 +1,4 @@
-import heapq
+﻿import heapq
 
 def solution(n, works):
     answer = 0

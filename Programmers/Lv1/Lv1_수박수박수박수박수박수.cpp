@@ -1,12 +1,12 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 
 using namespace std;
 
 string solution(int n) {
 	string answer = "";
-	string a = "¼ö¹Ú";
-	string b = "¼ö";
+	string a = "ìˆ˜ë°•";
+	string b = "ìˆ˜";
 	
 	for (int i = 0; i < n / 2; i++)
 		answer+=a;

@@ -1,11 +1,11 @@
-def solution(n, edge):
+﻿def solution(n, edge):
     answer = 0
     graph = [set() for x in range(n+1)]
     dist = [0] * (n+1)
     check = [False] * (n+1)
     q = []
 
-    for i in edge:                      # 연결 정보 저장
+    for i in edge:                      # ?곌껐 ?뺣낫 ???
         graph[i[0]].add(i[1])
         graph[i[1]].add(i[0])
 
@@ -21,7 +21,7 @@ def solution(n, edge):
                 dist[i] = dist[start] + 1
                 q.append(i)
 
-    inf = max(dist)                 # 가장 먼 거리
+    inf = max(dist)                 # 媛??癒?嫄곕━
     for i in range(1, n+1):
         if dist[i] == inf:
             answer += 1

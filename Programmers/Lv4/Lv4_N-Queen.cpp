@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 
 using namespace std;
@@ -13,7 +13,7 @@ bool check(int row, int col,int n) {
 	if (check_col[col]) {
 		return false;
 	}
-	// ¿ŞÂÊ À§ ´ë°¢¼±
+	// ì™¼ìª½ ìœ„ ëŒ€ê°ì„ 
 	if (check_dig[row + col]) {
 		return false;
 	}

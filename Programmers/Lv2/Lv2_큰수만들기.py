@@ -1,12 +1,12 @@
-def solution(number, k):
+﻿def solution(number, k):
     stack = [number[0]]
     for num in number[1:]:
         while len(stack) > 0 and stack[-1] < num and k > 0:
             k -= 1
             stack.pop()
         stack.append(num)
-    if k != 0:                  # 모두 똑같은 수로 들어온 경우 잡기
-        stack = stack[:-k]      # 뒤에서부터 k개 제거하기
+    if k != 0:                  # 紐⑤몢 ?묎컳? ?섎줈 ?ㅼ뼱??寃쎌슦 ?↔린
+        stack = stack[:-k]      # ?ㅼ뿉?쒕???k媛??쒓굅?섍린
     return ''.join(stack)
 
 print(solution("111111", 3))

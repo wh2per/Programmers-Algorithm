@@ -1,4 +1,4 @@
-answer = 999999999
+﻿answer = 999999999
 check = []
 
 def DFS(cur, target, cnt, words):
@@ -11,13 +11,13 @@ def DFS(cur, target, cnt, words):
         return
 
     for i in range(len(words)):
-        if check[i]:       # 이미 사용한 단어라면 패스
+        if check[i]:       # ?대? ?ъ슜???⑥뼱?쇰㈃ ?⑥뒪
             continue
         diff = 0
         for j in range(len(cur)):
             if cur[j] != words[i][j]:
                 diff += 1
-        if diff != 1:       # 다른 글자가 1개가 아니면 패스
+        if diff != 1:       # ?ㅻⅨ 湲?먭? 1媛쒓? ?꾨땲硫??⑥뒪
             continue
 
         check[i] = True

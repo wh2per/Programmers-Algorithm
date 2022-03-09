@@ -1,4 +1,4 @@
-net = [[0]*201 for i in range(201)]
+﻿net = [[0]*201 for i in range(201)]
 check = [False]*201
 
 def dfs(x, n):

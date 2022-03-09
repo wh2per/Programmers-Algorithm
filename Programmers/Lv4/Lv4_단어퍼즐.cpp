@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <string>
 #include <vector>
 #include <set>
@@ -6,8 +6,8 @@
 #include <algorithm>
 using namespace std;
 
-// DP ÀÌ¿ë
-// ¸Ç µŞÀÚ¸®ºÎÅÍ ÇÑ±ÛÀÚ¾¿ ´Ã·Á°¡¸ç È®ÀÎ
+// DP ì´ìš©
+// ë§¨ ë’·ìë¦¬ë¶€í„° í•œê¸€ìì”© ëŠ˜ë ¤ê°€ë©° í™•ì¸
 int solution(vector<string> strs, string t)
 {
 	int answer = 0;
@@ -15,7 +15,7 @@ int solution(vector<string> strs, string t)
 	set<string> s;
 	vector<int> d(size+1, INT_MAX);
 
-	for (string i : strs)		// set¿¡ ´Ü¾î Á¶°¢À» »ğÀÔ
+	for (string i : strs)		// setì— ë‹¨ì–´ ì¡°ê°ì„ ì‚½ì…
 		s.insert(i);
 
 	d[size] = 0;
@@ -24,7 +24,7 @@ int solution(vector<string> strs, string t)
 		string temp="";
 		for (int j = i; j < size; j++) {
 			temp += t[j];
-			if (s.count(temp) != 0) {		// ÀÖÀ¸¸é
+			if (s.count(temp) != 0) {		// ìˆìœ¼ë©´
 				if(d[j+1]!=INT_MAX)
 					d[i] = min(d[i], d[j+1] + 1);
 			}

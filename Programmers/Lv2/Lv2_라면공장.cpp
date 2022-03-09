@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 using namespace std;
@@ -10,15 +10,15 @@ int solution(int stock, vector<int> dates, vector<int> supplies, int k) {
 	int start = 0;
 	while (stock < k) {
 		for (int i = start; i < dates.size(); i++) {
-			if (dates[i] <= stock) {		// ¾È¹Þ¾Æµµ ±×¸¸
+			if (dates[i] <= stock) {		// ì•ˆë°›ì•„ë„ ê·¸ë§Œ
 				pq.push(supplies[i]);
 			}
-			else {				// ¹Þ¾Æ¾ßÇÏ¸é
-				start = i;		// ±×³¯Â¥·Î °¡¼­
+			else {				// ë°›ì•„ì•¼í•˜ë©´
+				start = i;		// ê·¸ë‚ ì§œë¡œ ê°€ì„œ
 				break;
 			}
 		}
-		answer++;		//¹Þ°í
+		answer++;		//ë°›ê³ 
 		stock += pq.top();
 		pq.pop();
 	}

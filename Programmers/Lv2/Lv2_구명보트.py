@@ -1,6 +1,6 @@
-def solution(people, limit):
+﻿def solution(people, limit):
     answer = 0
-    people.sort(reverse=True)       # 내림차순 정렬
+    people.sort(reverse=True)       # ?대┝李⑥닚 ?뺣젹
     a = 0
     b = len(people)-1
     while a<=b:

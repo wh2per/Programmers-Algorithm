@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -12,34 +12,34 @@ vector<int> solution(vector<int> answers) {
 
 	for (int i = 0; i < size; i++) {
 		int temp = (i % 5) + 1;
-		if (temp == answers[i])			// 1,2,3,4,5 ¼øÀ¸·Î Âï±â
+		if (temp == answers[i])			// 1,2,3,4,5 ìˆœìœ¼ë¡œ ì°ê¸°
 			a++;
 
 		temp = ((i % 8) + 1) / 2;
-		if (i % 2 == 0) {				// ÀÏ´Ü Â¦¼ö¹øÈ£´Â ´Ù 2·Î ÂïÀ½
+		if (i % 2 == 0) {				// ì¼ë‹¨ ì§ìˆ˜ë²ˆí˜¸ëŠ” ë‹¤ 2ë¡œ ì°ìŒ
 			if (answers[i] == 2)
 				b++;
 		}
 		else if (temp % 5 == 1) {		// 1
-			if (temp == answers[i])		// ±×´ë·Î
+			if (temp == answers[i])		// ê·¸ëŒ€ë¡œ
 				b++;
 		}
-		else {		//  3,5,7¹ø 
+		else {		//  3,5,7ë²ˆ 
 			if ((temp + 1) == answers[i])	// temp+1
 				b++;
 		}
 
 		temp = (i % 10) / 2;
-		if (temp > 2) {		// 3,4ÀÏ¶§ (6,7,8,9¹ø)
+		if (temp > 2) {		// 3,4ì¼ë•Œ (6,7,8,9ë²ˆ)
 			if (temp + 1 == answers[i])		// temp+1
 				c++;
 		}
-		else if (temp == 0) {		// 0ÀÏ¶§ (0,1¹ø)
+		else if (temp == 0) {		// 0ì¼ë•Œ (0,1ë²ˆ)
 			if (answers[i] == 3)		// 3
 				c++;
 		}
-		else if (temp <= 2) {		// 1,2ÀÏ¶§ (2,3,4,5¹ø)
-			if (temp == answers[i])		// ±×´ë·Î
+		else if (temp <= 2) {		// 1,2ì¼ë•Œ (2,3,4,5ë²ˆ)
+			if (temp == answers[i])		// ê·¸ëŒ€ë¡œ
 				c++;
 		}
 	}

@@ -1,4 +1,4 @@
-#include <vector>
+ï»¿#include <vector>
 #include <algorithm>
 using namespace std;
 
@@ -13,8 +13,8 @@ int solution(vector<vector<int> > land)
 		d[0][i] = land[0][i];
 
 	for (int i = 1; i < land.size(); i++) {
-		for (int j = 0; j < 4; j++) {		// ÇöÀç ÁÙ ¼±ÅÃ 
-			for (int k = 0; k < 4; k++) {	// ´ÙÀ½ ÁÙ ¼±ÅÃ
+		for (int j = 0; j < 4; j++) {		// í˜„ìž¬ ì¤„ ì„ íƒ 
+			for (int k = 0; k < 4; k++) {	// ë‹¤ìŒ ì¤„ ì„ íƒ
 				if (k != j)
 					d[i][j] = max(d[i][j], land[i][j] + d[i - 1][k]);
 			}

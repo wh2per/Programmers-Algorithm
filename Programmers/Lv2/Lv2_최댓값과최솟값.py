@@ -1,4 +1,4 @@
-def solution(s):
+﻿def solution(s):
     answer = ""
     split_s = s.split()
     temp = []

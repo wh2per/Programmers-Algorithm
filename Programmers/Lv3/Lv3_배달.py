@@ -1,8 +1,8 @@
-def search(cost, check):
+﻿def search(cost, check):
     end = 0
     temp = 500001
     for i in range(1, len(cost)):
-        if check[i] == False and cost[i] < temp:        # 가장 작은 비용이 드는 마을 번호
+        if check[i] == False and cost[i] < temp:        # 媛???묒? 鍮꾩슜???쒕뒗 留덉쓣 踰덊샇
             temp = cost[i]
             end = i
     return end
@@ -10,10 +10,10 @@ def search(cost, check):
 def solution(N, road, K):
     answer = 0
 
-    graph = [[500001 for col in range(N+1)] for row in range(N+1)]  # 비용 정보
+    graph = [[500001 for col in range(N+1)] for row in range(N+1)]  # 鍮꾩슜 ?뺣낫
     cost = [500001] * (N + 1)
     check = [False] * (N + 1)
-    cost[1] = 0  # 1번 지역은 0으로 초기화
+    cost[1] = 0  # 1踰?吏??? 0?쇰줈 珥덇린??
 
     for i in range(len(road)):
         if graph[road[i][0]][road[i][1]] == 500001:
@@ -25,7 +25,7 @@ def solution(N, road, K):
                 graph[road[i][1]][road[i][0]] = road[i][2]
 
     for i in range(1,N+1):
-        end = search(cost,check)        # 가장 가까운 마을 찾기
+        end = search(cost,check)        # 媛??媛源뚯슫 留덉쓣 李얘린
         for j in range(1, N+1):
             cost[j] = min(cost[j], cost[end] + graph[end][j])
         check[end] = True

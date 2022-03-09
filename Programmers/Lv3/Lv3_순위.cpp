@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <map>
 #include <set>
@@ -45,7 +45,7 @@ int solution(int n, vector<vector<int>> results) {
 }
 
 /*
-´Ù¸¥»ç¶÷ Ç®ÀÌ
+ë‹¤ë¥¸ì‚¬ëŒ í’€ì´
 
 #include <string>
 #include <vector>
@@ -57,8 +57,8 @@ int solution(int n, vector<vector<int>> results) {
 	int answer = 0;
 	for(int i=0;i<results.size();i++)
 	{
-		d[results[i][0]][results[i][1]]=1; // ½Â¸®
-		d[results[i][1]][results[i][0]]=-1; // ÆĞ¹è
+		d[results[i][0]][results[i][1]]=1; // ìŠ¹ë¦¬
+		d[results[i][1]][results[i][0]]=-1; // íŒ¨ë°°
 	}
 
 	for (int i = 1; i <= n; i++)
@@ -84,13 +84,13 @@ int solution(int n, vector<vector<int>> results) {
 		int sum = 0;
 		for (int j = 1; j <= n; j++)
 		{
-			// ´ë¼Ò °ü°è°¡ ÀÖÀ» ¶§ sumÀ» Áõ°¡
+			// ëŒ€ì†Œ ê´€ê³„ê°€ ìˆì„ ë•Œ sumì„ ì¦ê°€
 			if(d[i][j]!=0 && (i!=j))
 			{
 				sum++;
 			}
 		}
-		// ´ë¼Ò °ü°è°¡ ¸ğµÎ ÀÖ´Ù¸é ¼øÀ§¸¦ ¸Å±æ¼ö ÀÖ´Â ¼±¼ö
+		// ëŒ€ì†Œ ê´€ê³„ê°€ ëª¨ë‘ ìˆë‹¤ë©´ ìˆœìœ„ë¥¼ ë§¤ê¸¸ìˆ˜ ìˆëŠ” ì„ ìˆ˜
 		if(sum==(n-1))
 		{
 			answer++;

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <cmath>
 #include <algorithm>
@@ -8,7 +8,7 @@ string solution(int n) {
 	string answer = "";
 	int arr[3] = { 1,2,4 };
 	int r = -1;
-	// i-1 ÀÚ¸®¼ö 
+	// i-1 ìžë¦¬ìˆ˜ 
 	while (n > 0) {
 		n -= 1;
 		r = n % 3;

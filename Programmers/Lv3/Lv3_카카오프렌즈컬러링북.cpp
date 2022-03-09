@@ -1,4 +1,4 @@
-#include <vector>
+ï»¿#include <vector>
 using namespace std;
 
 vector<vector<int>> paper;
@@ -11,7 +11,7 @@ int flood_fill(int color, int i, int j, int m, int n) {
 		return 0;
 	
 	int size = 1;
-	paper[i][j] = 0;			// °è»êÇÑ ºÎºĞÀº 0À¸·Î º¯°æ
+	paper[i][j] = 0;			// ê³„ì‚°í•œ ë¶€ë¶„ì€ 0ìœ¼ë¡œ ë³€ê²½
 
 	for (int k = 0; k < 4; k++) 
 		size += flood_fill(color, i + dx[k], j + dy[k], m, n);
@@ -19,7 +19,7 @@ int flood_fill(int color, int i, int j, int m, int n) {
 	return size;
 }
 
-// flood_fill ¾Ë°í¸®Áò »ç¿ë!
+// flood_fill ì•Œê³ ë¦¬ì¦˜ ì‚¬ìš©!
 vector<int> solution(int m, int n, vector<vector<int>> picture) {
 	int number_of_area = 0;
 	int max_size_of_one_area = 0;

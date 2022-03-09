@@ -1,4 +1,4 @@
-def solution(s):
+﻿def solution(s):
     a = list()
 
     for i in s:

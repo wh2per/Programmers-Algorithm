@@ -1,4 +1,4 @@
-# 카탈란수
+﻿# 移댄깉???
 # x = 2nCn - 2nCn+1
 import math
 def solution(n):

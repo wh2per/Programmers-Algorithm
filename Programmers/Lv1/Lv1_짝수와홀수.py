@@ -1,4 +1,4 @@
-def solution(num):
+﻿def solution(num):
     if num%2==0:
         return "Even"
     else:

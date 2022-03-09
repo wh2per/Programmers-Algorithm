@@ -1,4 +1,4 @@
-def solution(N):
+﻿def solution(N):
     d = [0]*(N*2)
     d[1] = 1
     d[2] = 1

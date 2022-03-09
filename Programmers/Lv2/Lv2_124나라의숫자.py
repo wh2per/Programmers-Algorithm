@@ -1,4 +1,4 @@
-def solution(n):
+﻿def solution(n):
     answer = ''
     arr = [1, 2, 4]
     r = -1

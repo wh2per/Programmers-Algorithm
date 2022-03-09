@@ -1,4 +1,4 @@
-def solution(n, m):
+﻿def solution(n, m):
     max = 1
     min = m
     answer = []

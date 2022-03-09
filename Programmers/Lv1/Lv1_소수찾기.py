@@ -1,4 +1,4 @@
-def solution(n):
+﻿def solution(n):
     answer = 0
     check = [False] * (n+1);
     check[0] = check[1] = True;

@@ -1,4 +1,4 @@
-def solution(a, b):
+﻿def solution(a, b):
     answer = ''
     v = ["SUN","MON","TUE","WED","THU","FRI","SAT"]
     index = 0

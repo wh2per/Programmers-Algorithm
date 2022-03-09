@@ -1,4 +1,4 @@
-def solution(a, b):
+﻿def solution(a, b):
     if a>b:
         return sum(range(b,a+1))
     else:

@@ -1,4 +1,4 @@
-def solution(n, money):
+﻿def solution(n, money):
     d = [0]*(n+1)
     d[0] = 1
 

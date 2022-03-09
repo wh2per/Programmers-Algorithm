@@ -1,10 +1,10 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <stack>
 using namespace std;
 
 vector<vector<int>> answer102;
-void hanoi(int n, int from, int by, int to)			// 1.Àç±ÍÇÔ¼ö ÀÌ¿ë
+void hanoi(int n, int from, int by, int to)			// 1.ì¬ê·€í•¨ìˆ˜ ì´ìš©
 {
 	if (n == 1)
 	{
@@ -15,28 +15,28 @@ void hanoi(int n, int from, int by, int to)			// 1.Àç±ÍÇÔ¼ö ÀÌ¿ë
 		return;
 	}
 
-	hanoi(n - 1, from, to, by); // n-1 °³ÀÇ ¿øÆÇÀ» 1¿¡¼­ 3À» ÀÌ¿ëÇÏ¿© 2·Î ¿Å±ä´Ù.
+	hanoi(n - 1, from, to, by); // n-1 ê°œì˜ ì›íŒì„ 1ì—ì„œ 3ì„ ì´ìš©í•˜ì—¬ 2ë¡œ ì˜®ê¸´ë‹¤.
 	vector<int> v;
 	v.push_back(from);
 	v.push_back(to);
 	answer102.push_back(v);
-	hanoi(n - 1, by, from, to); // n-1°³ÀÇ ¿øÆÇÀ» 2¿¡¼­ 1À» ÀÌ¿ëÇÏ¿© 3À¸·Î ¿Å±ä´Ù.
+	hanoi(n - 1, by, from, to); // n-1ê°œì˜ ì›íŒì„ 2ì—ì„œ 1ì„ ì´ìš©í•˜ì—¬ 3ìœ¼ë¡œ ì˜®ê¸´ë‹¤.
 }
 
 vector<vector<int>> solution(int n) {
 	//hanoi(n, 1, 2, 3);
-	stack<int> s;							// 2. ºñÀç±Í 
+	stack<int> s;							// 2. ë¹„ì¬ê·€ 
 	int from = 1;
 	int by = 2;
 	int to = 3;
 	while (1){
         while (n > 1){
-            s.push(to);    // ÀÎÀÚ¸®½ºÆ® Çª½¬
+            s.push(to);    // ì¸ìë¦¬ìŠ¤íŠ¸ í‘¸ì‰¬
             s.push(by);
             s.push(from);
             s.push(n);
-            n--;        // ÀÎÀÚ¸®½ºÆ® º¯°æ 1
-            s.push(to);    // to ¿Í by¸¦ ±³È¯ÇÏ±â À§ÇØ ÀÓ½Ã·Î ÀúÀå
+            n--;        // ì¸ìë¦¬ìŠ¤íŠ¸ ë³€ê²½ 1
+            s.push(to);    // to ì™€ byë¥¼ êµí™˜í•˜ê¸° ìœ„í•´ ì„ì‹œë¡œ ì €ì¥
             to = by;
             by = s.top();
 			s.pop();
@@ -62,7 +62,7 @@ vector<vector<int>> solution(int n) {
 			v.push_back(to);
 			answer102.push_back(v);
 
-            n--;        // ÀÎÀÚ¸®½ºÆ® º¯°æ 2
+            n--;        // ì¸ìë¦¬ìŠ¤íŠ¸ ë³€ê²½ 2
             s.push(from);
             from = by;
             by = s.top();

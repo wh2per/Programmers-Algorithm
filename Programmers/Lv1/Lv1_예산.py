@@ -1,4 +1,4 @@
-def solution(d, budget):
+﻿def solution(d, budget):
     answer = 0
     d.sort()
     ans = 0

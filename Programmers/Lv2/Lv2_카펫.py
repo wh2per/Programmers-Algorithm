@@ -1,4 +1,4 @@
-def solution(brown, red):
+﻿def solution(brown, red):
     answer = []
     for i in range(red, 0, -1):
         if red%i==0:

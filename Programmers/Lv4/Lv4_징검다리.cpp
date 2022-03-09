@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -18,7 +18,7 @@ bool remove_rock(vector<int> &rocks, int min, int n) {
 		return false;
 }
 
-// ÆÄ¶ó¸ŞÆ®¸¯ ¼­Ä¡ ÀÌ¿ë!
+// íŒŒë¼ë©”íŠ¸ë¦­ ì„œì¹˜ ì´ìš©!
 int solution(int distance, vector<int> rocks, int n) {
 	sort(rocks.begin(), rocks.end());
 	int low = 0;
@@ -27,10 +27,10 @@ int solution(int distance, vector<int> rocks, int n) {
 
 	while (low <= high) {
 		mid = (low + high) / 2;	
-		if (remove_rock(rocks, mid, n))		// µ¹À» nº¸´Ù ¸¹ÀÌ Á¦°Å Çß´Ù¸é
-			high = mid - 1;					// high¸¦ ÁÙÀÌ°í
-		else								// µ¹À» nº¸´Ù Àû°Ô Á¦°Å Çß´Ù¸é
-			low = mid + 1;					// low¸¦ ¿Ã¸®ÀÚ
+		if (remove_rock(rocks, mid, n))		// ëŒì„ në³´ë‹¤ ë§ì´ ì œê±° í–ˆë‹¤ë©´
+			high = mid - 1;					// highë¥¼ ì¤„ì´ê³ 
+		else								// ëŒì„ në³´ë‹¤ ì ê²Œ ì œê±° í–ˆë‹¤ë©´
+			low = mid + 1;					// lowë¥¼ ì˜¬ë¦¬ì
 	}
 	return low;
 }

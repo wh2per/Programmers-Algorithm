@@ -1,10 +1,10 @@
-#include <vector>
+ï»¿#include <vector>
 #include <algorithm>
 using namespace std;
 
 int MOD = 20170805;
 
-// Àü¿ª º¯¼ö¸¦ Á¤ÀÇÇÒ °æ¿ì ÇÔ¼ö ³»¿¡ ÃÊ±âÈ­ ÄÚµå¸¦ ²À ÀÛ¼ºÇØÁÖ¼¼¿ä.
+// ì „ì—­ ë³€ìˆ˜ë¥¼ ì •ì˜í•  ê²½ìš° í•¨ìˆ˜ ë‚´ì— ì´ˆê¸°í™” ì½”ë“œë¥¼ ê¼­ ì‘ì„±í•´ì£¼ì„¸ìš”.
 int solution(int m, int n, vector<vector<int>> city_map) {
 	vector<vector<int>> road(m+1,vector<int>(n+1,0));
 	vector<vector<int>> check(m + 1, vector<int>(n + 1, 0));
@@ -14,38 +14,38 @@ int solution(int m, int n, vector<vector<int>> city_map) {
 	for (int i = 1; i <= m; i++) {
 		for (int j = 1; j <= n; j++) {
 			check[i][j] = city_map[i - 1][j - 1];
-			if (check[i][j] == 1) 		// ¸ø°¨
+			if (check[i][j] == 1) 		// ëª»ê°
 				road[i][j] = 0;
-			else if (check[i][j] == 2) {		// º¸ÇàÀÚ ¿ì¼±
-				road[i][j] = max(road[i][j-1], road[i-1][j]);	// À§ÂÊ°ú ¿ŞÂÊ Áß Å«°ÍÀ» Ã¤ÅÃ
+			else if (check[i][j] == 2) {		// ë³´í–‰ì ìš°ì„ 
+				road[i][j] = max(road[i][j-1], road[i-1][j]);	// ìœ„ìª½ê³¼ ì™¼ìª½ ì¤‘ í°ê²ƒì„ ì±„íƒ
 			}
-			else {										// ±×³É ±æ
-				if (check[i][j-1] == 2 && check[i - 1][j] == 2) {				// ¿ŞÂÊ°ú À§ÂÊ µÑ´Ù 2
-					int ti1 = i;					// ¿ŞÂÊ Ã£±â
+			else {										// ê·¸ëƒ¥ ê¸¸
+				if (check[i][j-1] == 2 && check[i - 1][j] == 2) {				// ì™¼ìª½ê³¼ ìœ„ìª½ ë‘˜ë‹¤ 2
+					int ti1 = i;					// ì™¼ìª½ ì°¾ê¸°
 					int tj1 = j-1;
 					while (check[ti1][tj1] == 2)
 						tj1--;
-					int ti2 = i-1;					// À§ÂÊ Ã£±â
+					int ti2 = i-1;					// ìœ„ìª½ ì°¾ê¸°
 					int tj2 = j;
 					while (check[ti2][tj2] == 2)
 						ti2--;
 					road[i][j] = (road[ti1][tj1]+road[ti2][tj2]) % MOD;
 				}
-				else if (check[i][j - 1] == 2) {			// ¿ŞÂÊ¸¸ 2
+				else if (check[i][j - 1] == 2) {			// ì™¼ìª½ë§Œ 2
 					int ti = i;
 					int tj = j-1;
 					while (check[ti][tj] == 2)
 						tj--;
 					road[i][j] = (road[i - 1][j] + road[ti][tj]) % MOD;
 				}
-				else if (check[i - 1][j] == 2) {			// À§ÂÊ¸¸ 2
+				else if (check[i - 1][j] == 2) {			// ìœ„ìª½ë§Œ 2
 					int ti = i-1;
 					int tj = j;
 					while (check[ti][tj] == 2)
 						ti--;
 					road[i][j] = (road[i][j-1] + road[ti][tj]) % MOD;
 				}
-				else {										 // µÑ ´Ù 2°¡ ¾Æ´Ô
+				else {										 // ë‘˜ ë‹¤ 2ê°€ ì•„ë‹˜
 					road[i][j] = (road[i][j - 1] + road[i - 1][j])%MOD;
 				}
 			}

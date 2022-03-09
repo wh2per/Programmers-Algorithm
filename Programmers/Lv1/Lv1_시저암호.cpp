@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 
 using namespace std;
@@ -8,9 +8,9 @@ string solution(string s, int n) {
 	for (int i = 0; i < s.length(); i++) {
 		if (s[i] != ' ') {
 			int check = 0;
-			if (s[i] < 91 && s[i]>64)		// ´ë¹®ÀÚ
+			if (s[i] < 91 && s[i]>64)		// ëŒ€ë¬¸ì
 				check = 1;
-			else if (s[i] < 123 && s[i]>96)		// ¼Ò¹®ÀÚ
+			else if (s[i] < 123 && s[i]>96)		// ì†Œë¬¸ì
 				check = 2;
 			
 			if ((check == 1 && s[i] + n > 90) || (check == 2 && s[i] + n > 122)) {

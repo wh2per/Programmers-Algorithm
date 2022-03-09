@@ -1,4 +1,4 @@
-def solution(n, words):
+﻿def solution(n, words):
     answer = []
     prev = words[0][0]
     s = list()

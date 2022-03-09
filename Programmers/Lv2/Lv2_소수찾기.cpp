@@ -1,4 +1,4 @@
-#include <string>
+﻿#include <string>
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -11,7 +11,7 @@ bool is_prime(int n) {
 		if (n%i == 0)
 			return false;
 	}
-	return true;		//�Ҽ�
+	return true;		//소수
 }
 
 int solution(string numbers) {

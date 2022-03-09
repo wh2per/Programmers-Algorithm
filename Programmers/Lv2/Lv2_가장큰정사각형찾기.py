@@ -1,9 +1,9 @@
-def solution(board):
+﻿def solution(board):
     answer = 0
     xlen = len(board[0])
     ylen = len(board)
 
-    if xlen < 2 or ylen < 2:        # 가로, 세로 중 하나라도 길이가 1이라면
+    if xlen < 2 or ylen < 2:        # 媛濡? ?몃줈 以??섎굹?쇰룄 湲몄씠媛 1?대씪硫?
         for i in range(ylen):
             for j in range(xlen):
                 if board[i][j] == 1:

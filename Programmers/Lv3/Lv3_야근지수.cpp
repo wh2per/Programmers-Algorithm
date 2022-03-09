@@ -1,10 +1,10 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 #include <queue>
 using namespace std;
 
-struct work_cmp {				// top¿¡ °¡Àå ³ôÀº ¼ö°¡ °¡µµ·Ï Á¤·Ä
+struct work_cmp {				// topì— ê°€ì¥ ë†’ì€ ìˆ˜ê°€ ê°€ë„ë¡ ì •ë ¬
 	bool operator()(int t, int u) {
 		return t < u;
 	}

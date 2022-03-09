@@ -1,15 +1,15 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include<algorithm>
 using namespace std;
 
 int mincount = -1;
 void go(int N, int number, int result, int count) {
-	if (count > 8) {			// Á¾·áÁ¶°Ç
+	if (count > 8) {			// ì¢…ë£Œì¡°ê±´
 		return;
 	}
-	if (number == result) {		// ¿Ï·áÁ¶°Ç
-		if (count < mincount || mincount == -1) {		// ¿ø·¡ answer°ªº¸´Ù ÀÛÀ¸¸é ³Ö¾îÁÜ
+	if (number == result) {		// ì™„ë£Œì¡°ê±´
+		if (count < mincount || mincount == -1) {		// ì›ëž˜ answerê°’ë³´ë‹¤ ìž‘ìœ¼ë©´ ë„£ì–´ì¤Œ
 			mincount = count;
 		}
 		return;
@@ -18,7 +18,7 @@ void go(int N, int number, int result, int count) {
 	int nn = 0;
 	for (int i = 0; i < 8; i++) {
 		nn = nn * 10 + N;		// N, NN, NNN, NNNN .....
-		go(N, number, result + nn, count + 1 + i);		// i´Â NÀÌ ¸î°³ ºÙ¾îÀÖ´Â Áö
+		go(N, number, result + nn, count + 1 + i);		// iëŠ” Nì´ ëª‡ê°œ ë¶™ì–´ìžˆëŠ” ì§€
 		go(N, number, result * nn, count + 1 + i);
 		go(N, number, result - nn, count + 1 + i);
 		go(N, number, result / nn, count + 1 + i);

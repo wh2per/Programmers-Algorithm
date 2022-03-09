@@ -1,10 +1,10 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <queue>
 #include <iostream>
 using namespace std;
 
-struct cmp {				// top¿¡ °¡Àå ÀÛÀº ¼ö°¡ °¡µµ·Ï ³»¸²Â÷¼ø Á¤·Ä
+struct cmp {				// topì— ê°€ì¥ ì‘ì€ ìˆ˜ê°€ ê°€ë„ë¡ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 	bool operator()(vector<int> t, vector<int> u) {
 		return t[0] > u[0];
 	}
@@ -26,11 +26,11 @@ int solution(vector<vector<int>> routes) {
 		vector<int> now = pq.top();
 		pq.pop();
 		if (prev[1] >= now[0]) {		// prev.end >= now.start
-			if (camera[answer - 1][1] >= now[0]) {		// ±âÁ¸ Ä«¸Ş¶ó·Î ÂïÀ» ¼ö ÀÖÀ» ¶§
+			if (camera[answer - 1][1] >= now[0]) {		// ê¸°ì¡´ ì¹´ë©”ë¼ë¡œ ì°ì„ ìˆ˜ ìˆì„ ë•Œ
 				camera[answer - 1][0] = now[0];
 				camera[answer - 1][1] = min(camera[answer - 1][1], now[1]);
 			}
-			else {									// ±âÁ¸ Ä«¸Ş¶ó·Î ÂïÀ» ¼ö ¾øÀ» ¶§
+			else {									// ê¸°ì¡´ ì¹´ë©”ë¼ë¡œ ì°ì„ ìˆ˜ ì—†ì„ ë•Œ
 				camera.push_back(now);
 				answer++;
 			}

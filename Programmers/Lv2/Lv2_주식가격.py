@@ -1,4 +1,4 @@
-def solution(prices):
+﻿def solution(prices):
     answer = []
 
     for i in range(0, len(prices) - 1):

@@ -1,5 +1,5 @@
-def solution(n):
+﻿def solution(n):
     if n%2==0:
-        return "수박"*(n//2)
+        return "?섎컯"*(n//2)
     else:
-        return "수박"*(n//2)+"수"
+        return "?섎컯"*(n//2)+"??

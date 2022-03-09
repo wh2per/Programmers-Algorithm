@@ -1,4 +1,4 @@
-#include <vector>
+ï»¿#include <vector>
 using namespace std;
 
 int solution(vector<vector<int>> board, vector<int> nums) {
@@ -7,19 +7,19 @@ int solution(vector<vector<int>> board, vector<int> nums) {
 	vector<int> check2(board.size(), 0);
 	vector<int> check3(2, 0);
 
-	while (nums.size() != 0) {							// ÇöÀç´Â O(n^3) , nums¸¦ setÀ¸·Î ¹Ù²Ù¸é O(n^2)
+	while (nums.size() != 0) {							// í˜„ìž¬ëŠ” O(n^3) , numsë¥¼ setìœ¼ë¡œ ë°”ê¾¸ë©´ O(n^2)
 		int k = nums[nums.size() - 1];
 		nums.pop_back();
 		for (int i = 0; i < board.size(); i++) {
 			bool c = false;
 			for (int j = 0; j < board[i].size(); j++) {
 				if (k == board[i][j]) {
-					check1[j]++;						// ¼¼·Î Ã¼Å©
-					check2[i]++;						// °¡·Î Ã¼Å©
+					check1[j]++;						// ì„¸ë¡œ ì²´í¬
+					check2[i]++;						// ê°€ë¡œ ì²´í¬
 					if (i == j)
-						check3[0]++;					// ´ë°¢¼±1 Ã¼Å©
+						check3[0]++;					// ëŒ€ê°ì„ 1 ì²´í¬
 					if (i + j == board.size() - 1)
-						check3[1]++;					// ´ë°¢¼±2 Ã¼Å©
+						check3[1]++;					// ëŒ€ê°ì„ 2 ì²´í¬
 
 					board[i][j] = -1;
 					c = true;

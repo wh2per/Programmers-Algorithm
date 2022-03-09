@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -7,10 +7,10 @@ bool solution(vector<int> arrA, vector<int> arrB) {
 	if (arrA.size() != arrB.size())
 		return false;
 	else {
-		for (int i = 0; i < arrA.size(); i++) {					// A ½ÃÀÛ À§Ä¡
-			for (int j = 0; j < arrA.size(); j++) {				// B ½ÃÀÛ À§Ä¡
+		for (int i = 0; i < arrA.size(); i++) {					// A ì‹œìž‘ ìœ„ì¹˜
+			for (int j = 0; j < arrA.size(); j++) {				// B ì‹œìž‘ ìœ„ì¹˜
 				int count = 0;
-				for (int k = 0; k < arrA.size(); k++) {			// °Ë»ç½ÃÀÛ
+				for (int k = 0; k < arrA.size(); k++) {			// ê²€ì‚¬ì‹œìž‘
 					int a = i + k;
 					int b = j + k;
 					if (a >= arrA.size())

@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <algorithm>
 using namespace std;
 
@@ -7,7 +7,7 @@ long long solution(int w, int h)
 	int gcd;
 	long long sum = (long long)w * (long long)h;
 
-	for (int i = (w < h) ? w : h; i > 0; i--) { //ÃÖ´ë °ø¾à¼ö ±¸ÇÏ±â
+	for (int i = (w < h) ? w : h; i > 0; i--) { //ìµœëŒ€ ê³µì•½ìˆ˜ êµ¬í•˜ê¸°
 		if ((w % i == 0) && (h % i == 0)) {
 			gcd = i;
 			break;

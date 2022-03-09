@@ -1,10 +1,10 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 
 using namespace std;
 
-// ±×³É BFS´Â ½Ã°£ÃÊ°ú
-// DP¸¦ »ç¿ëÇÏÀÚ!
+// ê·¸ëƒ¥ BFSëŠ” ì‹œê°„ì´ˆê³¼
+// DPë¥¼ ì‚¬ìš©í•˜ì!
 int solution(int n, vector<int> money) {
 	int MOD = 1000000007;
 	int answer = 0;

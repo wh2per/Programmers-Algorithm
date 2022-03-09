@@ -1,4 +1,4 @@
-def solution(s):
+﻿def solution(s):
     answer = ''
     index = 0
     for i in s:

@@ -1,4 +1,4 @@
-#include <vector>
+ï»¿#include <vector>
 #include <map>
 #include <algorithm>
 using namespace std;
@@ -7,7 +7,7 @@ int selectNext(vector<int> cost, vector<bool> check) {
 	int end = 0; 
 	int min = 500001;
 	for (int i = 1; i < cost.size(); i++) {
-		if (check[i] == false && cost[i] < min) {		// ºñ¿ëÀÌ °¡Àå ÀûÀº Áö¿ªÀ» Å½»ö 
+		if (check[i] == false && cost[i] < min) {		// ë¹„ìš©ì´ ê°€ì¥ ì ì€ ì§€ì—­ì„ íƒìƒ‰ 
 			min = cost[i];
 			end = i;
 		}
@@ -15,32 +15,32 @@ int selectNext(vector<int> cost, vector<bool> check) {
 	return end;
 }
 
-// ´ÙÀÍ½ºÆ®¶ó ¾Ë°í¸®Áò 
+// ë‹¤ìµìŠ¤íŠ¸ë¼ ì•Œê³ ë¦¬ì¦˜ 
 int solution(int N, vector<vector<int> > road, int K) {
 	int answer = 0;
-	vector<map<int, int>> graph(N + 1);	// ºñ¿ë Á¤º¸
-	vector<int> cost(N + 1, 500001);		// ºñ¿ëÀ» ÃÖ´ëÄ¡·Î ÃÊ±âÈ­
+	vector<map<int, int>> graph(N + 1);	// ë¹„ìš© ì •ë³´
+	vector<int> cost(N + 1, 500001);		// ë¹„ìš©ì„ ìµœëŒ€ì¹˜ë¡œ ì´ˆê¸°í™”
 	vector<bool> check(N + 1, false);
-	cost[1] = 0;	// 1¹øÀº 0À¸·Î ÃÊ±âÈ­
+	cost[1] = 0;	// 1ë²ˆì€ 0ìœ¼ë¡œ ì´ˆê¸°í™”
 
-	for (int i = 0; i < road.size(); i++) {		// 1-2, 2-1 µÎ °³·Î ÀúÀå 
-		if (graph[road[i][0]].find(road[i][1]) != graph[road[i][0]].end()) {		// Á¤º¸°¡ ÀÌ¹Ì ÀÖ´Ù¸é
-			if (graph[road[i][0]][road[i][1]] > road[i][2]) {						// ´õ ÀûÀº ºñ¿ëÀ» Ã¤ÅÃ
+	for (int i = 0; i < road.size(); i++) {		// 1-2, 2-1 ë‘ ê°œë¡œ ì €ì¥ 
+		if (graph[road[i][0]].find(road[i][1]) != graph[road[i][0]].end()) {		// ì •ë³´ê°€ ì´ë¯¸ ìˆë‹¤ë©´
+			if (graph[road[i][0]][road[i][1]] > road[i][2]) {						// ë” ì ì€ ë¹„ìš©ì„ ì±„íƒ
 				graph[road[i][0]][road[i][1]] = road[i][2];
 				graph[road[i][1]][road[i][0]] = road[i][2];
 			}
 		}
-		else {		// Á¤º¸°¡ ¾ø´Ù¸é ½Å±Ô ÀúÀå
+		else {		// ì •ë³´ê°€ ì—†ë‹¤ë©´ ì‹ ê·œ ì €ì¥
 			graph[road[i][0]].insert(make_pair(road[i][1], road[i][2]));
 			graph[road[i][1]].insert(make_pair(road[i][0], road[i][2]));
 		}
 	}
 
-	for (int i = 0; i < N - 1; i++) {		// N-1¸¸Å­ ÁøÇà (1¹øÀº 0À¸·Î ÃÊ±âÈ­ ÇØµ×À½)
-		int end = selectNext(cost, check);			// ¸Å¹ø ºñ¿ëÀÌ °¡Àå ÀûÀº Áö¿ªÀ» ´Ù½Ã Å½»ö
-		for (auto j : graph[end]) {			// ºñ¿ëÀÌ °¡Àå ÀûÀº Áö¿ª°ú ¿¬°áµÈ Áö¿ªµé ¼øÈ¸
-			if (check[j.first] == false)	// ¾ÆÁ÷ °¡º¸Áö ¾ÊÀº °÷ÀÌ¶ó¸é
-				cost[j.first] = min(cost[j.first], cost[end] + j.second);		// ¿ø·¡ °ª°ú ºñ±³ÇÏ¿© ÀúÀå
+	for (int i = 0; i < N - 1; i++) {		// N-1ë§Œí¼ ì§„í–‰ (1ë²ˆì€ 0ìœ¼ë¡œ ì´ˆê¸°í™” í•´ë’€ìŒ)
+		int end = selectNext(cost, check);			// ë§¤ë²ˆ ë¹„ìš©ì´ ê°€ì¥ ì ì€ ì§€ì—­ì„ ë‹¤ì‹œ íƒìƒ‰
+		for (auto j : graph[end]) {			// ë¹„ìš©ì´ ê°€ì¥ ì ì€ ì§€ì—­ê³¼ ì—°ê²°ëœ ì§€ì—­ë“¤ ìˆœíšŒ
+			if (check[j.first] == false)	// ì•„ì§ ê°€ë³´ì§€ ì•Šì€ ê³³ì´ë¼ë©´
+				cost[j.first] = min(cost[j.first], cost[end] + j.second);		// ì›ë˜ ê°’ê³¼ ë¹„êµí•˜ì—¬ ì €ì¥
 		}
 		check[end] = true;
 	}

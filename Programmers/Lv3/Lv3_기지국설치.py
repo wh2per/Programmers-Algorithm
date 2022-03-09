@@ -1,4 +1,4 @@
-def solution(n, stations, w):
+﻿def solution(n, stations, w):
     answer = 0
     index = 1
 

@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -8,9 +8,9 @@ int solution(vector<int> weight) {
 	sort(weight.begin(), weight.end());
 	
 	for (int i = 0; i < weight.size(); i++) {
-		if (answer < weight[i])				// ´©ÀûÇÕº¸´Ù ÀÛÀ¸¸é Å»Ãâ
+		if (answer < weight[i])				// ëˆ„ì í•©ë³´ë‹¤ ìž‘ìœ¼ë©´ íƒˆì¶œ
 			break;
-		answer += weight[i];			// ´©ÀûÇÕ
+		answer += weight[i];			// ëˆ„ì í•©
 	}
 	 
 	return answer;

@@ -1,4 +1,4 @@
-def solution(n, s):
+﻿def solution(n, s):
     answer = []
     if n>s:
         answer.append(-1)

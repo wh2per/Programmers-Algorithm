@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -11,9 +11,9 @@ int solution(vector<vector<string>> clothes) {
 	map<string, int> m;
 
 	for (int i = 0; i < clothes.size(); i++) {
-		if (m.find(clothes[i][1]) != m.end()) 	//ÀÖÀ» ‹š
+		if (m.find(clothes[i][1]) != m.end()) 	//ìžˆì„ ë–„
 			m[clothes[i][1]]++;
-		else									//¾øÀ» ‹š
+		else									//ì—†ì„ ë–„
 			m.insert(make_pair(clothes[i][1], 1));
 	}
 	answer = 1;

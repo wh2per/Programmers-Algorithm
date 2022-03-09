@@ -1,4 +1,4 @@
-def solution(array, commands):
+﻿def solution(array, commands):
     answer = []
     for i in commands:
         start, end, order = i

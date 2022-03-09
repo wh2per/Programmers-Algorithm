@@ -1,4 +1,4 @@
-def solution(arr):
+﻿def solution(arr):
     answer = []
     prev = -1
 

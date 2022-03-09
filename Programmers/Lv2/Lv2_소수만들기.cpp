@@ -1,4 +1,4 @@
-#include <vector>
+﻿#include <vector>
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -9,7 +9,7 @@ bool isprime(int n) {
 		if (n%i == 0)
 			return false;
 	}
-	return true;		//�Ҽ�
+	return true;		//소수
 }
 
 int solution(vector<int> nums) {

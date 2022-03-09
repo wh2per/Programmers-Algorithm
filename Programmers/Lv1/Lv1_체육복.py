@@ -1,15 +1,15 @@
-def solution(n, lost, reserve):
+﻿def solution(n, lost, reserve):
     answer = 0
     for i in range(1, n + 1):
-        if i not in lost:  # 안 잃어버린 학생
+        if i not in lost:  # ???껋뼱踰꾨┛ ?숈깮
             answer += 1
         else:
-            if i in reserve:  # 잃어버렸지만 여분도 있는 학생
+            if i in reserve:  # ?껋뼱踰꾨졇吏留??щ텇???덈뒗 ?숈깮
                 answer += 1
                 reserve.remove(i)
                 lost.remove(i)
 
-    for i in lost:  # 잃어버리고 여분도 없어서 빌려야 하는 학생
+    for i in lost:  # ?껋뼱踰꾨━怨??щ텇???놁뼱??鍮뚮젮???섎뒗 ?숈깮
         if i - 1 in reserve:
             answer += 1
             reserve.remove(i - 1)

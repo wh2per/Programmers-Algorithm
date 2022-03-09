@@ -1,4 +1,4 @@
-def solution(A,B):
+﻿def solution(A,B):
     A.sort()
     B.sort(reverse=True)
     answer = 0

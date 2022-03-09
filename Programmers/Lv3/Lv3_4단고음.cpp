@@ -1,26 +1,26 @@
-#include <map>
+ï»¿#include <map>
 using namespace std;
 
 map<pair<int, int>, int> dm;
 
 int dfs(int plusCount, int n) {
-	if (plusCount > 38)		// *Àº 19°³°¡ ÃÖ´ë! µû¶ó¼­ +´Â 38°³°¡ ÃÖ´ë
+	if (plusCount > 38)		// *ì€ 19ê°œê°€ ìµœëŒ€! ë”°ë¼ì„œ +ëŠ” 38ê°œê°€ ìµœëŒ€
 		return 0;
 
-	if (n == 1) {			// ±¸ÇÏ·Á´Â ¼ö°¡ 1ÀÏ ¶§
-		if (plusCount == 0)	// ³²Àº plus°¡ 0°³
+	if (n == 1) {			// êµ¬í•˜ë ¤ëŠ” ìˆ˜ê°€ 1ì¼ ë•Œ
+		if (plusCount == 0)	// ë‚¨ì€ plusê°€ 0ê°œ
 			return 1;
 		else
 			return 0;
 	}
 
-	if (dm.find({ plusCount,n }) != dm.end())		// ÀÌ¹Ì ±¸ÇÑ °ªÀÌ ÀÖÀ¸¸é °¡Á®¿Â´Ù
+	if (dm.find({ plusCount,n }) != dm.end())		// ì´ë¯¸ êµ¬í•œ ê°’ì´ ìˆìœ¼ë©´ ê°€ì ¸ì˜¨ë‹¤
 		return dm[{ plusCount, n }];
 
-	dm[{ plusCount, n }] = dfs95(plusCount + 1, n - 1);		// +¸¦ Ãß°¡!
+	dm[{ plusCount, n }] = dfs95(plusCount + 1, n - 1);		// +ë¥¼ ì¶”ê°€!
 
-	if (plusCount >= 2 && n % 3 == 0)		// plusCount¸¦ 2°³ ¸ğ¾Ò°í, ±¸ÇÏ·Á´Â ¼ö°¡ 3ÀÇ ¹è¼öÀÏ ¶§
-		dm[{ plusCount, n }] += dfs95(plusCount - 2, n / 3);		// ¹æ¹ıÀÇ ¼ö¸¦ Ãß°¡!
+	if (plusCount >= 2 && n % 3 == 0)		// plusCountë¥¼ 2ê°œ ëª¨ì•˜ê³ , êµ¬í•˜ë ¤ëŠ” ìˆ˜ê°€ 3ì˜ ë°°ìˆ˜ì¼ ë•Œ
+		dm[{ plusCount, n }] += dfs95(plusCount - 2, n / 3);		// ë°©ë²•ì˜ ìˆ˜ë¥¼ ì¶”ê°€!
 
 	return dm[{ plusCount, n }];
 }

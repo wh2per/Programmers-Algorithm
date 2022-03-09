@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -10,7 +10,7 @@ int solution(vector<vector<int>> triangle) {
 	if(triangle.size()==1)
 		return answer;
 
-	for (int i = 1; i < triangle.size(); i++) {			// 2 ÃþºÎÅÍ
+	for (int i = 1; i < triangle.size(); i++) {			// 2 ì¸µë¶€í„°
 		for (int j = 0; j <=i; j++) {
 			if (j == 0) 
 				triangle[i][j] += triangle[i - 1][j];

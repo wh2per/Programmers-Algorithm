@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 #include <iostream>
 using namespace std;
@@ -6,21 +6,21 @@ using namespace std;
 int answer = 0;
 
 int oper(int i, int num, int sum) {
-	if (i == 0) {				// ´õÇÏ±â
+	if (i == 0) {				// ë”í•˜ê¸°
 		sum += num;
 	}
-	else if (i == 1) {			// »©±â
+	else if (i == 1) {			// ë¹¼ê¸°
 		sum -= num;
 	}
 	return sum;
 }
 
 void go(vector<int> numbers, int target, int index,int result) {
-	if (result == target && index == numbers.size()) {			// ¿Ï·áÁ¶°Ç
+	if (result == target && index == numbers.size()) {			// ì™„ë£Œì¡°ê±´
 		answer++;
 		return;
 	}
-	if (index > numbers.size() - 1)								// Á¾·áÁ¶°Ç
+	if (index > numbers.size() - 1)								// ì¢…ë£Œì¡°ê±´
 		return;
 	for (int i = 0; i < 2; i++) 
 		go(numbers, target, index + 1, oper(i, numbers[index], result));

@@ -1,8 +1,8 @@
-#include <vector>
+ï»¿#include <vector>
 #include <set>
 using namespace std;
 
-struct tent_cmp{				// top¿¡ °¡Àå ÀÛÀº ¼ö°¡ °¡µµ·Ï ³»¸²Â÷¼ø Á¤·Ä
+struct tent_cmp{				// topì— ê°€ì¥ ì‘ì€ ìˆ˜ê°€ ê°€ë„ë¡ ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
 	bool operator()(pair<int, int> t, pair<int, int> u) {
 		if (t.first == u.first)
 			return t.second < u.second;
@@ -11,7 +11,7 @@ struct tent_cmp{				// top¿¡ °¡Àå ÀÛÀº ¼ö°¡ °¡µµ·Ï ³»¸²Â÷¼ø Á¤·Ä
 	}
 };
 
-// Àü¿ª º¯¼ö¸¦ Á¤ÀÇÇÒ °æ¿ì ÇÔ¼ö ³»¿¡ ÃÊ±âÈ­ ÄÚµå¸¦ ²À ÀÛ¼ºÇØÁÖ¼¼¿ä.
+// ì „ì—­ ë³€ìˆ˜ë¥¼ ì •ì˜í•  ê²½ìš° í•¨ìˆ˜ ë‚´ì— ì´ˆê¸°í™” ì½”ë“œë¥¼ ê¼­ ì‘ì„±í•´ì£¼ì„¸ìš”.
 int solution(int n, vector<vector<int>> data) {
 	int answer = 0;
 	set<pair<int, int>, tent_cmp> s;
@@ -21,14 +21,14 @@ int solution(int n, vector<vector<int>> data) {
 
 	set<pair<int, int>>::iterator iter;
 	for (iter = s.begin(); iter != s.end(); iter++) {
-		int start_x = iter->first;		// ±âÁØÁ¡ÀÇ x
-		int start_y = iter->second;		// ±âÁØÁ¡ÀÇ y
+		int start_x = iter->first;		// ê¸°ì¤€ì ì˜ x
+		int start_y = iter->second;		// ê¸°ì¤€ì ì˜ y
 
 		int end_up = start_y;
 		int end_up_x = start_x;
 		int end_down = start_y;
 		set<pair<int, int>>::iterator temp;
-		for (temp = iter; temp != s.end(); temp++) {		// ÇÑ°è¼± ¼³Á¤
+		for (temp = iter; temp != s.end(); temp++) {		// í•œê³„ì„  ì„¤ì •
 			if (end_up == start_y && temp->first != start_x && end_up < temp->second) {
 				end_up = temp->second;
 				end_up_x = temp->first;
@@ -57,7 +57,7 @@ int solution(int n, vector<vector<int>> data) {
 						prev_end_up = end_up;
 						end_up_x = end_x;
 					}
-					end_up = end_y;		// »õ·Î¿î À§ÂÊ ÇÑ°è¼± °»½Å
+					end_up = end_y;		// ìƒˆë¡œìš´ ìœ„ìª½ í•œê³„ì„  ê°±ì‹ 
 					answer++;
 				}
 				else {
@@ -67,7 +67,7 @@ int solution(int n, vector<vector<int>> data) {
 			}
 			else if (end_y < start_y) {
 				if (end_down <= end_y) {
-					end_down = end_y;		// »õ·Î¿î ¾Æ·¡ÂÊ ÇÑ°è¼± °»½Å
+					end_down = end_y;		// ìƒˆë¡œìš´ ì•„ë˜ìª½ í•œê³„ì„  ê°±ì‹ 
 					answer++;
 				}
 			}

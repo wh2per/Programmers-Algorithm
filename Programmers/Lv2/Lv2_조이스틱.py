@@ -1,4 +1,4 @@
-def solution(name):
+﻿def solution(name):
     tname = []
     for i in name:
         tname.append(i)
@@ -11,7 +11,7 @@ def solution(name):
 
     index = 0
     while solv != 0:
-        if tname[index] != 'A':          # 현재 자리도 수정이 필요하다면
+        if tname[index] != 'A':          # ?꾩옱 ?먮━???섏젙???꾩슂?섎떎硫?
             solv -= 1
             temp = ord(tname[index]) - ord('A')
             if temp > 13:
@@ -21,7 +21,7 @@ def solution(name):
             tname[index] = 'A'
         if solv == 0:
             break
-        # 오른쪽 검사
+        # ?ㅻⅨ履?寃??
         rs = index
         rt = 1
         while rt <= end:
@@ -33,7 +33,7 @@ def solution(name):
             else:
                 rt += 1
 
-        # 왼쪽 검사
+        # ?쇱そ 寃??
         ls = index
         lt = 1
         while lt <= end:

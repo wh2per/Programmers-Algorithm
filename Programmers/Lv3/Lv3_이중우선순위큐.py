@@ -1,4 +1,4 @@
-def solution(operations):
+﻿def solution(operations):
     num = []
     for i in operations:
         temp = i.split()

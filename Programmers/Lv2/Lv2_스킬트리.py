@@ -1,4 +1,4 @@
-def solution(skill, skill_trees):
+﻿def solution(skill, skill_trees):
     answer = 0
     check = []
     temp = ""

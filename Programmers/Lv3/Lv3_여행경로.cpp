@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <vector>
 
 using namespace std;
@@ -6,7 +6,7 @@ using namespace std;
 vector<bool> check;
 string tmp = "a";
 
-void DFS(vector<vector<string>> &tickets, string end, int count, string path) {			// ticketÀ» ³Ñ±æ ¶§ ÁÖ¼Ò°ªÀ¸·Î º¸³»¾ß ½Ã°£ÀÌ ÁÙ¾îµë!
+void DFS(vector<vector<string>> &tickets, string end, int count, string path) {			// ticketì„ ë„˜ê¸¸ ë•Œ ì£¼ì†Œê°’ìœ¼ë¡œ ë³´ë‚´ì•¼ ì‹œê°„ì´ ì¤„ì–´ë“¬!
 	if (count >= tickets.size()) {
 		string p = path;
 		if (tmp > p)
@@ -14,7 +14,7 @@ void DFS(vector<vector<string>> &tickets, string end, int count, string path) {	
 		return;
 	}
 
-	for (int i = 0; i < tickets.size(); i++) {			// »ç¿ëÇÒ Æ¼ÄÏ Ã£±â
+	for (int i = 0; i < tickets.size(); i++) {			// ì‚¬ìš©í•  í‹°ì¼“ ì°¾ê¸°
 		if (tickets[i][0] == end && check[i] == false) {
 			check[i] = true;
 			DFS(tickets, tickets[i][1], count + 1, path + tickets[i][1]);

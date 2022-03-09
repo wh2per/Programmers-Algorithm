@@ -1,4 +1,4 @@
-check = []
+﻿check = []
 tmp = "a"
 
 def DFS(tickets, end, count, path):
@@ -10,7 +10,7 @@ def DFS(tickets, end, count, path):
             tmp = path
         return
 
-    for i in range(len(tickets)):       # 사용할 티켓 찾기
+    for i in range(len(tickets)):       # ?ъ슜???곗폆 李얘린
         if check[i] == False and tickets[i][0] == end:
             check[i] = True
             DFS(tickets, tickets[i][1], count + 1, path+tickets[i][1])

@@ -1,4 +1,4 @@
-def solution(n, cores):
+﻿def solution(n, cores):
     low = 0
     high = 100000
     mid = (low + high) >> 1
