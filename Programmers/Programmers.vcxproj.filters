@@ -498,5 +498,11 @@
     <ClCompile Include="Lv1\Lv1_없는숫자더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv1\Lv1_내적.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_약수의개수와덧셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
