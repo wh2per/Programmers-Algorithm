@@ -1,7 +1,7 @@
 # Programmers
-* 순위 211
-* 획득점수 1614
-* 해결한 문제 수 142
+* 순위 198
+* 획득점수 1616
+* 해결한 문제 수 144
 
 ## Lv1
 | 문제 | 코드 |
@@ -92,7 +92,8 @@
 | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [cpp](Programmers/Lv2/Lv2_영어끝말잇기.cpp), [py](Programmers/Lv2/Lv2_영어끝말잇기.py)|
 | [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [cpp](Programmers/Lv2/Lv2_예상대진표.cpp), [py](Programmers/Lv2/Lv2_예상대진표.py)|
 | [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [cpp](Programmers/Lv2/Lv2_멀쩡한사격형.cpp)|
-
+| [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051) | [cpp](Programmers/Lv2/Lv2_없는숫자더하기.cpp)|
+| [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501) | [cpp](Programmers/Lv2/Lv2_음양더하기.cpp)|
 
 ## Lv3
 | 문제 | 코드 |
