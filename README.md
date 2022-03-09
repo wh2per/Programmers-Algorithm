@@ -1,7 +1,7 @@
 # Programmers
-* 순위 183
-* 획득점수 1619
-* 해결한 문제 수 147
+* 순위 171
+* 획득점수 1623
+* 해결한 문제 수 151
 
 ## Lv1
 | 문제 | 코드 |
@@ -53,6 +53,10 @@
 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | [cpp](Programmers/Lv1/Lv1_내적.cpp)| 
 | [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884) | [cpp](Programmers/Lv1/Lv1_약수의개수와덧셈.cpp)| 
 | [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935) | [cpp](Programmers/Lv1/Lv1_3진법뒤집기.cpp)| 
+| [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | [cpp](Programmers/Lv1/Lv1_두개뽑아서더하기.cpp)| 
+| [최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | [cpp](Programmers/Lv1/Lv1_최소직사각형.cpp)| 
+| [나머지가 1이 되는 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/87389) | [cpp](Programmers/Lv1/Lv1_나머지가1이되는수찾기.cpp)| 
+| [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | [cpp](Programmers/Lv1/Lv1_부족한금액계산하기.cpp)| 
 
 ## Lv2
 | 문제 | 코드 |
