@@ -510,5 +510,8 @@
     <ClCompile Include="Lv1\Lv1_두개뽑아서더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv1\Lv1_최소직사각형.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
