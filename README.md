@@ -1,7 +1,7 @@
 # Programmers
-* 순위 198
-* 획득점수 1616
-* 해결한 문제 수 144
+* 순위 183
+* 획득점수 1619
+* 해결한 문제 수 147
 
 ## Lv1
 | 문제 | 코드 |
@@ -50,6 +50,9 @@
 | [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | [cpp](Programmers/Lv1/Lv1_숫자문자열과영단어.cpp)| 
 | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [cpp](Programmers/Lv1/Lv1_키패드누르기.cpp)| 
 | [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | [cpp](Programmers/Lv1/Lv1_크레인인형뽑기게임.cpp)| 
+| [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | [cpp](Programmers/Lv1/Lv1_내적.cpp)| 
+| [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884) | [cpp](Programmers/Lv1/Lv1_약수의개수와덧셈.cpp)| 
+| [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935) | [cpp](Programmers/Lv1/Lv1_3진법뒤집기.cpp)| 
 
 ## Lv2
 | 문제 | 코드 |
