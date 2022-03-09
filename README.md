@@ -1,7 +1,7 @@
 # Programmers
-* 순위 1 
-* 획득점수 1608
-* 해결한 문제 수 145
+* 순위 224 
+* 획득점수 1611
+* 해결한 문제 수 139
 
 ## Lv1
 | 문제 | 코드 |
@@ -46,7 +46,7 @@
 | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [cpp](Programmers/Lv1/Lv1_문자열압축.cpp)| 
 | [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | [cpp](Programmers/Lv1/Lv1_신고결과받기.cpp)| 
 | [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484) | [cpp](Programmers/Lv1/Lv1_로또의최고순위와최저순위.cpp)| 
-
+| [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [cpp](Programmers/Lv1/Lv1_신규아이디추천.cpp)| 
 
 ## Lv2
 | 문제 | 코드 |
