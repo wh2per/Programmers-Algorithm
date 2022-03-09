@@ -492,5 +492,11 @@
     <ClCompile Include="Lv1\Lv1_크레인인형뽑기게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv1\Lv1_음양더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_없는숫자더하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
