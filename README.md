@@ -1,7 +1,7 @@
 # Programmers
-* 순위 171
-* 획득점수 1623
-* 해결한 문제 수 151
+* 순위 158
+* 획득점수 1627
+* 해결한 문제 수 156
 
 ## Lv1
 | 문제 | 코드 |
@@ -57,6 +57,7 @@
 | [최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | [cpp](Programmers/Lv1/Lv1_최소직사각형.cpp)| 
 | [나머지가 1이 되는 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/87389) | [cpp](Programmers/Lv1/Lv1_나머지가1이되는수찾기.cpp)| 
 | [부족한 금액 계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | [cpp](Programmers/Lv1/Lv1_부족한금액계산하기.cpp)| 
+| [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [cpp](Programmers/Lv1/Lv1_키패드누르기.cpp)| 
 
 ## Lv2
 | 문제 | 코드 |
@@ -101,6 +102,10 @@
 | [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [cpp](Programmers/Lv2/Lv2_멀쩡한사격형.cpp)|
 | [없는 숫자 더하기](https://programmers.co.kr/learn/courses/30/lessons/86051) | [cpp](Programmers/Lv2/Lv2_없는숫자더하기.cpp)|
 | [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501) | [cpp](Programmers/Lv2/Lv2_음양더하기.cpp)|
+| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [cpp](Programmers/Lv2/Lv2_행렬테두리회전하기.cpp)|
+| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [cpp](Programmers/Lv2/Lv2_메뉴리뉴얼.cpp)|
+| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [cpp](Programmers/Lv2/Lv2_괄호변환.cpp)|
+| [[1차] 뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | [cpp](Programmers/Lv2/Lv2_뉴스클러스터링.cpp)|
 
 ## Lv3
 | 문제 | 코드 |
