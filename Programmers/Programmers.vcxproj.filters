@@ -519,5 +519,8 @@
     <ClCompile Include="Lv1\Lv1_부족한금액계산하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_행렬테두리회전하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

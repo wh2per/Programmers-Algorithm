@@ -32,14 +32,14 @@ string solution(vector<int> numbers, string hand) {
             int left_diff = 0;
             int right_diff = 0;
 
-            // 왼손과의 거리
+            // ?�손과의 거리
             if (left == 2 || left == 5 || left == 8 || left == 11) 
                 left_diff = abs(number - left) / 3;
             else 
                 left_diff = dist[left][number];
             
 
-            // 오른손과의 거리
+            // ?�른?�과??거리
             if (right == 2 || right == 5 || right == 8 || right == 11)
                 right_diff = abs(number - right) / 3;
             else 
