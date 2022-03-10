@@ -522,5 +522,8 @@
     <ClCompile Include="Lv2\Lv2_행렬테두리회전하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_메뉴리뉴얼.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
