@@ -537,5 +537,8 @@
     <ClCompile Include="Lv2\Lv2_수식최대화.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_튜플.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
