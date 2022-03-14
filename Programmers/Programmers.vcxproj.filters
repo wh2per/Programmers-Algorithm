@@ -531,5 +531,8 @@
     <ClCompile Include="Lv2\Lv2_뉴스클러스터링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_거리두기확인하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
