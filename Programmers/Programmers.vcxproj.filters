@@ -546,5 +546,8 @@
     <ClCompile Include="Lv2\Lv2_순위검색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_괄호회전하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
