@@ -13,541 +13,568 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Lv1">
+      <UniqueIdentifier>{324891f1-dc4b-4e89-9e04-086458e3a488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lv2">
+      <UniqueIdentifier>{4dffc840-b1c2-408d-a091-567ee7dd4af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lv3">
+      <UniqueIdentifier>{ccb93dab-8669-47b4-8176-6da944cff3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lv4">
+      <UniqueIdentifier>{4f99a0aa-084d-4967-aa38-67718fcd8c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Lv5">
+      <UniqueIdentifier>{3304a497-29a0-4049-8363-4049bab1e2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\실전모의고사">
+      <UniqueIdentifier>{2306d204-b969-4b13-94a6-a4e0bb80d76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Line">
+      <UniqueIdentifier>{36f9a6f7-3380-4e37-9268-fa5adbb54ba9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Lv1\Lv1_3진법뒤집기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
     <ClCompile Include="Lv1\Lv1_2016년.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_K번째수.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_N으로표현.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_x만큼간격이있는n개의숫자.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_가운데글자가져오기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_같은숫자는싫어.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_나누어떨어지는숫자배열.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_두정수사이의합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_모의고사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_문자열내p와y의개수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_문자열내림차순으로배치하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_문자열내마음대로정렬하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_문자열다루기기본.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_문자열을정수로바꾸기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_서울에서김서방찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_소수의합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_소수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_수박수박수박수박수박수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_시저암호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_약수의합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_예산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_완주하지못한선수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_이상한문자만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_자릿수더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_자연수뒤집어배열로만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_정수내림차순으로배치하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_정수제곱근판별.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_제일작은수제거하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_직사각형별찍기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_짝수와홀수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_체육복.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_최대공약수와최소공배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_콜라츠추측.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_평균구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_하샤드수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_핸드폰번호가리기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_행렬의덧셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_124나라의숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_H-Index.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_JadenCase문자열만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_N개의최소공배수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_가장큰수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_가장큰정사각형찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_구명보트.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_기능개발.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_다리를지나는트럭.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_다음큰숫자.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_더맵게.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_땅따먹기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_라면공장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_소수만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_소수찾기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_쇠막대기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_숫자야구.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_숫자의표현.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_스킬트리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_영어끝말잇기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_예상대진표.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_올바른괄호.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_위장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_전화번호목록.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_점프와순간이동.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_조이스틱.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_주식가격.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_최댓값과최솟값.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_최솟값만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_카펫.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_큰수만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_타겟넘버.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_탑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_폰켓몬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_프린터.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_피보나치수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_행렬의곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_베스트앨범.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_이중우선순위큐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_2xn타일링.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_단속카메라.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_섬연결하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_저울.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_타일장식물.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_정수삼각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_등굣길.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_카드게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_네트워크.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_단어변환.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_여행경로.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_예산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_입국심사.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_가장먼노드.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_순위.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="실전모의고사2회\가로등.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="실전모의고사2회\빙고.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="실전모의고사2회\배열회전.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_4단고음.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_짝지어제거하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_보행자천국.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_가장긴펠린드롬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_거스름돈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_방문길이.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_줄서는방법.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_하노이의탑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_배달.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_숫자게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_캠핑.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_멀리뛰기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_야근지수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_최고의집합.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv3\Lv3_기지국설치.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_3xn타일링.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_N-Queen.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_최적의행렬곱셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_지형편집.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_징검다리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_올바른괄호의갯수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_쿠키구입.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_숫자블록.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_사칙연산.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_게임맵최단거리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_도둑질.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="라인코딩테스트\Line_1번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="라인코딩테스트\Line_2번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="라인코딩테스트\Line_3번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="라인코딩테스트\Line_4번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="라인코딩테스트\Line_5번.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_실패율.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_압축.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_오픈채팅방.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_자동완성.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_직사각형의넓이.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_캐시.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_파일명정렬.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_프렌즈4블록.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_N진수게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_다트게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_방금그곡.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_비밀지도.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_셔틀버스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_튜브의소개팅.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_단체사진찍기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_리틀프렌즈사천성.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv4\Lv4_GPS.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_무지의먹방라이브.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv5\Lv5_후보키.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_문자열압축.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_멀쩡한사각형.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_로또의최고순위와최저순위.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_신규아이디추천.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_숫자문자열과영단어.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_신고결과받기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_키패드누르기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_크레인인형뽑기게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_음양더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_없는숫자더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_내적.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_약수의개수와덧셈.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_3진법뒤집기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_두개뽑아서더하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv1\Lv1_최소직사각형.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_나머지가1이되는수찾기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_내적.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_두개뽑아서더하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_두정수사이의합.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_로또의최고순위와최저순위.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_모의고사.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열내p와y의개수.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열내림차순으로배치하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열내마음대로정렬하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열다루기기본.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열압축.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_문자열을정수로바꾸기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
     <ClCompile Include="Lv1\Lv1_부족한금액계산하기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
-    <ClCompile Include="Lv2\Lv2_행렬테두리회전하기.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Lv1\Lv1_서울에서김서방찾기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
-    <ClCompile Include="Lv2\Lv2_메뉴리뉴얼.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Lv1\Lv1_소수의합.cpp">
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
-    <ClCompile Include="Lv2\Lv2_괄호변환.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Lv1\Lv1_소수찾기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
     </ClCompile>
-    <ClCompile Include="Lv2\Lv2_뉴스클러스터링.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Lv1\Lv1_수박수박수박수박수박수.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_숫자문자열과영단어.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_시저암호.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_신고결과받기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_신규아이디추천.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_약수의개수와덧셈.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_약수의합.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_없는숫자더하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_예산.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_완주하지못한선수.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_음양더하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_이상한문자만들기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_자릿수더하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_자연수뒤집어배열로만들기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_정수내림차순으로배치하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_정수제곱근판별.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_제일작은수제거하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_직사각형별찍기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_짝수와홀수.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_체육복.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_최대공약수와최소공배수.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_최소직사각형.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_콜라츠추측.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_크레인인형뽑기게임.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_키패드누르기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_평균구하기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_하샤드수.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_핸드폰번호가리기.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv1\Lv1_행렬의덧셈.cpp">
+      <Filter>소스 파일\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_124나라의숫자.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_H-Index.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_JadenCase문자열만들기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_N개의최소공배수.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_가장큰수.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_가장큰정사각형찾기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
     </ClCompile>
     <ClCompile Include="Lv2\Lv2_거리두기확인하기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv2</Filter>
     </ClCompile>
-    <ClCompile Include="Lv2\Lv2_수식최대화.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_튜플.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_빛의경로사이클.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lv2\Lv2_순위검색.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Lv2\Lv2_괄호변환.cpp">
+      <Filter>소스 파일\Lv2</Filter>
     </ClCompile>
     <ClCompile Include="Lv2\Lv2_괄호회전하기.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Lv2</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_구명보트.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_기능개발.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_뉴스클러스터링.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_다리를지나는트럭.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_다음큰숫자.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_더맵게.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_땅따먹기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_라면공장.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_멀쩡한사각형.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_메뉴리뉴얼.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_빛의경로사이클.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_소수만들기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_소수찾기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_쇠막대기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_수식최대화.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_순위검색.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_숫자야구.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_숫자의표현.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_스킬트리.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_영어끝말잇기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_예상대진표.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_올바른괄호.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_위장.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_전화번호목록.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_점프와순간이동.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_조이스틱.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_주식가격.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_최댓값과최솟값.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_최솟값만들기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_카펫.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_큰수만들기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_타겟넘버.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_탑.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_튜플.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_폰켓몬.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_프린터.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_피보나치수.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_행렬의곱셈.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_행렬테두리회전하기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_2xn타일링.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_4단고음.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_가장긴펠린드롬.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_가장먼노드.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_거스름돈.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_기지국설치.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_네트워크.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_단속카메라.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_단어변환.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_등굣길.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_디스크컨트롤러.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_멀리뛰기.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_방문길이.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_배달.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_베스트앨범.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_보행자천국.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_브라이언의고민.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_섬연결하기.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_순위.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_숫자게임.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_야근지수.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_여행경로.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_예산.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_이중우선순위큐.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_입국심사.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_저울.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_정수삼각형.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_줄서는방법.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_짝지어제거하기.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_최고의집합.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_카카오프렌즈컬러링북.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_캠핑.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_타일장식물.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv3\Lv3_하노이의탑.cpp">
+      <Filter>소스 파일\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_3xn타일링.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_GPS.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_N-Queen.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_게임맵최단거리.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_단어퍼즐.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_단체사진찍기.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_도둑질.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_리틀프렌즈사천성.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_사칙연산.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_서울에서경산까지.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_선입선출스케줄링.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_숫자블록.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_스티커모으기(2).cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_올바른괄호의갯수.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_지형편집.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_징검다리.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_최적의행렬곱셈.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_카드게임.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_쿠키구입.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv4\Lv4_튜브의소개팅.cpp">
+      <Filter>소스 파일\Lv4</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_N진수게임.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_다트게임.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_무지의먹방라이브.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_방금그곡.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_비밀지도.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_셔틀버스.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_실패율.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_압축.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_오픈채팅방.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_자동완성.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_직사각형의넓이.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_캐시.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_파일명정렬.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_프렌즈4블록.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv5\Lv5_후보키.cpp">
+      <Filter>소스 파일\Lv5</Filter>
+    </ClCompile>
+    <ClCompile Include="실전모의고사2회\가로등.cpp">
+      <Filter>소스 파일\실전모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="실전모의고사2회\배열회전.cpp">
+      <Filter>소스 파일\실전모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="실전모의고사2회\빙고.cpp">
+      <Filter>소스 파일\실전모의고사</Filter>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_1번.cpp">
+      <Filter>소스 파일\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_2번.cpp">
+      <Filter>소스 파일\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_3번.cpp">
+      <Filter>소스 파일\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_4번.cpp">
+      <Filter>소스 파일\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="라인코딩테스트\Line_5번.cpp">
+      <Filter>소스 파일\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2\Lv2_피로도.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
