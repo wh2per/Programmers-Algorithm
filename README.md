@@ -1,7 +1,7 @@
 # Programmers
-* 순위 124
-* 획득점수 1637
-* 해결한 문제 수 162
+* 순위 111
+* 획득점수 1643
+* 해결한 문제 수 165
 
 ## Lv1
 | 문제 | 코드 |
@@ -112,7 +112,9 @@
 | [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [cpp](Programmers/Lv2/Lv2_빛의경로사이클.cpp)|
 | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [cpp](Programmers/Lv2/Lv2_순위검색.cpp)|
 | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | [cpp](Programmers/Lv2/Lv2_괄호회전하기.cpp)|
-
+| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | [cpp](Programmers/Lv2/Lv2_피로도.cpp)|
+| [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | [cpp](Programmers/Lv2/Lv2_2개이하로다른비트기.cpp)|
+| [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [cpp](Programmers/Lv2/Lv2_삼각달팽이.cpp)|
 
 ## Lv3
 | 문제 | 코드 |
