@@ -1,7 +1,7 @@
 # Programmers
-* 순위 144
-* 획득점수 1630
-* 해결한 문제 수 159
+* 순위 124
+* 획득점수 1637
+* 해결한 문제 수 162
 
 ## Lv1
 | 문제 | 코드 |
@@ -109,6 +109,10 @@
 | [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) | [cpp](Programmers/Lv2/Lv2_거리두기확인하기.cpp)|
 | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [cpp](Programmers/Lv2/Lv2_수식최대화.cpp)|
 | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | [cpp](Programmers/Lv2/Lv2_튜플.cpp)|
+| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | [cpp](Programmers/Lv2/Lv2_빛의경로사이클.cpp)|
+| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [cpp](Programmers/Lv2/Lv2_순위검색.cpp)|
+| [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | [cpp](Programmers/Lv2/Lv2_괄호회전하기.cpp)|
+
 
 ## Lv3
 | 문제 | 코드 |
