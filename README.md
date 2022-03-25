@@ -1,7 +1,7 @@
 # Programmers
-* 순위 111
-* 획득점수 1643
-* 해결한 문제 수 165
+* 순위 99
+* 획득점수 1648
+* 해결한 문제 수 167
 
 ## Lv1
 | 문제 | 코드 |
@@ -115,6 +115,8 @@
 | [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | [cpp](Programmers/Lv2/Lv2_피로도.cpp)|
 | [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | [cpp](Programmers/Lv2/Lv2_2개이하로다른비트기.cpp)|
 | [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [cpp](Programmers/Lv2/Lv2_삼각달팽이.cpp)|
+| 교점에 별 만들기](https://programmers.co.kr/learn/courses/30/lessons/87377) | [cpp](Programmers/Lv2/Lv2_교점에별만들기.cpp)|
+| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | [cpp](Programmers/Lv2/Lv2_전력망을둘로나누기.cpp)|
 
 ## Lv3
 | 문제 | 코드 |
