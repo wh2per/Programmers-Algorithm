@@ -585,6 +585,9 @@
     <ClCompile Include="Lv2\Lv2_전력망을둘로나누기.cpp">
       <Filter>소스 파일\Lv2</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_모음사전.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
