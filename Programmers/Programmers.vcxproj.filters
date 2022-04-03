@@ -591,6 +591,9 @@
     <ClCompile Include="Lv2\Lv2_이진변환반복하기.cpp">
       <Filter>소스 파일\Lv2</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2\Lv2_n^2배열자르기.cpp">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
