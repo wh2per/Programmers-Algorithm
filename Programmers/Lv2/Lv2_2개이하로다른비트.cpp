@@ -10,8 +10,8 @@ vector<long long> solution(vector<long long> numbers) {
             answer.push_back(a + 1);
         }
         else { // 홀수
-            long long last = (a+1) & -a;      //  1101 -> 1110 & 0011 = 0010 
-            answer.push_back((a|last) & ~(last>>1));   // (1101 | 0010) & ~(0001) = 1111 & 1110 = 1110
+            long long last = (a + 1) & -a;      //  1101 -> 1110 & 0011 = 0010 
+            answer.push_back((a | last) & ~(last >> 1));   // (1101 | 0010) & ~(0001) = 1111 & 1110 = 1110
         }
     }
     return answer;
